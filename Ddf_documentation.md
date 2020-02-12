@@ -1,8 +1,29 @@
-# pyDigest - Roman Law in machine-readable format
-## Part title
-### Section title
+## Documenting steps of data manipulation
 
-### Ordered list of string formatting
+The documentation describes the creation of the base dataframe including the text of the Digest in structured machine-ready format. It also describes the creation of supporting structured data related to the text of the Digest, for example, authors of passages, legal themes covered in the Digest's 432 sections, and reconstructed characteristics of passages which aim to explain how the Digest was originally created.
+
+### Creation of the base "Ddf" dataframe
+Step numbers in the current documentation correspond with those in "Ddf_flowchart". They document the data manipulation pipeline from the raw text to the relational database of the Digest. Steps are names according to the output they produce.
+
+1. ROMTEXT.txt
+
+*from Amanuensis V4.0 to ROMTEXT.txt*
+
+2. Digest.txt
+
+*some text*
+
+3. Ddf_001.py
+
+*some text*
+
+4. Ddf_v001.csv
+
+*some text*
+
+
+### Creation of the "BKO" dataframe
+
 
 1. *list_item2* in italics
 2. **list_item1** in bold
