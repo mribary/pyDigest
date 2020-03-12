@@ -210,52 +210,26 @@ Some `BKO` items do not appear in `Ddf`. Two of these references ("Ulp. de off. 
 
 The manually corrected `Ddf_v104.csv` and `BKO_v004.csv` files are free from errors and any remaining ambiguous entries have been documented. These files are copied into the output folder.
 
+### 3. Additional dataframes
 
-1. *list_item2* in italics
-2. **list_item1** in bold
-3. ***list_item3*** in bold italics
-4. ~~ist_item4~~ struck through
+1. Ddf_sections.py > Ddf_sections.csv, Ddf_Section_IDs.csv
 
-### Unordered list of hyperlinks
+The script initiates a dataframe `df` with the `Section_title` and `Book_no` columns from `Ddf_v104.csv`. It counts the number of thematic sections (432) with 0 indexing and adds a section_id to each of the 21055 lines associated with a Digest text unit. All items in the anomalous books 30-32 of the Digest bears the same section title. Here a new thematic section is forced to start at the beginning of each book even though the section title stays the same. The section_id is inserted into the `df` as a new column while column `Book_no` is dropped. The dataframe is exported as `Ddf_sections.csv`.
 
-- Include a link by passing [linked text with URL](https://swcarpentry.github.io/python-novice-gapminder/setup/).
-- Include a link by passing [linked text pointing an internal header](#list-of-string-formatting).
+An additional dataframe including section_IDs with their corresponding section titles is created and exported as `Ddf_Section_IDs.csv`.
 
-Have a block of code:
-```python # code_language
-print('Hi') # some code
-```
+2. Ddf_IDs.py > Ddf_IDs.csv, Ddf_BKO_IDs.csv, Ddf_Work_IDs.csv, Ddf_Book_IDs.csv
 
-Or have `some code` in line
+The script initiates a dataframe `df` with the `BKO_key`, `Work` and `TextUnit_ref` columns from `Ddf_v104.csv`. It creates separate dataframes for unique `BKO_key` (294), `Work` (251), and `TextUnit_ref` values (1352) where values are sorted alphabetically and associated with a unique ID. These dataframes are exported as `Ddf_BKO_IDs.csv`, `Ddf_Work_IDs.csv` and `Ddf_Book_IDs.csv`.
 
-Have a block of quote:
-> "Romeo, Romeo, wherefore art thou Romeo?"
-> (block quote in one paragraph)
-
-Insert an image by ![image_of_dog](link)
-
-
-Amanuensis from riedlberger.de/amanuenis
-copy all from Amanuenis window -> ROMTEXT.txt
-create a copy of ROMTEXT.txt -> Digest.txt
-open Digest.txt with vim and search for the last unit of the Digest ("/D. 50, 17, 211")
-note line number (^g) just below the last line of Digest #64198 out of total of 129900 lines at 49% of the entire file
-enter visual mode in vim and select all lines below the end of the Digest and delete: vGd -> Digest.txt
-
-Manual editing of 9 anomalous section titles in Ddf_v001.csv
-D. 4, 8, 0 R: colon in section title, section title with accidental line break -> remove line break
-D. 5, 1, 0 R: colon in section title -> update section_ref_pattern
-D. 7, 7, 0 R: missing title -> reconstruct from Mommsen's pryint edition, p. 108.: De operis servorum
-D. 14, 2, 0 R: chevron/hat (^) in section title -> update section_ref_pattern
-D. 18, 7, 0 R: colon in section title
-D. 29, 5, 0 R: colon in section title
-D. 30, 0 R: one missing "0" -> "D. 30, 0, 0 R"
-D. 33, 9, 0 R: missing full stop at the end of the title -> full stop added
-D. 43, 12, 0 R: additional full stop in title -> replace with colon
+The script links the reference IDs above with the 21055 text units of the Digest by merging dataframes on unique values. The dataframe is streamlined and arranged for comfortable reading before it is exported as `DdfIDs.csv`. 
 
 ### Footnotes
 
 [<sup id="fn1">1</sup>](#inline1) Georg Klingenberg, "Die ROMTEXT-Datenbank," _Informatica e diritto_ 4 (1995): 223-232.
+
 [<sup id="fn2">2</sup>](#inline2) Theodor Mommsen & Paul Kruger, _Corpus Iuris Civlis. Editio stereotypa quinta. Vol 1: Institutiones. Digesta._ Berlin: Weidmann, 1889.
+
 [<sup id="fn3">3</sup>](#inline3) Friedrich Bluhme, "Die Ordnung der Fragmente in den Pandectentiteln: Ein Beitrag der Entstehungsgeschichte der Pandecten," _Zeitschrift der Savigny-Stiftung für Rechtsgeschichte_ 4 (1820): 257-472.
+
 [<sup id="fn4">4</sup>](#inline4) Tony Honore, "Justinian's Digest: The distribution of authors and works to the three committees," _Roman Legal Tradition_ 3 (2006): 1-47.
