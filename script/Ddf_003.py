@@ -109,11 +109,11 @@ for i in range(0, len(Dnp)):
 # Check whether ther is any uncaptured lines
 print(len(index_list_error)) # No uncaptured lines
 
-# Create data frame (Ddf) from the dictionary (Ddict)
+# Create dataframe (Ddf) from the dictionary (Ddict)
 Ddf = pd.DataFrame(Ddict)
 print(len(Ddf)) # 21055 text units
 print(Ddf[:15])
 print(Ddf.info())
 
-# Export Ddf data frame as "Ddf.csv"
+# Export Ddf dataframe as "Ddf.csv"
 Ddf.to_csv("./output/Ddf_v100.csv")

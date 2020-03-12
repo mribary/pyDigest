@@ -1,0 +1,302 @@
+BK_Ordo_no,Honore_group_name,Honore_group_type,Honore_group_no,BK_Ordo_no_rev,Jurist_name,Number_of_books,Work_title,Work_ref,BK_mass,Note
+1,ad Sabinum,s,1,1,Ulpianus,51,ad Sabinum,Ulp. ad Sab. ,S,
+2,ad Sabinum,s,1,2,Pomponius,36,ad Sabinum,Pomp. ad Sab. ,S,
+3,ad Sabinum,s,1,3,Paulus,16,ad Sabinum,Paul. ad Sab.,S,
+4,middle edictal commentaries,s,2,4,Ulpianus,81,ad edictum lib. 26-51 init.,Ulp. 26-51 ad ed. ,S,
+5,middle edictal commentaries,s,2,5,Paulus,78,ad edictum lib. 28-48 init.,Paul. 28-48 ad ed. ,S,
+6,middle edictal commentaries,s,2,6,Paulus,23,brevia lib. 6-8,Paul. 6-8 brev.,S,
+7,middle edictal commentaries,s,2,7,Gaius,30,ad edictum provinciale lib. 9-18,Gai. 9-18 ad ed. provinc. ,S,
+8,middle edictal commentaries,s,2,8,Gaius,2,ad edictum urbanum 2 lib. de testamentis,Gai. de testam. ad ed. pu.,S,
+9,middle edictal commentaries,s,2,9,Gaius,3,ad edictum urbanum 3 lib. de legatis,Gai. de legatis ad ed. urb.,S,
+10,Ulpian,a,3,10,Ulpianus,9,disputationum,Ulp. disp. ,S,
+11,Ulpian,a,3,11,Ulpianus,10,de omnibus tribunalibus,Ulp. de omn. trib. ,S,
+12,,u,,12,Ulpianus,6,opinionum,Ulp. opin. ,S,
+13,,u,,13,Ulpianus,6,de censibus,Ulp. de cens. ,S,
+14,Julian,a,4,14,Iulianus,90,digestorum,Iul. dig. ,S,
+15,Julian,a,4,15,Alfenus Varus,7,digestorum,Alf. dig. ,S,
+16,Julian,a,4,16,Paulus,8,epitomarum Alfeni digestorum,Paul. epit. Alf. ,S,
+17,Julian,a,4,17,Iulianus,1,de ambiguitatibus,Iul. l. s. de ambig. ,S,
+18,Julian,a,4,18,Iulianus,4,ad Urseium Ferocem,Iul. ad Urs. Ferocem. ,S,
+19,Julian,a,4,19,Iulianus,6,ex Minicio,Iul. ex Minic. ,S,
+20,Julian,a,4,20,Africanus,9,quaestionum,Afr. quaest. ,S,
+21,institutional,g,5,21,Florentinus,12,institutionum,Flor. inst. ,S,
+22,institutional,g,5,22,Marcianus,16,institutionum,Marcian. inst. ,S,"ID, M; S or P, H"
+23,institutional,g,5,23,Ulpianus,2,institutionum,Ulp. inst. ,S,
+24,institutional,g,5,24,Gaius,3,rerum cottidianarum,Gai. rer. cott. ,S,
+25,institutional,g,5,25,Gaius,4,institutionum,Gai. inst. ,S,
+26,institutional,g,5,26,Callistratus,3,institutionum,Call. inst. ,S,
+27,institutional,g,5,27,Paulus,1,institutionum,Paul. inst. ,S,
+28,adultery,s,6,28,Ulpianus,5,de adulteriis,Ulp. de adult. ,S,
+29,adultery,s,6,29,Papininus,2,de adulteriis,Pap. de adult.,S,
+30,adultery,s,6,30,Papinianus,1,de adulteriis,Pap. l. s. de adult. ,S,
+31,adultery,s,6,31,Paulus,3,de adulteriis,Paul. de adult. ,S,
+32,,u,,32,Ulpianus,1,de sponsalibus,Ulp. l. s. de sponsal. ,S,"ID, M"
+33,,u,,33,Paulus,1,de dotis repetitione,Paul. l. s. de dotis repet.,S,changed from ?Paul. l. s. de dotis repeti in omnibus causis id ?
+34,,u,,34,Paulus,1,de adsignatione libertorum,Paul. l. s. de adsign. libert. ,S,
+35,,u,,35,Paulus,1,de iure patronatus,Paul. l. s. de iure patronatus. ,S,
+36,regulae,g,7,36,Neratius,15,regularum,Ner. reg. ,S,
+37,regulae,g,7,37,Ulpianus,7,regularum,Ulp. reg. ,S,"ID, M; S or P, H"
+38,regulae,g,7,38,Scaevola,4,regularum,Scaev. reg. ,S,
+39,regulae,g,7,39,Paulus,1,regularum,Paul. l. s. reg. ,S,
+40,regulae,g,7,40,Marcianus,5,regularum lib. 1-2,Marcian. 1-2 reg. ,S,"ID, M; S or P, H"
+41,regulae,g,7,41,Ulpianus,2,responsorum,Ulp. resp. ,S,
+42,regulae,g,7,42,Marcianus,5,regularum lib. 3-4,Marcian. 3-4 reg. ,S,"ID, M; S or P, H"
+43,regulae,g,7,43,Paulus,7,regularum,Paul. reg. ,S,
+44,regulae,g,7,44,Marcianus,5,regularum lib. 5,Marcian. 5 reg. ,S,
+45,regulae,g,7,45,Pomponius,1,regularum,Pomp. l. s. reg. ,S,l.s. inferred from lack of number of books in ref
+46,regulae,g,7,46,Ulpianus,1,regularum,Ulp. l. s. reg. ,S,
+47,,u,,47,Ulpianus,10,de officio proconsulis,Ulp. de off. procons. ,S,
+48,,u,,48,Paulus,1,ad SC Silanianum,Paul. l. s. ad sc Silan. ,S,
+49,,u,,49,Paulus,1,de portionibus quae liberis damnatorum conceduntur,Paul. l. s. de portion.,S,changed from ?Paul. l. s. de portion. quae liberis damnatorum?
+50,,u,,50,Paulus,1,ad legem Iuniam,Paul. ad leg. Iuliam. ,S,
+51,,u,,51,Paulus,1,de conceptione formularum,Paul. l. s. de concept. form. ,S,
+52,iudicia publica,s,8,52,Macer,2,publicorum iudiciorum,Macer. de publ. iudic.,S,
+53,iudicia publica,s,8,53,Venuleius Saturninus,3,de iudiciis publicis,Ven. de publ. iudic.,S,
+54,iudicia publica,s,8,54,Paulus,1,de iudiciis publicis,Paul. l. s. de publ. iudic.,S,
+55,iudicia publica,s,8,55,Marcianus,2,de iudiciis publicis,Marcian. de publ. iudic.,S,"ID, M; S or P, H"
+56,iudicia publica,s,8,56,Maecianus,14,de iudiciis publicis,Maec. de publ. iudic.,S,
+57,formula hypothecaria,s,9,57,Marcianus,1,ad formulam hypothecariam,Marcian. l. s. ad form. hypoth. ,S,
+58,formula hypothecaria,s,9,58,Gaius,1,de formula hypothecaria,Gai. l. s. de form. hypoth. ,S,
+59,regulae,g,7,46.5,Marcellus,1,responsorum,Marcell. l. s. resp. ,S,
+60,,u,,60,Neratius,7,membranarum,Ner. membr. ,S,
+61,,u,,61,Macer,2,de officio praesidis,Macer. de off. praesid. ,S,
+62,,u,,62,Arcadius Charisius,1,de testibus,Arcad. l. s. de test. ,S,
+63,,u,,63,Marcianus,1,de delatoribus,Marcian. l. s. de delator. ,S,
+64,appeals,s,10,64,Ulpianus,4,de appellationibus,Ulp. de appellat. ,S,
+65,appeals,s,10,65,Macer,2,de appellationibus,Macer. de appellat. ,S,
+66,appeals,s,10,66,Marcianus,2,de appellationibus,Marcian. de appellat. ,S,
+67,appeals,s,10,67,Paulus,1,de appellationibus,Paul. l. s. de appellat. ,S,
+68,,u,,68,Rutilius,1,ad legem Falcidiam,Rutil. l. s. ad l. Falcid. ,S,changed from ?rutil. l. s. ad l. Falcid.?
+69,,u,,69,Paulus,1,ad legem Fufiam Caniniam,Paul. l. s. ad l. Fuf. Canin. ,S,
+70,lex Aelia Sentia,s,11,70,Paulus,3,ad legem Aeliam Sentiam,Paul. ad l. Aeliam Sentiam. ,S,
+71,lex Aelia Sentia,s,11,71,Ulpianus,4,ad legem Aeliam Sentiam,Ulp. ad l. Aeliam Sentiam. ,S,
+72,,u,,72,Paulus,1,de libertatibus dandis,Paul. l. s. de libertatibus dandis. ,S,
+73,,u,,73,Paulus,1,de liberali causa,Paul. l. s. de liberali causa. ,S,
+74,,u,,74,Paulus,1,de secundis tabulis,Paul. l. s. de secundis tabulis. ,S,
+75,,u,,75,Paulus,1,de iure codicillorum,Paul. l. s. de iure codicill. ,S,
+76,,u,,76,Paulus,1,de centumviralibus iudiciis,Paul. l. s. de septemvir. iud. ,S,
+77,,u,,77,Paulus,1,de adulteriis,Paul. l. s. de adult. ,S,
+78,,u,,78,Paulus,1,de senatusconsultis,Paul. l. s. de senatus consultis. ,S,
+79,,u,,79,Paulus,1,ad SC Velleianum,Paul. l. s. ad sc Velle. ,S,changed from ?Paul. l. s. ad sc velle.?
+80,,u,,80,Paulus,1,de intercessionibus feminarum,Paul. l. s. de intercess. ,S,
+81,,u,,81,Paulus,1,ad orationem divi Antonini et Commodi,Paul. l. s. ad or. Ant. et Comm. ,S,"ID, M; P or S, H"
+82,,u,,82,Paulus,1,de excusationibus tutelarum,Paul. l. s. de excus. ,S,
+84,,u,,84,Paulus,1,de variis lectionibus,Paul. l. s. de var. lect. ,S,
+85,,u,,85,Ulpianus,1,pandectarum,Ulp. l. s. pand. ,S,
+86,,u,,86,Macer,2,de re militari,Macer. de re milit. ,S,
+87,,u,,87,Paulus,1,de poenis militum,Paul. l. s. de poen. milit. ,S,
+88,,u,,88,Ulpianus,1,de officio curatoris reipublicae,Ulp. l. s. de off. curat. rei p. ,S,
+89,,u,,89,Ulpianus,1,de officio consularium,Ulp. de off. consularium.,S,no correposnding text unit in Digest; possible ambiguity with “Ulp. de off. cons.” (BKO 136)
+90,,u,,90,Paulus,2,de officio consulis,Paul. de off. procons. ,S,
+91,,u,,91,Venuleius Saturninus,4,de officio proconsulis,Ven. de off. procons. ,S,
+92,,u,,92,Claudius Saturninus,1,de poenis paganorum,Saturn. l. s. de poen. pagan.,S,"40 dig., IA"
+93,,u,,93,Volusius Maecianus,1,ex lege Rhodia,Maec. ex l. Rhodia. ,S,"libri 5, IA ; ID, M; App., H"
+94,,u,,94,Iavolenus,10,ex posterioribus Labeonis lib. 1-2 init.,Iav. ex post. Labeonis. ,S,
+95,early edictal commentaries,s,25,95,Ulpianus,81,ad edictum lib. 1-25,Ulp. 1-25 ad ed.,E,
+96,early edictal commentaries,s,25,96,Paulus,78,ad edictum lib. 1-27,Paul. 1-27 ad ed.,E,see 176
+97,early edictal commentaries,s,25,97,Paulus,23,brevia lib. 1-5,Paul. 1-5 brev.,E,
+98,early edictal commentaries,s,25,98,Gaius,30,"ad edictum provinciale lib. 1-8, 19","Gai. 1-8, 19 ad ed. provinc. ",E,
+99,early edictal commentaries,s,25,99,Gaius,1,ad edictum praetoris urbani lib.,Gai. l. s. ad ed. pu.,E,"no corresponding text unit in Digest, possibnle ambiguity of other edicatl commentaries by Gaius; l.s. inferred from lack of number of books in ref; ID, M; Sab., H"
+100,,u,,100,Callistratus,4,edicti monitorii lib. 1-2,,E,"BK Ordo 176 is identical, also unattached, current BKO (100) is dropped, 176 retained"
+101,later edictal commentaries,s,26,101,Ulpianus,81,ad edictum lib. 56-81,Ulp. 56-81 ad ed.,E,
+102,later edictal commentaries,s,26,102,Paulus,78,ad edictum lib. 53-78,Paul. 53-78 ad ed.,E,
+103,later edictal commentaries,s,26,103,Paulus,23,brevia lib. 16,Paul. 16 brev.,E,
+104,later edictal commentaries,s,26,104,Gaius,30,ad edictum provinciale lib. 21 fin.-30,Gai. 21-30 ad ed. provinc. ,E,
+105,later edictal commentaries,s,26,105,Gaius,1,ad edictum praetoris urbani tit. de praediatoribus,Gai. ad ed. pu. de praediator. ,E,changed from ?Gai. ad ed. praetoris. de praediator.?
+106,later edictal commentaries,s,26,106,Gaius,1,ad edictum praetoris urbani tit. qui neque sequantur neque ducantur,Gai. ad ed. pu. q. n. s. n. d. ,E,
+107,later edictal commentaries,s,26,107,Gaius,1,ad edictum praetoris urbani tit. de re iudicata,Gai. ad ed. pu. de re iudicata.,E,
+108,edict of the curule aediles,s,27,108,Ulpianus,2,ad edictum aedilium curulium,Ulp. ad ed. aedil. curul. ,E,
+109,edict of the curule aediles,s,27,109,Paulus,2,ad edictum aedilium curulium,Paul. ad ed. aedil. curul. ,E,
+110,edict of the curule aediles,s,27,110,Gaius,2,ad edictum aedilium curulium,Gai. ad ed. aedil. curul. ,E,
+111,,u,,111,Papinianus,1,???????????,Pap. de cura urb.,E,
+112,transferred edictal commentaries,s,28,112,Ulpianus,81,ad edictum lib. 54-55 init.,Ulp. 54-55 ad ed. ,E,including lib. 1-2 from 100
+113,transferred edictal commentaries,s,28,113,Paulus,78,ad edictum lib. 50-51,Paul. 50-51 ad ed. ,E,l.s. inferred from lack of number of books in ref
+114,transferred edictal commentaries,s,28,114,Gaius,30,ad edictum provinciale lib. 20,Gai. 20 ad ed. provinc. ,E,
+115,transferred edictal commentaries,s,28,115,Gaius,2,ad edictum praetoris urbani tit. de liberali causa,Gai. ad ed. pu. de liberali causa.,E,
+116,transferred edictal commentaries,s,28,116,Ulpianus,81,ad edictum lib. 55 fin.,Ulp. 55 ad ed. ,E,
+117,transferred edictal commentaries,s,28,117,Paulus,78,ad edictum lib. 52,Paul. 52 ad ed. ,E,l.s. inferred from lack of number of books in ref
+118,transferred edictal commentaries,s,28,118,Gaius,1,ad edictum provinciale lib. 21,Gai. de legatis ad ed. provinc. ,E,
+119,transferred edictal commentaries,s,28,119,Gaius,1,ad edictum praetoris urbani tit. de publicanis,Gai. ad ed. pu. de publicanis. ,E,
+120,transferred edictal commentaries,s,28,120,Ulpianus,81,ad edictum lib. 52 fin.-53,Ulp. 52-53 ad ed. ,E,
+121,transferred edictal commentaries,s,28,121,Paulus,78,ad edictum lib. 48 fin.-49,Paul. 48-49 ad ed. ,E,l.s. inferred from lack of number of books in ref
+122,transferred edictal commentaries,s,28,122,Gaius,1,ad edictum provinciale lib. 19,,E,"overlaps with BKO 98 ?Gai. 1-8, 19 ad ed. provinc.?, 122 is dropped until disambiguation"
+123,transferred edictal commentaries,s,28,123,Gaius,1,"ad edictum praetoris urbani tit. de operis novi nuntiatione, de damno infecto, de aquae pluviae arcendae",Gai. ad ed. pu.,E,
+124,commentaries ad Plautium,s,29,124,Paulus,18,ad Plautium lib. 1-14,Paul. 1-14 ad Plaut.,E,
+125,commentaries ad Plautium,s,29,125,Iavolenus,5,ad Plautium lib. 1,Iav. 1 ad Plaut.,E,
+126,commentaries ad Plautium,s,29,126,Pomponius,7,ad Plautium lib. 1,Pomp. 1 ad Plaut.,E,l.s. inferred from lack of number of books in ref
+127,commentaries ad Plautium,s,29,127,Iavolenus,5,ad Plautium lib. 2,Iav. 2 ad Plaut.,E,
+128,commentaries ad Plautium,s,29,128,Pomponius,7,ad Plautium lib. 2-3,Pomp. 2-3 ad Plaut.,E,
+129,commentaries ad Plautium,s,29,129,Paulus,18,ad Plautium lib. 15-18,Paul. 15-18 ad Plaut. ,E,
+130,commentaries ad Plautium,s,29,130,Iavolenus,5,ad Plautium lib. 3-5,Iav. 3-5 ad Plaut.,E,
+131,commentaries ad Plautium,s,29,131,Pomponius,7,ad Plautium lib. 4-7,Pomp. 4-7 ad Plaut.,E,
+132,commentaries ad Plautium,s,29,132,Paulus,4,ad Vitellium,Paul. ad Vitell. ,E,
+133,commentaries ad Plautium,s,29,133,Paulus,2,de iure fisci,Paul. de iure fisci. ,E,"ID, M; P or Appendix, H"
+134,Celsus-Marcellus digesta,g,30,134,Celsus,39,digestorum,Cels. dig. ,E,
+135,Celsus-Marcellus digesta,g,30,135,Marcellus,31,digestorum,Marcell. dig. ,E,
+136,Modestinus,a,31,136,Ulpianus,3,de officio consulis,Ulp. de off. cons. ,E,
+137,Modestinus,a,31,137,Modestinus,1,de manumissionibus,Mod. l. s. de manumiss. ,E,
+138,Modestinus,a,31,138,Modestinus,9,differentiarum,Mod. diff. ,E,
+139,Modestinus,a,31,139,Modestinus,10,regularum,Mod. reg. ,E,
+141,Modestinus,a,31,141,Modestinus,1,de differentia dotis,Mod. l. s. de diff. dotis. ,E,
+142,Modestinus,a,31,142,Modestinus,6,excusationum,Mod. excus. ,E,"ID, M"
+143,Modestinus,a,31,143,Ulpianus,1,de officio praetoris tutelaris,Ulp. l. s. de off. praet. tutel. ,E,"libri 6, IA; ID, M; App., H, O"
+144,Modestinus,a,31,144,Ulpianus,1,excusationum 371,Ulp. l. s. excus. ,E,"ID, M; App. H, O"
+145,Modestinus,a,31,145,Modestinus,4,de praescriptionibus 372,Mod. l. s. de praescr. ,E,for later books see 265;  also known as ?Iavolenus 10 posteriorum Labeonis lib. 2 fin.-10?
+146,Modestinus,a,31,146,Modestinus,19,responsorum,Mod. resp. ,E,for later books see 265 bis
+147,Modestinus,a,31,147,Modestinus,1,de enucleatis casibus,Mod. l. s. de enucl. cas. ,E,
+148,Modestinus,a,31,148,Modestinus,1,de praescriptionibus,Mod. de praescr. ,E,
+149,Modestinus,a,31,149,Modestinus,12,pandectarum,Mod. pand. ,E,
+150,Modestinus,a,31,150,Modestinus,1,de heurematicis,Mod. l. s. de heuremat. ,E,
+151,Modestinus,a,31,151,Modestinus,1,de inofficioso testamento,Mod. l. s. de inoff. testam. ,E,
+152,Iavolenus,a,32,152,Iavolenus,15,ex Cassio,Iav. ex Cass. ,E,
+153,Iavolenus,a,32,153,Iavolenus,14,epistularum,Iav. epist. ,E,
+154,,u,,154,Pomponius,39,ad Quintum Mucium,Pomp. ad Q. Muc. ,E,
+155,,u,,155,Proculus,11,epistularum lib. 1-6,Proc. 1-6 epist. ,E,
+156,,u,,156,Pomponius,15,variarum lectionum,Pomp. var. lect. ,E,
+157,,u,,157,Proculus,11,epistularum lib. 7-11,Proc. 7-11 epist. ,E,"3-7, H"
+158,,u,,158,Callistratus,4,de iure fisci,Call. de iure fisci. ,E,
+159,,u,,159,Paulus,2,de censibus,Paul. de cens. ,E,
+160,,u,,160,Callistratus,6,de cognitionibus,Call. de cogn. ,E,
+161,,u,,161,Tertullianus,8,quaestionum,Tert. quaest. ,E,
+162,commentaries on lex Iulia et Papia,s,33,162,Ulpianus,20,ad legem Iuliam et Papiam,Ulp. ad leg. Iul. et Pap. ,E,
+163,commentaries on lex Iulia et Papia,s,33,163,Paulus,10,ad legem Iuliam et Papiam,Paul. ad leg. Iul. et Pap. ,E,
+164,commentaries on lex Iulia et Papia,s,33,164,Terentius Clemens,20,ad legem Iuliam et Papiam,Clem. ad leg. Iul. et Pap. ,E,
+165,commentaries on lex Iulia et Papia,s,33,165,Gaius,15,ad legem Iuliam et Papiam,Gai. ad leg. Iul. et Pap. ,E,
+166,commentaries on lex Iulia et Papia,s,33,166,Mauricianus,6,ad legem Iuliam et Papiam,Mauric. ad leg. Iul. et Pap. ,E,
+167,commentaries on lex Iulia et Papia,s,33,167,Marcellus,6,ad legem Iuliam et Papiam,Marcell. ad leg. Iul. et Pap. ,E,
+168,,u,,168,Macer,2,ad legem vicensimam hereditatium,Macer. ad l. vices. ,E,
+169,,u,,169,Gaius,1,ad legem Glitiam,Gai. l. s. ad l. Glitiam. ,E,"repositioned, M; N, H"
+170,,u,,170,Paulus,1,ad legem Cinciam,Paul. l. s. ad l. Cinc. ,E,
+171,military law,s,34,171,Arrius Menander,4,de re militari,Men. de re milit. ,E,
+172,military law,s,34,172,Tarrutienus Paternus,4,de re militari,Tarrunt. de re milit. ,E,
+173,,u,,173,Tertullianus,1,de castrensi peculio,Tert. l. s. de castr. peculio. ,E,changed from ?tert. quaest.?
+174,,u,,174,Modestinus,4,de poenis,Mod. de poen. ,E,
+175,,u,,175,Licinius Rufinus,12,or 13 regularum,Licin. reg. ,E,
+176,,u,,176,Callistratus,4,edicti monitorii,Call. ed. monit.,E,"position in mass doubted by M, BK Ordo 176 is identical, also unattached, BKO 100 is dropped, 176 retained"
+177,,u,,177,Papirius Iustus,20,constitutionum,Papir. const. ,E,
+178,,u,,178,Aelius Gallus,1,de verborum quae ad ius pertinent,Gallus. de verb. sign. ,E,
+179,,u,,179,Iulius Aquila,1,responsorum,Aquila. resp. ,E,changed from ?Aquila libro resp.?
+180,Papinian,a,12,180,Papinianus,37,quaestionum,Pap. quaest. ,P,
+181,Papinian,a,12,181,Papinianus,19,responsorum,Pap. resp. ,P,
+182,Papinian,a,12,182,Papinianus,2,definitionum,Pap. def. ,P,
+183,quaestiones,g,13,183,Paulus,26,quaestionum,Paul. quaest. ,P,l.s. inferred from lack of number of books in ref
+184,quaestiones,g,13,184,Scaevola,20,quaestionum,Scaev. quaest. ,P,"N, H"
+185,quaestiones,g,13,185,Callistratus,2,quaestionum,Call. quaest. ,P,
+186,responsa,g,14,186,Paulus,23,responsorum lib. 1-7,Paul. 1-7 resp. ,P,
+187,responsa,g,14,187,Scaevola,6,responsorum lib. 1,Scaev. 1 resp. ,P,
+188,responsa,g,14,188,Paulus,23,responsorum lib. 8-15,Paul. 8-15 resp. ,P,
+189,responsa,g,14,189,Scaevola,6,responsorum lib. 2-4,Scaev. 2-4 resp. ,P,
+190,responsa,g,14,190,Paulus,23,responsorum lib. 16-19,Paul. 16-19 resp. ,P,"ID, M; S or P, H"
+191,responsa,g,14,191,Scaevola,6,responsorum lib. 5,Scaev. 5 resp. ,P,
+192,responsa,g,14,192,Paulus,23,responsorum lib. 20-23,Paul. 20-23 resp. ,P,
+193,responsa,g,14,193,Scaevola,6,responsorum lib. 6,Scaev. 6 resp. ,P,
+194,fideicommissa,s,15,194,Valens,7,fideicommissorum lib. 1-4,Valens. 1-4 fideicomm. ,P,
+195,fideicommissa,s,15,195,Ulpianus,6,fideicommissorum lib. 1-4,Ulp. 1-4 fideicomm.,P,
+196,fideicommissa,s,15,196,Maecianus,16,fideicommissorum lib. 1-8,Maec. 1-8 fideicomm. ,P,
+197,fideicommissa,s,15,197,Gaius,2,fideicommissorum,Gai. fideicomm. ,P,"7 rer. cott., IA"
+198,fideicommissa,s,15,198,Paulus,3,fideicommissorum lib. 1-2,Paul. 1-2 fideicomm.,P,"ID, M; S or P, H"
+199,fideicommissa,s,15,199,Pomponius,5,fideicommissorum lib. 1-2,Pomp. 1-2 fideicomm.,P,l.s. inferred from lack of number of books in ref
+200,fideicommissa,s,15,200,Maecianus,16,fideicommissorum lib. 9-16,Maec. 9-16 fideicomm. ,P,
+201,fideicommissa,s,15,201,Valens,7,fideicommissorum lib. 5-7,Valens. 5-7 fideicomm. ,P,
+202,fideicommissa,s,15,202,Pomponius,5,fideicommissorum lib. 3-5,Pomp. 3-5 fideicomm.,P,
+203,fideicommissa,s,15,203,Ulpianus,6,fideicommissorum lib. 5-6,Ulp. 5-6 fideicomm. ,P,"ID, M; P, H"
+204,fideicommissa,s,15,204,Paulus,3,fideicommissorum lib. 3,Paul. 3 fideicomm.,P,
+205,sententiae-iuris epitomae,g,16,205,Paulus,5,sententiarum lib. 1 init.,Paul. 1 sent.,P,"ID, M; S or P, H"
+206,sententiae-iuris epitomae,g,16,206,Hermogenianus,6,iuris epitomarum lib. 1,Hermog. 1 iuris epit.,P,
+207,sententiae-iuris epitomae,g,16,207,Paulus,5,sententiarum lib. 1 fin.-2,Paul. 1-2 sent. ,P,"ID, M; P, H"
+208,sententiae-iuris epitomae,g,16,208,Hermogenianus,6,iuris epitomarum lib. 2,Hermog. 2 iuris epit. ,P,"ID, M; Sab., H"
+209,sententiae-iuris epitomae,g,16,209,Paulus,5,sententiarum lib. 3,Paul. 3 sent. ,P,
+210,sententiae-iuris epitomae,g,16,210,Hermogenianus,6,iuris epitomarum lib. 3,Hermog. 3 iuris epit. ,P,
+211,sententiae-iuris epitomae,g,16,211,Paulus,5,sententiarum lib. 4,Paul. 4 sent. ,P,"ID, M; P, H"
+212,sententiae-iuris epitomae,g,16,212,Hermogenianus,6,iuris epitomarum lib. 4,Hermog. 4 iuris epit. ,P,l.s. inferred from lack of number of books in ref
+213,sententiae-iuris epitomae,g,16,213,Paulus,5,sententiarum lib. 5,Paul. 5 sent. ,P,
+214,sententiae-iuris epitomae,g,16,214,Hermogenianus,6,iuris epitomarum lib. 5-6,Hermog. 5-6 iuris epit. ,P,
+215,,u,,215,Gaius,1,de casibus,Gai. l. s. de casib. ,P,
+216,,u,,216,Venuleius Saturninus,19,stipulationum,Ven. stipul. ,P,
+217,Neratius,a,17,217,Neratius,3,responsorum,Ner. resp. ,P,
+218,Neratius,a,17,218,Paulus,4,ad Neratium,Paul. ad Ner. ,P,
+219,ad Sabinum,a,18,219,Tryphoninus,21,disputationum lib. 1-12,Tryph. 1-12 disp. ,P,
+220,ad Sabinum,a,18,220,Paulus,3,manualium,Paul. manual. ,P,
+221,ad Sabinum,a,18,221,Tryphoninus,21,disputationum lib. 13-21,Tryph. 13-21 disp. ,P,
+222,ad Sabinum,a,18,222,Paulus,3,decretorum,Paul. decr.,P,"According to M 219-222 form a group of works read together, whose exact arrangement cannot be reconstructed."
+223,,u,,223,Gaius,3,regularum,Gai. reg. ,P,
+224,,u,,224,Gaius,1,regularum,Gai. l. s. reg. ,P,l.s. inferred from lack of number of books in ref
+225,,u,,225,Paulus,1,de cognitionibus,Paul. l. s. de cogn. ,P,
+226,,u,,226,Paulus,1,de concurrentibus actionibus,Paul. l. s. de concurr. actionum. ,P,
+227,,u,,227,Paulus,1,de usuris,Paul. l. s. de usur. ,P,
+228,SC Turpillianum,s,19,228,Paulus,1,ad SC Turpillianum,Paul. l. s. ad sc Turpill. ,P,
+229,SC Turpillianum,s,19,229,Marcianus,1,ad SC Turpillianum,Marcian. l. s. ad sc Turpill. ,P,
+230,,u,,230,Paulus,1,ad SC Libonianum,Paul. l. s. ad sc Libon. ,P,
+231,,u,,231,Paulus,1,ad SC Claudianum,Paul. l. s. ad sc Claudianum. ,P,
+232,,u,,232,Paulus,1,de poenis omnium legum,Paul. l. s. de poen. omnium legum. ,P,
+233,,u,,233,Paulus,1,de poenis paganorum,Paul. l. s. de poen. pagan. ,P,
+234,,u,,234,Paulus,1,ad regulam Catonianam,Paul. l. s. ad reg. Caton. ,P,
+235,,u,,235,Paulus,1,de forma testamenti,Paul. l. s. de forma testamenti. ,P,
+236,,u,,236,Paulus,1,de inofficioso testamento,Paul. l. s. de inoff. testam. ,P,"ID, M; S or P, H"
+237,tacita fideicommissa,s,20,237,Paulus,1,de tacitis fideicommissis,Paul. l. s. de tac. fideicomm. ,P,
+238,,u,,238,Paulus,1,de instrumenti significatione,Paul. l. s. de instrumenti sign. ,P,
+239,SC Tertullianum,s,21,239,Paulus,1,ad SC Tertullianum,Paul. l. s. ad sc Tert. ,P,"ID, M; S or P, H"
+240,SC Orfitianum,s,22,240,Paulus,1,ad SC Orfitianum,Paul. l. s. ad sc Orfit. ,P,"ID, M; S or P, H; Numbers 258 and 259 form a subject-group but whether in the Sabinian or Papinian mass is uncertain."
+241,,u,,241,Paulus,1,ad legem Falcidiam,Paul. l. s. ad l. Falcid. ,P,
+242,tacita fideicommissa,s,20,242,Gaius,1,de tacitis fideicommissis,Gai. l. s. de tac. fideicomm. ,P,
+243,SC Tertullianum,s,21,243,Gaius,1,ad SC Tertullianum,Gai. l. s. ad sc Tert. ,P,
+244,SC Orfitianum,s,22,244,Gaius,1,ad SC Orfitianum,Gai. l. s. ad sc Orfit. ,P,changed from ?Gai. l. s. ad sc Orphit.?
+245,,u,,245,Gaius,3,de manumissionibus,Gai. de manumiss. ,P,
+246,,u,,246,Gaius,3,de verborum obligationibus,Gai. de verb. oblig. ,P,"ID, M; Sab., H"
+247,historical,g,23,247,Gaius,6,ad legem XII tabularum,Gai. ad l. XII tab. ,P,
+248,historical,g,23,248,Pomponius,2,enchiridii,Pomp. enchirid. ,P,
+249,historical,g,23,249,Pomponius,1,enchiridii,Pomp. l. s. enchirid. ,P,l.s. inferred from lack of number of books in ref
+250,,u,,250,Paulus,1,de iure libellorum,Paul. l. s. de iure libellorum.,P,"ID, M; S or P, H; changed from ?Paul. l. s. de iure libellorum. qui legationis officio?"
+251,,u,,251,Paulus,1,de articulis liberalis causae,Paul. l. s. de art. liberalis c. ,P,"ID, M; S or P, H"
+252,,u,,252,Paulus,1,de iuris et facti ignorantia,Paul. l. s. de iuris et facti ignor. ,P,"ID, M; S or P, H"
+253,,u,,253,Paulus,1,de iure singulari,Paul. l. s. de iure singulari. ,P,
+254,,u,,254,Paulus,1,de gradibus et adfinibus et nominibus eorum,Paul. l. s. de grad. et adfin. ,P,
+255,,u,,255,Paulus,1,de officio adsessorum,Paul. l. s. de off. adsess. ,P,
+256,praefectus vigilum,s,24,256,Paulus,1,de officio praefecti vigilum,Paul. l. s. de off. praef. vig. ,P,
+257,praefectus vigilum,s,24,257,Ulpianus,1,de officio praefecti vigilum,Ulp. l. s. de off. praef. vig. ,P,"ID, M; S or P, H"
+258,,u,,258,Ulpianus,1,de officio praefecti urbi,Ulp. l. s. de off. pu. ,P,
+259,,u,,259,Paulus,1,de officio praefecti urbi,Paul. l. s. de off. pu. ,P,l.s. inferred from lack of number of books in ref
+260,,u,,260,Arcadius Charisius,1,de muneribus civilibus,Arcad. l. s. de mun. civil. ,P,
+261,,u,,261,Arcadius Charisius,1,de officio praefecti praetorio,Arcad. l. s. de off. praef. pr. ,P,
+262,,u,,262,Ulpianus,1,de officio quaestoris,Ulp. l. s. de off. quaest. ,P,
+263,Appendix,p,,263,Paulus,2,imperialium sententiarum in cognitionibus prolatarum,Paul. imp. sent. i. c. p. ,E,
+264,Appendix,p,,264,Quintus Mucius Scaevola,1,????,Muc. l. s. horon.,E,changed from ?muc. l. s. ?????
+265,,u,,93.5,Labeo,10,posteriorum a Iavoleno epitomatorum lib. 1-2 init.,,S,
+266,Appendix,p,,266,Proculus,3,ex posterioribus Labeonis 373,Proc. ex post. Labeonis. ,E,"N, H"
+267,Appendix,p,,267,Scaevola,40,digestorum lib. 3-40,Scaev. dig. ,E,
+268,Appendix,p,,268,Labeo,8,??????? a Paulo epitomatorum,Lab. pith. ,E,
+269,Appendix,p,,269,Pomponius,20,epistularum,Pomp. epist. ,E,"2, H"
+270,Appendix,p,,270,Pomponius,5,de senatusconsultis,Pomp. sen. consult. ,E,
+271,Appendix,p,,271,Scaevola,1,quaestionum publice tractatarum,Scaev. l. s. quaest. publ. tract. ,E,
+272,Appendix,p,,272,Valens,7,actionum 374,Valens. actionum. ,E,
+273,Appendix,p,,273,Venuleius Saturninus,10,actionum,Ven. actionum. ,E,
+274,Appendix,p,,274,Venuleius Saturninus,6,de interdictis,Ven. interd.,E,
+275,Appendix,p,,275,Furius Anthianus,1,ad edictum,Furius ad ed. ,E,l.s. inferred from lack of number of books in ref;  replaced ?furius ad ed.? in ref
+,,,,,Claudius,,,Claud. not. ad Scaev. dig. ,,"not in BK Ordo, loci D.32.36.0 and D.34.9.26.0"
+,,,,,Marcellus,,publica,Marcell. publ.,,not in BK Ordo;  single locus in D.2.3.22.0 
+,,,,,Marcellus,,,Marcell. not. ad Pomp. l. s. reg.,,"not in BK Ordo, locus D.29.2.63.0"
+,,,,,Marcellus,,,Marcell. not. ad Iul. dig. ,,"not in BK Ordo, locus D.28.5.5.0 and D.28.5.40.0"
+,,,,,Marcianus,,,Marcian. not. ad Pap. adult. ,,"not in BK Ordo, locus D.23.2.57a.0 and D.48.5.8.0"
+,,,,,Paulus,,,Paul. not. ad Iul. dig. ,,"not in BK Ordo, locus D.4.2.11.0 and D.18.5.4.0"
+,,,,,Paulus,,,Paul. not. ad Pap. quaest. ,,"not in BK Ordo, locus D.8.1.18.0 and D.6.2.16.0"
+,,,,,Scaevola,,,Scaev. not. ad Iul. dig. ,,"not in BK Ordo, locus D.2.14.54.0"
+,,,,,Gaius,,ad edictum urbicum,Gai. ad ed. urbicum.,,"not in BK Ordo, locus D.35.4.5"
+,,,,,Iulianus,,ad edictum,Iul. ad ed.,,"not in BK Ordo, locus D.3.2.1.0"
+,,,,,Marcellus,,de officio praesidis,Marcell. de off. praesid.,,"not in BK Ordo, D.4.4.43"
+,,,,,Marcianus,,de adulteriis,Marcian. de adult.,,"not in BK Ordo, D.48.5.9.0-1"
+,,,,,Marcianus,,digestorum,Marcian. dig.,,"not in BK Ordo, D.23.5.17.0"
+,,,,,Mauricianus,,,Mauric. de poen.,,"not in BK Ordo, D.2.13.3.0"
+,,,,,Modestinus,1,de ritu nuptiarum,Mod. l. s. de ritu nupt.,,"not in BK Ordo, D.23.2.42.0-1 and D.50.17.197.0"
+,,,,,Saturninus,,de officio proconsulis,Saturn. de off. procons.,,"not in BK Ordo, D.40.14.2.0-2"
+,,,,,Venuleius Saturninus,,disputationum,Ven. disp.,,"not in BK Ordo, D.46.7.18.0"
+,,,,,Ulpianus,,de officiio constulariu,Ulp. l. s. de off. const.,,
+,,,,,Ulpianus,,de officio prutelari,Ulp. l. s. de off. prutelari.,,
+,,,,,Modestinus,,,Mod. ad Q. Muc.,,
+,,,,,Callistratus,,,Call. x.,,
+,,,,,Marcianus,,,Marcian. x.,,
+,,,,,Paulus,,,Paul. x.,,
+,,,,,Ulpianus,,,Ulp. x.,,
+,,,,,Pomponius,,,Pomp. x.,,
+,sententiae-iuris epitomae,g,16,,Paulus,,sententiarum lib. 1,Paul. ?1 sent.,P,the text unit either belongs to “Paul. 1 sent.” (BKO 205) or “Paul. 1-2 sent.” (BKO 207)
+,transferred edictal commentaries,s,28,,Ulpianus,,ad edictum lib. 55,Ulp. ?55 ad ed.,E,the text unit either belongs to “Ulp. 54-55 ad ed.” (BKO 112) or “Ulp. 55 ad ed.” (BKO 116)
+,,,,,Paulus,,ad edictum lib. 5,Paul. ?48 ad ed.,,the text unit either belongs to “Paul. 28-48 ad ed. (BKO 5) or “Paul. 48-49 ad ed.” (BKO 121)
