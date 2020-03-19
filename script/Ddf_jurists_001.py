@@ -14,7 +14,7 @@ Jurists.rename(columns={0: 'Jurist', 1: 'Jurist_id'}, inplace=True)
 Jurists['Jurist'] = Jurists['Jurist'].astype('category')
 Jurists = Jurists[['Jurist_id', 'Jurist']]
 print(Jurists.head())
-print(len(Jurists)) # 43
+print(len(Jurists)) # 42
 
 # Export Jurists dataframe: Jurists_v001.csv
 Jurists.to_csv("./output/Jurists_v001.csv")
