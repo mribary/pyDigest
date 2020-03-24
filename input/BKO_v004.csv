@@ -89,8 +89,8 @@ BK_Ordo_no,Honore_group_name,Honore_group_type,Honore_group_no,BK_Ordo_no_rev,Ju
 89,,u,,89,Ulpianus,1,de officio consularium,Ulp. de off. consularium.,S,no correposnding text unit in Digest; possible ambiguity with “Ulp. de off. cons.” (BKO 136)
 90,,u,,90,Paulus,2,de officio consulis,Paul. de off. procons. ,S,
 91,,u,,91,Venuleius Saturninus,4,de officio proconsulis,Ven. de off. procons. ,S,
-92,,u,,92,Claudius Saturninus,1,de poenis paganorum,Saturn. l. s. de poen. pagan.,S,"40 dig., IA"
-93,,u,,93,Volusius Maecianus,1,ex lege Rhodia,Maec. ex l. Rhodia. ,S,"libri 5, IA ; ID, M; App., H"
+92,,u,,92,Venuleius Saturninus,1,de poenis paganorum,Ven. l. s. de poen. pagan.,S,"40 dig., IA"
+93,,u,,93,Maecianus,1,ex lege Rhodia,Maec. ex l. Rhodia. ,S,"libri 5, IA ; ID, M; App., H"
 94,,u,,94,Iavolenus,10,ex posterioribus Labeonis lib. 1-2 init.,Iav. ex post. Labeonis. ,S,
 95,early edictal commentaries,s,25,95,Ulpianus,81,ad edictum lib. 1-25,Ulp. 1-25 ad ed.,E,
 96,early edictal commentaries,s,25,96,Paulus,78,ad edictum lib. 1-27,Paul. 1-27 ad ed.,E,see 176
@@ -168,7 +168,7 @@ BK_Ordo_no,Honore_group_name,Honore_group_type,Honore_group_no,BK_Ordo_no_rev,Ju
 169,,u,,169,Gaius,1,ad legem Glitiam,Gai. l. s. ad l. Glitiam. ,E,"repositioned, M; N, H"
 170,,u,,170,Paulus,1,ad legem Cinciam,Paul. l. s. ad l. Cinc. ,E,
 171,military law,s,34,171,Arrius Menander,4,de re militari,Men. de re milit. ,E,
-172,military law,s,34,172,Tarrutienus Paternus,4,de re militari,Tarrunt. de re milit. ,E,
+172,military law,s,34,172,Tarruntenus Paternus,4,de re militari,Tarrunt. de re milit. ,E,
 173,,u,,173,Tertullianus,1,de castrensi peculio,Tert. l. s. de castr. peculio. ,E,changed from ?tert. quaest.?
 174,,u,,174,Modestinus,4,de poenis,Mod. de poen. ,E,
 175,,u,,175,Licinius Rufinus,12,or 13 regularum,Licin. reg. ,E,
@@ -260,7 +260,7 @@ BK_Ordo_no,Honore_group_name,Honore_group_type,Honore_group_no,BK_Ordo_no_rev,Ju
 261,,u,,261,Arcadius Charisius,1,de officio praefecti praetorio,Arcad. l. s. de off. praef. pr. ,P,
 262,,u,,262,Ulpianus,1,de officio quaestoris,Ulp. l. s. de off. quaest. ,P,
 263,Appendix,p,,263,Paulus,2,imperialium sententiarum in cognitionibus prolatarum,Paul. imp. sent. i. c. p. ,E,
-264,Appendix,p,,264,Quintus Mucius Scaevola,1,????,Muc. l. s. horon.,E,changed from ?muc. l. s. ?????
+264,Appendix,p,,264,Scaevola,1,????,Muc. l. s. horon.,E,changed from ?muc. l. s. ?????
 265,,u,,93.5,Labeo,10,posteriorum a Iavoleno epitomatorum lib. 1-2 init.,,S,
 266,Appendix,p,,266,Proculus,3,ex posterioribus Labeonis 373,Proc. ex post. Labeonis. ,E,"N, H"
 267,Appendix,p,,267,Scaevola,40,digestorum lib. 3-40,Scaev. dig. ,E,
@@ -272,7 +272,7 @@ BK_Ordo_no,Honore_group_name,Honore_group_type,Honore_group_no,BK_Ordo_no_rev,Ju
 273,Appendix,p,,273,Venuleius Saturninus,10,actionum,Ven. actionum. ,E,
 274,Appendix,p,,274,Venuleius Saturninus,6,de interdictis,Ven. interd.,E,
 275,Appendix,p,,275,Furius Anthianus,1,ad edictum,Furius ad ed. ,E,l.s. inferred from lack of number of books in ref;  replaced ?furius ad ed.? in ref
-,,,,,Claudius,,,Claud. not. ad Scaev. dig. ,,"not in BK Ordo, loci D.32.36.0 and D.34.9.26.0"
+,,,,,Tryphoninus,,,Claud. not. ad Scaev. dig. ,,"not in BK Ordo, loci D.32.36.0 and D.34.9.26.0"
 ,,,,,Marcellus,,publica,Marcell. publ.,,not in BK Ordo;  single locus in D.2.3.22.0 
 ,,,,,Marcellus,,,Marcell. not. ad Pomp. l. s. reg.,,"not in BK Ordo, locus D.29.2.63.0"
 ,,,,,Marcellus,,,Marcell. not. ad Iul. dig. ,,"not in BK Ordo, locus D.28.5.5.0 and D.28.5.40.0"
@@ -287,7 +287,6 @@ BK_Ordo_no,Honore_group_name,Honore_group_type,Honore_group_no,BK_Ordo_no_rev,Ju
 ,,,,,Marcianus,,digestorum,Marcian. dig.,,"not in BK Ordo, D.23.5.17.0"
 ,,,,,Mauricianus,,,Mauric. de poen.,,"not in BK Ordo, D.2.13.3.0"
 ,,,,,Modestinus,1,de ritu nuptiarum,Mod. l. s. de ritu nupt.,,"not in BK Ordo, D.23.2.42.0-1 and D.50.17.197.0"
-,,,,,Saturninus,,de officio proconsulis,Saturn. de off. procons.,,"not in BK Ordo, D.40.14.2.0-2"
 ,,,,,Venuleius Saturninus,,disputationum,Ven. disp.,,"not in BK Ordo, D.46.7.18.0"
 ,,,,,Ulpianus,,de officiio constulariu,Ulp. l. s. de off. const.,,
 ,,,,,Ulpianus,,de officio prutelari,Ulp. l. s. de off. prutelari.,,

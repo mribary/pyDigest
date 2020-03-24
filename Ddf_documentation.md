@@ -234,11 +234,15 @@ The script links the reference IDs above with the 21055 text units of the Digest
 
 The script initiates a dataframe `df` with the `Jurist_name` column from `BKO_v004.csv`. It strips whitespace, orders the list of unique values, associates items with unique IDs and outputs the `Jurists_v001.csv` file to be enriched with data manually.
 
-> 3.2. Manual editing: Jurists_v001.csv > Jurists_v002.csv
+> 3.2. Manual editing: Jurists_v001.csv > Jurists_v002.csv, Ddf_v105.csv
 
 Jurists are associated with a date range of their lifetime according to information available in Adolf Berger's _Dictionary of Roman law_[<sup id="inline6">6</sup>](#fn6) consulted in conjunction with _Paulys Realencyclopädie der classischen Altertumswissenschaft_[<sup id="inline7">7</sup>](#fn7). The manually edited `Jurists_v002.csv` includes a `Note` which explains how the date range is estimated and a column with `Reference` information to _Berger_ and the _RE_. `Start_date` corresponds to the (estimated) birth of the jurist, `Mid_date` to his (estimated) most active period (_floruit_) at the age of 40, and `End_date` to his (estimated) death at the age of 60. Where exact dates are available for any of the three dates from _Berger_ and the _RE_, it is entered into the appropriate column instead of the estimate.
 
 For those jurists who are dated only by rough estimates in the _RE_ or _Berger_, the differnce between the start and end date of his life is capped at **60 years**. This is on the assumption that, apart from extreme cases, a well-educated wealthy Roman could expect no more than 60 years to live. The figure is derived from the life expectancy model created by Bruce Frier on the basis of a Roman legal rule which calculates lifetime support due to a legatee from the inheritance.[<sup id="inline8">8</sup>](#fn8) The rule was preserved by the 3rd century CE jurist Aemilius Macer (D.36.2.68.0) who cites his predecessor Ulpian on the matter. Ulpian contrasts his own (more generous) calculation with a customary lifetable in which no support is provided for a legatee beyond the age of 60. This upper limit in Ulpian's customary lifetable is the justification for capping the age of a well-educated wealthy Roman at 60. Despite Walter Scheidel's call for caution regarding variations in lifetable models according to space, time and cultural practice,[<sup id="inline9">9</sup>](#fn9) the figure derived from Frier remains justified. When _Berger_ and the _RE_ only provide one estimate date, it is assumed (1) that it refers to the most active period of the jurist's life (his _floruit_) and (2) that this most active period is at the age of 40.
+
+Minor typos and alternative versions of headings are corrected in Ddf which is updated manually in `Ddf_v105.csv`. The consistency of the `Ddf` and `BKO` dataframes are checked in `Ddf_BKO_check_4.py`.
+
+
 
 
 It loads dataframes from `Ddf_BKO_IDs_v001.csv`, `Ddf_Work_IDs_v001.csv` and `Ddf_Book_IDs_v001.csv` and inserts a `Jurist` and a `Jurist_id` column by ***add***. 
@@ -246,6 +250,10 @@ It loads dataframes from `Ddf_BKO_IDs_v001.csv`, `Ddf_Work_IDs_v001.csv` and `Dd
 The script links the 21055 text units of the Digest with their authoring `Jurist` by merging dataframes...
 
 These dataframes are exported as `Ddf_BKO_IDs_v002.csv`, `Ddf_Work_IDs_v002.csv` and `Ddf_Book_IDs_v002.csv`.
+
+
+update Ddf Ddf_v105.csv
+
 
 ### Footnotes
 
