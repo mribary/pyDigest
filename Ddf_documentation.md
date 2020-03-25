@@ -250,6 +250,16 @@ ID dataframes are updated according to manually edited files in the previous ste
 
 `Jurist_id` and `Mid_date` columns are inserted into the BKO, BKO_IDs and Ddf_IDs dataframes by merging. The Work_IDs and Book_IDs dataframes are updated by removing duplicate values in the Book_id and Work_id columns in the new Ddf_Ids dataframe. All text units in Ddf, all elements in BKO, and all elements in the ID dataframes are now associated with a date associated with the stipulated most active period of the corresponding jurist.
 
+### Tokens and lemmas
+
+1. Ddf_lemmas_sections.py > Ddf_Section_lemmas_v001.csv
+
+The script imports the necessary packages, models and modules from the Classical Language Toolkit (cltk). It initializes cltk's `BackoffLatinLemmatizer` which **add short description and footnote to Burns**. It creates a bag-of-words (`bow`) column which includes includes lower case linguistic tokens of the section titles stored in the `Section_title` column. Based on `bow`, the script creates a `lemmas` column which include lists of tuples where the first element of the tuple is the token and the second is its corresponding lemma. The dataframe's index is set to `Section_id` and the upper-case `Section_title` column is dropped. The dataframe is exported as `Ddf_Section_lemmas_v001.csv`.
+
+2. Ddf_lemmas_1.py > Ddf_lemmas_v001.csv
+
+
+
 ### Footnotes
 
 [<sup id="fn1">1</sup>](#inline1) Georg Klingenberg, "Die ROMTEXT-Datenbank," _Informatica e diritto_ 4 (1995): 223-232.
