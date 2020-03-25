@@ -222,7 +222,7 @@ An additional dataframe including section_IDs with their corresponding section t
 
 2. ID dataframes
 
-Ddf_IDs.py > Ddf_IDs.csv, Ddf_BKO_IDs.csv, Ddf_Work_IDs.csv, Ddf_Book_IDs.csv
+Ddf_IDs_001.py > Ddf_IDs_001.csv, Ddf_BKO_IDs_001.csv, Ddf_Work_IDs_001.csv, Ddf_Book_IDs_001.csv
 
 The script initiates a dataframe `df` with the `BKO_key`, `Work` and `TextUnit_ref` columns from `Ddf_v104.csv`. It creates separate dataframes for unique `BKO_key` (294), `Work` (251), and `TextUnit_ref` values (1352) where values are sorted alphabetically and associated with a unique ID. These dataframes are exported as `Ddf_BKO_IDs_v001.csv`, `Ddf_Work_IDs_v001.csv` and `Ddf_Book_IDs_v001.csv`.
 
@@ -242,18 +242,13 @@ For those jurists who are dated only by rough estimates in the _RE_ or _Berger_,
 
 Minor typos and alternative versions of headings are corrected in Ddf which is updated manually in `Ddf_v105.csv`. The consistency of the `Ddf` and `BKO` dataframes are checked in `Ddf_BKO_check_4.py`.
 
+> 3.3. Ddf_IDs_002.py > Ddf_IDs_002.csv, Ddf_BKO_IDs_002.csv, Ddf_Work_IDs_002.csv, Ddf_Book_IDs_002.csv
 
+ID dataframes are updated according to manually edited files in the previous step.
 
+> 3.4. Ddf_IDs_003.py > BKO_v005.csv, Ddf_IDs_003.csv, Ddf_BKO_IDs_003.csv, Ddf_Work_IDs_003.csv, Ddf_Book_IDs_003.csv
 
-It loads dataframes from `Ddf_BKO_IDs_v001.csv`, `Ddf_Work_IDs_v001.csv` and `Ddf_Book_IDs_v001.csv` and inserts a `Jurist` and a `Jurist_id` column by ***add***. 
-
-The script links the 21055 text units of the Digest with their authoring `Jurist` by merging dataframes...
-
-These dataframes are exported as `Ddf_BKO_IDs_v002.csv`, `Ddf_Work_IDs_v002.csv` and `Ddf_Book_IDs_v002.csv`.
-
-
-update Ddf Ddf_v105.csv
-
+`Jurist_id` and `Mid_date` columns are inserted into the BKO, BKO_IDs and Ddf_IDs dataframes by merging. The Work_IDs and Book_IDs dataframes are updated by removing duplicate values in the Book_id and Work_id columns in the new Ddf_Ids dataframe. All text units in Ddf, all elements in BKO, and all elements in the ID dataframes are now associated with a date associated with the stipulated most active period of the corresponding jurist.
 
 ### Footnotes
 
