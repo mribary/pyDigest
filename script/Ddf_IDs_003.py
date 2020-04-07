@@ -4,8 +4,6 @@ import numpy as np
 
 # Load dataframes frdom csv files
 BKO_IDs = pd.read_csv('./input/Ddf_BKO_IDs_v002.csv')
-# Book_IDs = pd.read_csv('./input/Ddf_Book_IDs_v002.csv')
-# Work_IDs = pd.read_csv('./input/Ddf_Work_IDs_v002.csv')
 Ddf_IDs = pd.read_csv('./input/Ddf_IDs_v002.csv')
 BKO = pd.read_csv('./input/BKO_v004.csv')
 Jurists = pd.read_csv('./input/Jurists_v002.csv', index_col=None)

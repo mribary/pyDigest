@@ -1,10 +1,10 @@
-## Documenting steps of data manipulation
+## "Ddf" - Core _Digest_ dataframes
 
-The documentation describes the creation of the base dataframe including the text of the Digest in structured machine-ready format. It also describes the creation of supporting structured data related to the text of the Digest, for example, authors of passages, legal themes covered in the Digest's 432 sections, and reconstructed characteristics of passages which aim to explain how the Digest was originally created.
+The documentation describes the creation of the core dataframes of the `pyDigest` project. It documents the data manipulation steps leading to the core `Ddf` ("_Digest_ daraframe") which includes the text of the _Digest_ in structured machine-ready format. It also describes the creation of supporting structured data related to the text of the _Digest_, for example, authors of passages, legal themes covered in the Digest's 432 sections, and reconstructed characteristics of passages which aim to explain how the _Digest_ was originally created.
 
 ### 1. Creation of the base "Ddf" dataframe
 
-Documentation follows the order of output files. The title of individual steps include the method and the name of the output file in `[Method] > [outputFile]` format. `[Method]` and `[outputFile]` correspond with elements in `Ddf_flowchart`. These steps document the data manipulation pipeline from the raw text of the Digest to its relational database.
+Documentation follows the order of output files. The title of individual steps include the method and the name of the output file in `[Method] > [outputFile]` format. `[Method]` and `[outputFile]` correspond with elements in `Ddf_flowchart`. These steps document the data manipulation pipeline from the raw text of the _Digest_ to its relational database.
 
 1. Manual editing > ROMTEXT.txt
 
@@ -250,20 +250,6 @@ ID dataframes are updated according to manually edited files in the previous ste
 
 `Jurist_id` and `Mid_date` columns are inserted into the BKO, BKO_IDs and Ddf_IDs dataframes by merging. The Work_IDs and Book_IDs dataframes are updated by removing duplicate values in the Book_id and Work_id columns in the new Ddf_Ids dataframe. All text units in Ddf, all elements in BKO, and all elements in the ID dataframes are now associated with a date associated with the stipulated most active period of the corresponding jurist.
 
-### Tokens and lemmas
-
-1. Ddf_lemmas_sections_1.py > Ddf_Section_lemmas_v001.csv
-
-The script imports the necessary packages, models and modules from the Classical Language Toolkit (cltk), a Python-based NLP framework for classical languages inspired by the Natural Language Toolkit (nltk).[<sup id="inline10">10</sup>](#fn10) The script initializes cltk's [`BackoffLatinLemmatizer`](http://docs.cltk.org/en/latest/latin.html#lemmatization-backoff-method) which combines multiple lemmatizer tools in a backoff chain, that is, if one tool fails to return a lemma, the token is passed on to the next tool in the chain until a lemma is returned or the chain runs out of options. The backoff method has been developed by Patrick Burns (University of Texas at Austin) and described in a presentation[<sup id="inline11">11</sup>](#fn11) and a review article with code snippets available as a pre-publication draft on GitHub.[<sup id="inline12">12</sup>](#fn12)
-
-It creates a bag-of-words (`bow`) column which includes includes lower case linguistic tokens of the section titles stored in the `Section_title` column. Based on `bow`, the script creates a `lemmas` column which include lists of tuples where the first element of the tuple is the token and the second is its corresponding lemma. The dataframe's index is set to `Section_id` and the upper-case `Section_title` column is dropped. The dataframe is exported as `Ddf_Section_lemmas_v001.csv`.
-
-2. Ddf_lemmas_1.py > Ddf_lemmas_v001.csv
-
-The script uses the same methods as `Ddf_lemmas_sections_1.py`. An additional pre-processing step removes punctuation (full stop, colon, comma, question mark) from the text. The full stop and the colon sticks to the word in the tokenization step and prevents the lemmatizer to recognise the appropriate lemma. The comma is returned as a word token and the lemmatizer attempts to process it. Series of question marks replace Greek words in the Digest text. With no semantic value, these words are ignored.
-
-The script creates a bag-of-words (`bow`) column of the filtered text unit. The `lemmas` column includes a series of token-lemma tuples based on the list of tokens in `bow`. The dataframe is exported as `Ddf__lemmas_v001.csv`.
-
 ### Footnotes
 
 [<sup id="fn1">1</sup>](#inline1) Georg Klingenberg, "Die ROMTEXT-Datenbank," _Informatica e diritto_ 4 (1995): 223-232.
@@ -282,10 +268,4 @@ The script creates a bag-of-words (`bow`) column of the filtered text unit. The 
 
 [<sup id="fn8">8</sup>](#inline8) Bruce Frier, "Roman life expectancy: Ulpian's evidence," _Harvard Studies in Classical Philology_, 86 (1982): 213-251.
 
-[<sup id="fn9">9</sup>](#inline9) Walter Scheidel, "Roman age structure: Evidence and models," _The Journal of Roman Studies_ 91 (2001): 1-26. 
-
-[<sup id="fn10">10</sup>](#inline10) Patrick J. Burns, "Building a text analysis pipeline for classical languages," in _Digital classical philology: Ancient Greek and Latin in the digital revolution_, edited by Monica Berti. Berlin: Walter de Gruyter, 2019, 159-176.
-
-[<sup id="fn11">11</sup>](#inline11) Patrick J. Burns, "[Multiplex lemmatization with the Classical Language Toolkit](https://lila-erc.eu/wp-content/uploads/2019/06/burns-lemmatisation.pdf)," presented at the _First LiLa Workshop: Linguistic Resources & NLP Tools for Latin_ on 3 June 2019.
-
-[<sup id="fn12">12</sup>](#inline12) Patrick J. Burns, "[Latin lemmatization: Tools, resources & future directions](https://github.com/diyclassics/lemmatizer-review/blob/master/lemmatizer-review.ipynb)," pre-publication draft available on GitHub, last updated on 3 June 2019.
+[<sup id="fn9">9</sup>](#inline9) Walter Scheidel, "Roman age structure: Evidence and models," _The Journal of Roman Studies_ 91 (2001): 1-26.
