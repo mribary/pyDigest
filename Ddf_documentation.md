@@ -103,7 +103,7 @@ Honore's revised BKO table is copied from the pdf copy of his article published 
 | 70. Ulpianus 4 ad legem Aeliam Sentiam | number changed to 71 |
 | (xxii) SC Trebellianum group. | changed to: (xxi) SC Tertullianum group. |
 
-2. BKO.py > BKO_v001.csv
+2. Ddf_BKO.py > BKO_v001.csv
 
 The script reads `BKO_v002.txt` and extracts structured information by a regular expression pattern. An empty Python dictionary is initiated with keys serving as column heads of the BKO dataframe. Associated values are loaded systematically into a list.
 
