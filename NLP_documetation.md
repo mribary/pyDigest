@@ -1,8 +1,8 @@
-### "NLP" - Natural Language Processing
+## "NLP" - Natural Language Processing
 
-### Tokens and lemmas
+### 1. Stoplist construction
 
-1. NLP_sections_001.py > **TBC**
+1. D_stoplist.py > D_stoplist_001.txt
 
 The script loads dataframes including text units, thematic sections and section IDs of the _Digest_. In the preprocessing stage, the script creates a bag-of-words (`bow`) for each of the 432 thematic sections with word tokens extracted from all text units in a particular section. It removes all punctuation, leaves only one white space between words, turns the text to lower case only, and splits the string of words on white space. The list of word tokens is inserted in the `bow` column.
 
@@ -12,7 +12,13 @@ Based on the list of word tokens stored in the `bow` column, the script creates 
 
 The script imports and initializes [cltk's Latin `Stop` module](https://github.com/cltk/cltk/blob/master/cltk/stop/stop.py) developed by Patrick Burns. Burns discusses the module in the context of general challenges of stoplist construction in a research article published in 2018.[<sup id="inline4">4</sup>](#fn4) The module's `build_stoplist` method is highly customizable which takes parameters such as `texts`, `size`,  `remove_punctuation`, `remove_numbers` and `basis`. The latter parameter defines how stopwords are measured of which the simple term `frequency` meaure is used.[<sup id="inline5">5</sup>](#fn5) The initial list of most frequent terms is mnually inspected to make sure that lemmas with significant semantic value are not included in the stoplist. A list of words to retain is stored in `stop_from_stoplist` which is passed into the `build_stoplist` function as a parameter when the function is ran for the seond time to generate a _Digest_-specific `D_stoplist`.
 
-The lemmatizer is ran again with stopwords stored in `D_stoplist` removed. Flat strings of lemmas similar to `lem_doc` are created which are inserted in a new column `doc`. The dataframe is streamlined with only `Section_id` (as index), `Title` (trfansformed to lower-case) and `doc` ("documents" of thematic sections) retained.
+The constructed stoplist is imported as `D_stoplist_001.txt`.
+
+### 2. Tokenize, lemmatize, vectorize
+
+1. NLP_sections_001.py > **TBC**
+
+The script loads the dataframes including text units, thematic sections and section IDs of the _Digest_ as well as custom stoplist created in the previous step. After the initial merges, cltk's `BackoffLatinLemmatizer` is ran on the tokens extracted from the text arranged in thematic sections, but now stopwords stored in `D_stoplist` are removed. A flat strings of lemmas are created which are inserted to the dataframe in a new column `doc`. The dataframe is streamlined with only `Section_id` (as index), `Title` (trfansformed to lower-case) and `doc` ("documents" of thematic sections) retained.
 
 The `TfidfVectorizer` function is imported from sckit-learn. It calculates Tfidf scores of terms which indicates the term's importance in a document relative to the term's importance in a whole collection of documents. The Tfidf score is calculated as the dot product of term t's _Term frequency_ (Tf) and logarithmically scaled _Inverse document frequency_ (Idf) where (1) Tf is the number of times term t appears in a document divided by the total number of terms in the document and (2) Idf is natural logarithm of the total number of documents divided by the number of documents with term t in it. `TfidfVectorizer` is initialized with `D_stoplist`.
 
@@ -22,10 +28,7 @@ The collection of documents (`corpus`) to be passed to  `TfidfVectorizer` is `le
 dict(df_fs.loc[0].transpose().sort_values(ascending=False).head(20))
 ```
 
-The stoplist, the dataframe including "documents" of lemmas (without the stopwords) extracted from the text of thematic sections, and the Tfidf matrix, of the thematic sections are exported as xxx, `D_tfidf_sections_001.csv` and `D_doc_sections_001.csv`.
-df_fs.to_csv('/output/D_tfidf_sections_001.csv')
-D_stoplist.to_csv('/output/D_stoplist_001.txt', sep=',', index=False)
-sections.to_csv('/output/D_doc_sections_001.csv')
+The stoplist, the dataframe including "documents" of lemmas (without the stopwords) extracted from the text of thematic sections, and the Tfidf matrix, of the thematic sections are exported as `D_stoplist_001.txt`, `D_tfidf_sections_001.csv` and `D_doc_sections_001.csv`.
 
 The script also defines a function `similar` which returns the ids of ten thematic sections which are most similar to the one passed for the function based on cosine similarity calculated from Tfidf scores. The script imports `linear_kernel` to calculate cosine similarity in a more economical way. 
 
