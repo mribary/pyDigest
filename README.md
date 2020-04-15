@@ -5,6 +5,9 @@
 ## Project components
 
 
+### 0. "pyDigest" - General functions
+
+
 
 ### 1. "Ddf" - Core _Digest_ dataframes
 

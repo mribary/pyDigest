@@ -1,6 +1,6 @@
 ## "NLP" - Natural Language Processing
 
-### 1. Stoplist construction
+### 1. Stoplist construction:
 
 1. D_stoplist.py > D_stoplist_001.txt
 
@@ -16,21 +16,29 @@ The constructed stoplist is imported as `D_stoplist_001.txt`.
 
 ### 2. Tokenize, lemmatize, vectorize
 
-1. NLP_sections_001.py > **TBC**
+1. NLP_sections_001.py > D_doc_sections_001.csv, D_tfidf_sections_001.csv
 
-The script loads the dataframes including text units, thematic sections and section IDs of the _Digest_ as well as custom stoplist created in the previous step. After the initial merges, cltk's `BackoffLatinLemmatizer` is ran on the tokens extracted from the text arranged in thematic sections, but now stopwords stored in `D_stoplist` are removed. A flat strings of lemmas are created which are inserted to the dataframe in a new column `doc`. The dataframe is streamlined with only `Section_id` (as index), `Title` (trfansformed to lower-case) and `doc` ("documents" of thematic sections) retained.
+The script loads loads the necessary packages including pandas, regex, nmupy and cltk's `BackoffLatinLemmatizer`. It initilizes the lemmatizer with cltk's Latin model.
 
-The `TfidfVectorizer` function is imported from sckit-learn. It calculates Tfidf scores of terms which indicates the term's importance in a document relative to the term's importance in a whole collection of documents. The Tfidf score is calculated as the dot product of term t's _Term frequency_ (Tf) and logarithmically scaled _Inverse document frequency_ (Idf) where (1) Tf is the number of times term t appears in a document divided by the total number of terms in the document and (2) Idf is natural logarithm of the total number of documents divided by the number of documents with term t in it. `TfidfVectorizer` is initialized with `D_stoplist`.
+The `TfidfVectorizer` function is imported from sckit-learn. The function calculates "Term frequency-inverse document frequency" (Tfidf) scores for terms in a document (`doc`) where the document forms part of a collection of documents (`corpus`). The score indicates the term's importance in a `doc` relative to the term's importance in the `corpus`. The Tfidf score is calculated as the dot product of term t's _Term frequency_ (Tf) and its logarithmically scaled _Inverse document frequency_ (Idf) where (1) Tf is the number of times term t appears in a document divided by the total number of terms in the document and where (2) Idf is the natural logarithm of the total number of documents divided by the number of documents with term t in it.
 
-The collection of documents (`corpus`) to be passed to  `TfidfVectorizer` is `lem_doc`. The scripts returns a matrix in the shape of 432 x 10925 where 432 is the number of thematic sections ("docuemtns") and 10925 is the number of terms ("features") in the `corpus`. By extracting scores in an array and feature names in a list, the script builds a dataframe (`df_fs`) which includes the Tfidf scores of the lemmas in all 432 thematic sections. The following code returns the first twenty terms woth the highest Tfidf scores in the first thematic section (with id "0") which indicates the keywords of the section, that is, the terms that set the section apart from all other sections.
+the script loads the dataframes including text units, thematic sections and section IDs of the _Digest_ as well as the custom `D_stoplist` created with `D_stoplist.py`. After the initial merges, cltk's `BackoffLatinLemmatizer` is ran on the word tokens extracted from the text units arranged in the 432 thematic sections. Stopwords stored in `D_stoplist` are removed during the process. A flat string of lemmas is created which are inserted in a new column of the (`doc`). The dataframe is streamlined with only `Section_id` (as index), `Title` (trfansformed to lower-case) and `doc` ("documents" of thematic sections) retained. The daraframe is exported as `D_doc_sections_001.csv`.
 
-```python
-dict(df_fs.loc[0].transpose().sort_values(ascending=False).head(20))
-```
+The collection of documents (`corpus`) to be passed to  `TfidfVectorizer` is the list of "documents stored in the dataframes `doc` column. The scripts returns a matrix in the shape of 432 x 10875 where 432 is the number of thematic sections ("docuemtns") and 10875 is the number of terms ("features") in the `corpus`. By extracting scores in an array and feature names in a list, the script builds a dataframe (`df_fs`) which includes the Tfidf scores of the lemmas in all 432 thematic sections. The dataframe with the Tfidf matrix is exported as `D_tfidf_sections_001.csv`.
 
-The stoplist, the dataframe including "documents" of lemmas (without the stopwords) extracted from the text of thematic sections, and the Tfidf matrix, of the thematic sections are exported as `D_stoplist_001.txt`, `D_tfidf_sections_001.csv` and `D_doc_sections_001.csv`.
+2. NLP_sections_002.py > 
 
-The script also defines a function `similar` which returns the ids of ten thematic sections which are most similar to the one passed for the function based on cosine similarity calculated from Tfidf scores. The script imports `linear_kernel` to calculate cosine similarity in a more economical way. 
+    which returns the ids of ten thematic sections which are most similar to the one passed for the function based on cosine similarity calculated from Tfidf scores. The script imports `linear_kernel` to calculate cosine similarity in a more economical way. 
+
+    The following code returns the first twenty terms woth the highest Tfidf scores in the first thematic section (with id "0") which indicates the keywords of the section, that is, the terms that set the section apart from all other sections.
+
+    ```python
+    dict(df_fs.loc[0].transpose().sort_values(ascending=False).head(20))
+    ```
+
+    The stoplist, the dataframe including "documents" of lemmas (without the stopwords) extracted from the text of thematic sections, and the Tfidf matrix, of the thematic sections are exported as `D_stoplist_001.txt`, `D_tfidf_sections_001.csv` and `D_doc_sections_001.csv`.
+
+    The script also defines a function `similar` which returns the ids of ten thematic sections which are most similar to the one passed for the function based on cosine similarity calculated from Tfidf scores. The script imports `linear_kernel` to calculate cosine similarity in a more economical way. 
 
 ### Footnotes
 
