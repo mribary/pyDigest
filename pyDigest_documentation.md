@@ -1,6 +1,16 @@
 ## "pyDigest" - General functions
 
-The documentation describes the functions defined and stored in `pyDigest.py` in the project's top directory. These functions can be called in other Python scripts of the repository in two forms:
+The documentation describes the functions defined and stored in `pyDigest.py`. A copy of the file is stored in the user site directory at `~/.local/lib/python3.7/site-packages`.
+
+After opening a Terminal window, the following bash commands could be used to navigate to the directory and create a copy of `pyDigest.py` which is then called by Python scripts. This is a strictly temporary solution for a privately managed module.
+
+```bash
+$ path=`python3 -m site --user-site`
+$ cd $path
+$ cp [path_for_pyDigest.py] .
+```
+
+These functions can be called in other Python scripts of the repository in two forms:
 
 1. Importing a specific function
 

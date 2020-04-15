@@ -34,6 +34,7 @@ def similar_sections(id, size=10):
     id: thematic section's id
     size: number of similar thematic sections returned
     '''
+    import pandas as pd
     path_sID = 'https://raw.githubusercontent.com/mribary/pyDigest/master/input/Ddf_Section_IDs_v001.csv'
     path_doc = 'https://raw.githubusercontent.com/mribary/pyDigest/master/input/D_doc_sections_001.csv'
     path_df = 'https://raw.githubusercontent.com/mribary/pyDigest/master/input/Ddf_v105.csv'
