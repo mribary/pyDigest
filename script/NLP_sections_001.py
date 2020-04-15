@@ -34,6 +34,10 @@ corpus_importer = CorpusImporter('latin')                           # Initialize
 corpus_importer.import_corpus('latin_models_cltk')                  # Import the latin_models_cltk corpus for lemmatization
 lemmatizer = BackoffLatinLemmatizer()                               # Initialize Latin lemmatizer
 
+##########################
+# Tokenize and lemmatize #
+##########################
+
 # Create a column with tuples of (token, lemma)
 lemmas_list = []
 for x in sID.Section_id:
@@ -53,14 +57,69 @@ for x in sID.Section_id:
     lem_doc.append(l_string)                                        # Add the "document" to a list
 sID['lem_doc'] = lem_doc                                            # Insert list of "documents" in a new column
 
+##################################
+# Construct stoplist: D_stoplist #
+##################################
+
+# Import cltk's Stop module
+from cltk.stop.latin import CorpusStoplist  # Import the Latin stop module
+S = CorpusStoplist()                        # Initialize cltk's Latin stop module
+
+# Generate Latin stoplist with cltk based on frequency
+D_stoplist_initial = S.build_stoplist(lem_doc, basis='frequency', size=150, inc_values=True, sort_words=False)
+
+# List of words from initial stoplist to be exluded from stoplist
+stop_from_stoplist = ['accipio', 'actio', 'actium', 'ago', 'bonus', 'causa', 'condicio', 'creditor', 'debeo', 'dico', \
+    'dies', 'dominus', 'emo', 'facio', 'familia', 'fideicommitto', 'filius', 'fio', 'fundus', 'habeo', 'hereditas', \
+    'heres', 'iudicium', 'ius', 'legatus', 'lego', 'lex', 'liber', 'libertas', 'licet', 'locus', 'meus', 'mulier', 'multus', \
+    'nomen', 'oportet', 'pars', 'paruus', 'pater', 'pecunia', 'pertineo', 'peto', 'possessio', 'praesto', 'praetor', 'puto', \
+    'quaero', 'ratio', 'relinquo', 'res', 'respondeo', 'restituo', 'scribo', 'servus', 'solvo', 'stipulo', 'tempus', \
+    'teneo', 'testamentum', 'utor', 'verus', 'video', 'volo']
+
+# Adjusted stoplist (frequency values dropped)
+D_stoplist = S.build_stoplist(lem_doc, basis='frequency', size=120, inc_values=False, \
+    sort_words=False, exclude=stop_from_stoplist)
+
+############################################################
+# Construct "documents" of thematic sections for NLP tasks #
+############################################################
+
+# Remove stopwords from the lem_doc column
+doc = []
+for x in sID.Section_id:
+    lemmas = sID.loc[sID.Section_id == x,'lemmas'].values[0]    # Load tokens from the bow column
+    l = []                                                      # Create empty list for lemmas in one row
+    for y in range(len(lemmas)):
+       l.append(lemmas[y][1])                                   # Load the lemma to the list
+    l_string = ' '.join([str(word) for word in l \
+        if word not in D_stoplist])                             # Drop stopwords and create a string from the list: "document"
+    doc.append(l_string)                                        # Add the "document" to a list
+sID['doc'] = doc                                                # Insert stopword-free lemma list into a new column
+
+# Transform section titles to all lower case
+section_titles_lower = []
+for x in sID.Section_id:
+    text = sID.loc[sID.Section_id == x,'Section_title'].values[0]   # Load upper-case section titles
+    text_lower = text.lower()                                       # Transform to lower case
+    section_titles_lower.append(text_lower)                         # Add the lower case title to a list
+sID['Title'] = section_titles_lower                                 # Insert list of lower-case titles in a new column
+
+# Streamline dataframe
+sections = sID[['Section_id', 'Title', 'doc']]
+sections.set_index('Section_id', inplace=True)
+
+#############
+# Vectorize #
+#############
+
 # Import and initialize TfidfVecotirizer with custom stoplist
 from sklearn.feature_extraction.text import TfidfVectorizer
 vectorizer = TfidfVectorizer()
 # Vectorize section titles based on a corpus of 432 documents including the 432 section titles
-corpus = lem_doc                                # Define corpus as set of "documents" from section titles
-X = vectorizer.fit_transform(corpus)            # Vectorize: dtype: matrix, shape: (432, 10925)
-scores = X.toarray().transpose()                # Create and transpose array: dtype: numpy array, shape: (10925, 432)
-feature_names = vectorizer.get_feature_names()  # Extract the feature names for the Tfidf dictionary: dtype: list, len: 10925
+corpus = doc                                    # Define corpus as set of "documents" from section titles
+X = vectorizer.fit_transform(corpus)            # Vectorize: dtype: matrix, shape: (432, 10875)
+scores = X.toarray().transpose()                # Create and transpose array: dtype: numpy array, shape: (10875, 432)
+feature_names = vectorizer.get_feature_names()  # Extract the feature names for the Tfidf dictionary: dtype: list, len: 10875
 
 # Create dictionary with lemmas as keys and Tfidf scores in section titles as values
 feature_scores = dict(zip(feature_names, scores))
@@ -68,12 +127,23 @@ feature_scores = dict(zip(feature_names, scores))
 # Create dataframe for lemmas and their Tfidf scores
 df_fs = pd.DataFrame(feature_scores)
 
+# Export data
+with open('./output/D_stoplist_001.txt', "w") as output:
+    string = '\n'.join([str(word) for word in D_stoplist])
+    output.write(str(string))
+df_fs.to_csv('./output/D_tfidf_sections_001.csv')
+sections.to_csv('./output/D_doc_sections_001.csv')
+
 # Get the first 20 lemmas with the highest Tfidf scores in thematic section id "0"
 # dict(df_fs.loc[0].transpose().sort_values(ascending=False).head(20))
 
+#############################################
+# Recommender for similar thematic sections #
+#############################################
+
 # Create recommender for 10 most similar thematic sections based on cosine similarity
 from sklearn.metrics.pairwise import linear_kernel                     # Import cosine_similarity (as linear_kernel)
-corpus = lem_doc                                # Define corpus as set of "documents" from section titles
+corpus = doc                                    # Define corpus as set of "documents" from section titles
 X = vectorizer.fit_transform(corpus)            # Generate Tfidf matrix: X
 cosine_sim = linear_kernel(X, X)                # Generate cosine similarity matrix: cosine_sim
 def similar(id, cosine_sim):
