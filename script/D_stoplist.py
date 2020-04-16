@@ -4,9 +4,9 @@ import re
 import numpy as np
 
 # Load dataframes from GitHub repo
-file_path_df = 'https://raw.githubusercontent.com/mribary/pyDigest/master/input/Ddf_v105.csv'
-file_path_s = 'https://raw.githubusercontent.com/mribary/pyDigest/master/input/Ddf_sections_v001.csv'
-file_path_sID = 'https://raw.githubusercontent.com/mribary/pyDigest/master/input/Ddf_Section_IDs_v001.csv'
+file_path_df = './dump/Ddf_v105.csv'
+file_path_s = './dump/Ddf_sections_v001.csv'
+file_path_sID = './dump/Ddf_Section_IDs_v001.csv'
 df = pd.read_csv(file_path_df, index_col=0)     # text units (21055)
 s = pd.read_csv(file_path_s, index_col=0)       # text unitts with section IDs (21055)
 sID = pd.read_csv(file_path_sID, index_col=0)   # sections with section IDs (432)
@@ -80,6 +80,6 @@ D_stoplist = S.build_stoplist(lem_only, basis='frequency', size=120, inc_values=
     sort_words=False, exclude=stop_from_stoplist)
 
 # Export stoplist into a text file
-with open('./output/D_stoplist_001.txt', "w") as output:
+with open('./dump/D_stoplist_001.txt', "w") as output:
     string = '\n'.join([str(word) for word in D_stoplist])
     output.write(str(string))

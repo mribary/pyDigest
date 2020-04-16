@@ -15,10 +15,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 vectorizer = TfidfVectorizer()
 
 # Load dataframes from GitHub repo
-file_path_df = 'https://raw.githubusercontent.com/mribary/pyDigest/master/input/Ddf_v105.csv'
-file_path_s = 'https://raw.githubusercontent.com/mribary/pyDigest/master/input/Ddf_sections_v001.csv'
-file_path_sID = 'https://raw.githubusercontent.com/mribary/pyDigest/master/input/Ddf_Section_IDs_v001.csv'
-file_path_stoplist = 'https://raw.githubusercontent.com/mribary/pyDigest/master/input/D_stoplist_001.txt'
+file_path_df = './dump/Ddf_v105.csv'
+file_path_s = './dump/Ddf_sections_v001.csv'
+file_path_sID = './dump/Ddf_Section_IDs_v001.csv'
+file_path_stoplist = './dump/D_stoplist_001.txt'
 df = pd.read_csv(file_path_df, index_col=0)     # text units (21055)
 s = pd.read_csv(file_path_s, index_col=0)       # text unitts with section IDs (21055)
 sID = pd.read_csv(file_path_sID, index_col=0)   # sections with section IDs (432)
@@ -94,5 +94,5 @@ feature_scores = dict(zip(feature_names, scores))
 df_fs = pd.DataFrame(feature_scores)
 
 # Export data
-df_fs.to_csv('./output/D_tfidf_sections_001.csv')
-sections.to_csv('./output/D_doc_sections_001.csv')
+df_fs.to_csv('./dump/D_tfidf_sections_001.csv')
+sections.to_csv('./dump/D_doc_sections_001.csv')

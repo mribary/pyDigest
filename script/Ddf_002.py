@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Read Ddf_v002.csv into a 1D dataframe: Ddf
-Ddf = pd.read_csv('./input/Ddf_v002.csv', index_col=0)
+Ddf = pd.read_csv('./dump/Ddf_v002.csv', index_col=0)
 Ddf.reset_index(drop=True, inplace=True)
 # print(Ddf.head())
 
@@ -62,4 +62,4 @@ d = {'Dnp_index' : Dnp_index, 'Text': Text}
 Ddf_v002x = pd.DataFrame(d)
 
 # Export list of non-captured anomalous lines with their indices in a csv file
-Ddf_v002x.to_csv('./output/Ddf_v002x.csv')
+Ddf_v002x.to_csv('./dump/Ddf_v002x.csv')

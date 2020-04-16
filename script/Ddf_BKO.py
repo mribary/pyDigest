@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Read BK_Ordo.txt into a string
-str = open('./input/BKO_v002.txt', 'r')
+str = open('./dump/BKO_v002.txt', 'r')
 file = str.read()
 
 # Remove empty lines, string -> list object at \n, remove copyright notice
@@ -32,8 +32,8 @@ print(count)
 # Create dataframe BKO_df from the dictionary BKO_dict
 BKO_df = pd.DataFrame(BKO_dict)
 
-# Export BKO_df dataframe as "BKO_df_v001.csv"
-BKO_df.to_csv("./output/BKO_v001.csv")
+# Export BKO dataframe as "BKO_v001.csv"
+BKO_df.to_csv("./dump/BKO_v001.csv")
 
-# Close BK_Ordo.txt file
+# Close txt file
 str.close()

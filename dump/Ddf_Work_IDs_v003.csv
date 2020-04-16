@@ -1,0 +1,251 @@
+,Work_id,Work_label,Jurist_id,Mid_date
+0,0,Afr. quaest.,1,150
+1,1,Alf. dig.,2,-41
+2,2,Aquila. resp.,13,208
+3,3,Arcad. l. s. de mun. civil.,3,321
+4,4,Arcad. l. s. de off. praef. pr.,3,321
+5,5,Arcad. l. s. de test.,3,321
+6,6,Call. de cogn.,5,205
+7,7,Call. de iure fisci.,5,205
+8,8,Call. ed. monit.,5,205
+9,9,Call. inst.,5,205
+10,10,Call. quaest.,5,205
+11,11,Call. x.,5,205
+12,12,Cels. dig.,6,110
+13,13,Claud. not. ad Scaev. dig.,33,200
+14,14,Clem. ad leg. Iul. et Pap.,31,150
+15,15,Flor. inst.,7,180
+16,16,Furius ad ed.,12,129
+17,17,Gai. 1 ad ed. provinc.,9,165
+18,18,Gai. ad ed. aedil. curul.,9,165
+19,19,Gai. ad ed. provinc.,9,165
+20,20,Gai. ad ed. pu.,9,165
+21,21,Gai. ad ed. pu. de liberali causa.,9,165
+22,22,Gai. ad ed. pu. de praediator.,9,165
+23,23,Gai. ad ed. pu. de publicanis.,9,165
+24,24,Gai. ad ed. pu. de re iudicata.,9,165
+25,25,Gai. ad ed. pu. q. n. s. n. d.,9,165
+26,26,Gai. ad ed. urbicum.,9,165
+27,27,Gai. ad l. XII tab.,9,165
+28,28,Gai. ad leg. Iul. et Pap.,9,165
+29,29,Gai. de legatis ad ed. provinc.,9,165
+30,30,Gai. de legatis ad ed. urb.,9,165
+31,31,Gai. de manumiss.,9,165
+32,32,Gai. de testam. ad ed. pu.,9,165
+33,33,Gai. de verb. oblig.,9,165
+34,34,Gai. fideicomm.,9,165
+35,35,Gai. inst.,9,165
+36,36,Gai. l. s. ad l. Glitiam.,9,165
+37,37,Gai. l. s. ad sc Orfit.,9,165
+38,38,Gai. l. s. ad sc Tert.,9,165
+39,39,Gai. l. s. de casib.,9,165
+40,40,Gai. l. s. de form. hypoth.,9,165
+41,41,Gai. l. s. de tac. fideicomm.,9,165
+42,42,Gai. l. s. reg.,9,165
+43,43,Gai. reg.,9,165
+44,44,Gai. rer. cott.,9,165
+45,45,Gallus. de verb. sign.,0,-47
+46,46,Hermog. iuris epit.,10,345
+47,47,Iav. ad Plaut.,11,102
+48,48,Iav. epist.,11,102
+49,49,Iav. ex Cass.,11,102
+50,50,Iav. ex post. Labeonis.,11,102
+51,51,Iul. ad Urs. Ferocem.,12,129
+52,52,Iul. ad ed.,12,129
+53,53,Iul. dig.,12,129
+54,54,Iul. ex Minic.,12,129
+55,55,Iul. l. s. de ambig.,12,129
+56,56,Lab. pith.,14,-62
+57,57,Licin. reg.,15,248
+58,58,Macer. ad l. vices.,16,230
+59,59,Macer. de appellat.,16,230
+60,60,Macer. de off. praesid.,16,230
+61,61,Macer. de publ. iudic.,16,230
+62,62,Macer. de re milit.,16,230
+63,63,Maec. de publ. iudic.,17,135
+64,64,Maec. ex l. Rhodia.,17,135
+65,65,Maec. fideicomm.,17,135
+66,66,Marcell. ad leg. Iul. et Pap.,18,145
+67,67,Marcell. de off. praesid.,18,145
+68,68,Marcell. dig.,18,145
+69,69,Marcell. l. s. resp.,18,145
+70,70,Marcell. not. ad Iul. dig.,18,145
+71,71,Marcell. not. ad Pomp. l. s. reg.,18,145
+72,72,Marcell. publ.,18,145
+73,73,Marcian. de adult.,19,225
+74,74,Marcian. de appellat.,19,225
+75,75,Marcian. de publ. iudic.,19,225
+76,76,Marcian. dig.,19,225
+77,77,Marcian. inst.,19,225
+78,78,Marcian. l. s. ad form. hypoth.,19,225
+79,79,Marcian. l. s. ad sc Turpill.,19,225
+80,80,Marcian. l. s. de delator.,19,225
+81,81,Marcian. not. ad Pap. adult.,19,225
+82,82,Marcian. reg.,19,225
+83,83,Marcian. x.,19,225
+84,84,Mauric. ad leg. Iul. et Pap.,20,175
+85,85,Mauric. de poen.,20,175
+86,86,Men. de re milit.,4,191
+87,87,Mod. ad Q. Muc.,21,230
+88,88,Mod. de poen.,21,230
+89,89,Mod. de praescr.,21,230
+90,90,Mod. diff.,21,230
+91,91,Mod. excus.,21,230
+92,92,Mod. l. s. de diff. dotis.,21,230
+93,93,Mod. l. s. de enucl. cas.,21,230
+94,94,Mod. l. s. de heuremat.,21,230
+95,95,Mod. l. s. de inoff. testam.,21,230
+96,96,Mod. l. s. de manumiss.,21,230
+97,97,Mod. l. s. de praescr.,21,230
+98,98,Mod. l. s. de ritu nupt.,21,230
+99,99,Mod. pand.,21,230
+100,100,Mod. reg.,21,230
+101,101,Mod. resp.,21,230
+102,102,Muc. l. s. horon.,29,-105
+103,103,Ner. membr.,22,110
+104,104,Ner. reg.,22,110
+105,105,Ner. resp.,22,110
+106,106,Pap. de adult.,23,192
+107,107,Pap. de cura urb.,23,192
+108,108,Pap. def.,23,192
+109,109,Pap. l. s. de adult.,23,192
+110,110,Pap. quaest.,23,192
+111,111,Pap. resp.,23,192
+112,112,Papir. const.,24,170
+113,113,Paul. ad Ner.,25,208
+114,114,Paul. ad Plaut.,25,208
+115,115,Paul. ad Sab.,25,208
+116,116,Paul. ad Vitell.,25,208
+117,117,Paul. ad ed.,25,208
+118,118,Paul. ad ed. aedil. curul.,25,208
+119,119,Paul. ad l. Aeliam Sentiam.,25,208
+120,120,Paul. ad leg. Iul. et Pap.,25,208
+121,121,Paul. ad leg. Iuliam.,25,208
+122,122,Paul. brev.,25,208
+123,123,Paul. de adult.,25,208
+124,124,Paul. de cens.,25,208
+125,125,Paul. de iure fisci.,25,208
+126,126,Paul. de off. procons.,25,208
+127,127,Paul. decr.,25,208
+128,128,Paul. epit. Alf.,25,208
+129,129,Paul. fideicomm.,25,208
+130,130,Paul. imp. sent. i. c. p.,25,208
+131,131,Paul. inst.,25,208
+132,132,Paul. l. s. ad l. Cinc.,25,208
+133,133,Paul. l. s. ad l. Falcid.,25,208
+134,134,Paul. l. s. ad l. Fuf. Canin.,25,208
+135,135,Paul. l. s. ad or. Ant. et Comm.,25,208
+136,136,Paul. l. s. ad reg. Caton.,25,208
+137,137,Paul. l. s. ad sc Claudianum.,25,208
+138,138,Paul. l. s. ad sc Libon.,25,208
+139,139,Paul. l. s. ad sc Orfit.,25,208
+140,140,Paul. l. s. ad sc Silan.,25,208
+141,141,Paul. l. s. ad sc Tert.,25,208
+142,142,Paul. l. s. ad sc Turpill.,25,208
+143,143,Paul. l. s. ad sc Velle.,25,208
+144,144,Paul. l. s. de adsign. libert.,25,208
+145,145,Paul. l. s. de adult.,25,208
+146,146,Paul. l. s. de appellat.,25,208
+147,147,Paul. l. s. de art. liberalis c.,25,208
+148,148,Paul. l. s. de cogn.,25,208
+149,149,Paul. l. s. de concept. form.,25,208
+150,150,Paul. l. s. de concurr. actionum.,25,208
+151,151,Paul. l. s. de dotis repet.,25,208
+152,152,Paul. l. s. de excus.,25,208
+153,153,Paul. l. s. de forma testamenti.,25,208
+154,154,Paul. l. s. de grad. et adfin.,25,208
+155,155,Paul. l. s. de inoff. testam.,25,208
+156,156,Paul. l. s. de instrumenti sign.,25,208
+157,157,Paul. l. s. de intercess.,25,208
+158,158,Paul. l. s. de iure codicill.,25,208
+159,159,Paul. l. s. de iure libellorum.,25,208
+160,160,Paul. l. s. de iure patronatus.,25,208
+161,161,Paul. l. s. de iure singulari.,25,208
+162,162,Paul. l. s. de iuris et facti ignor.,25,208
+163,163,Paul. l. s. de liberali causa.,25,208
+164,164,Paul. l. s. de libertatibus dandis.,25,208
+165,165,Paul. l. s. de off. adsess.,25,208
+166,166,Paul. l. s. de off. praef. vig.,25,208
+167,167,Paul. l. s. de off. pu.,25,208
+168,168,Paul. l. s. de poen. milit.,25,208
+169,169,Paul. l. s. de poen. omnium legum.,25,208
+170,170,Paul. l. s. de poen. pagan.,25,208
+171,171,Paul. l. s. de portion.,25,208
+172,172,Paul. l. s. de publ. iudic.,25,208
+173,173,Paul. l. s. de secundis tabulis.,25,208
+174,174,Paul. l. s. de senatus consultis.,25,208
+175,175,Paul. l. s. de septemvir. iud.,25,208
+176,176,Paul. l. s. de tac. fideicomm.,25,208
+177,177,Paul. l. s. de usur.,25,208
+178,178,Paul. l. s. de var. lect.,25,208
+179,179,Paul. l. s. reg.,25,208
+180,180,Paul. manual.,25,208
+181,181,Paul. not. ad Iul. dig.,25,208
+182,182,Paul. not. ad Pap. quaest.,25,208
+183,183,Paul. quaest.,25,208
+184,184,Paul. reg.,25,208
+185,185,Paul. resp.,25,208
+186,186,Paul. sent.,25,208
+187,187,Paul. x.,25,208
+188,188,Pomp. ad Plaut.,26,135
+189,189,Pomp. ad Q. Muc.,26,135
+190,190,Pomp. ad Sab.,26,135
+191,191,Pomp. enchirid.,26,135
+192,192,Pomp. epist.,26,135
+193,193,Pomp. fideicomm.,26,135
+194,194,Pomp. l. s. enchirid.,26,135
+195,195,Pomp. l. s. reg.,26,135
+196,196,Pomp. sen. consult.,26,135
+197,197,Pomp. var. lect.,26,135
+198,198,Pomp. x.,26,135
+199,199,Proc. epist.,27,55
+200,200,Proc. ex post. Labeonis.,27,55
+201,201,Rutil. l. s. ad l. Falcid.,28,-105
+202,202,Scaev. dig.,29,-105
+203,203,Scaev. l. s. quaest. publ. tract.,29,-105
+204,204,Scaev. not. ad Iul. dig.,29,-105
+205,205,Scaev. quaest.,29,-105
+206,206,Scaev. reg.,29,-105
+207,207,Scaev. resp.,29,-105
+208,208,Tarrunt. de re milit.,30,170
+209,209,Tert. l. s. de castr. peculio.,32,215
+210,210,Tert. quaest.,32,215
+211,211,Tryph. disp.,33,200
+212,212,Ulp. ad Sab.,34,208
+213,213,Ulp. ad ed.,34,208
+214,214,Ulp. ad ed. aedil. curul.,34,208
+215,215,Ulp. ad l. Aeliam Sentiam.,34,208
+216,216,Ulp. ad leg. Iul. et Pap.,34,208
+217,217,Ulp. de adult.,34,208
+218,218,Ulp. de appellat.,34,208
+219,219,Ulp. de cens.,34,208
+220,220,Ulp. de off. cons.,34,208
+221,221,Ulp. de off. procons.,34,208
+222,222,Ulp. de omn. trib.,34,208
+223,223,Ulp. disp.,34,208
+224,224,Ulp. fideicomm.,34,208
+225,225,Ulp. inst.,34,208
+226,226,Ulp. l. s. de off. const.,34,208
+227,227,Ulp. l. s. de off. curat. rei p.,34,208
+228,228,Ulp. l. s. de off. praef. vig.,34,208
+229,229,Ulp. l. s. de off. praet. tutel.,34,208
+230,230,Ulp. l. s. de off. prutelari.,34,208
+231,231,Ulp. l. s. de off. pu.,34,208
+232,232,Ulp. l. s. de off. quaest.,34,208
+233,233,Ulp. l. s. de sponsal.,34,208
+234,234,Ulp. l. s. excus.,34,208
+235,235,Ulp. l. s. pand.,34,208
+236,236,Ulp. l. s. reg.,34,208
+237,237,Ulp. opin.,34,208
+238,238,Ulp. reg.,34,208
+239,239,Ulp. resp.,34,208
+240,240,Ulp. x.,34,208
+241,241,Valens. actionum.,35,135
+242,242,Valens. fideicomm.,35,135
+243,243,Ven. actionum.,36,165
+244,244,Ven. de off. procons.,36,165
+245,245,Ven. de publ. iudic.,36,165
+246,246,Ven. disp.,36,165
+247,247,Ven. interd.,36,165
+248,248,Ven. l. s. de poen. pagan.,36,165
+249,249,Ven. stipul.,36,165

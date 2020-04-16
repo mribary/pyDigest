@@ -1,0 +1,1382 @@
+,Book_id,Book_label,Jurist_id,Mid_date
+0,0,Afr. 0 quaest.,1,150
+1,1,Afr. 1 quaest.,1,150
+2,2,Afr. 2 quaest.,1,150
+3,3,Afr. 3 quaest.,1,150
+4,4,Afr. 4 quaest.,1,150
+5,5,Afr. 5 quaest.,1,150
+6,6,Afr. 6 quaest.,1,150
+7,7,Afr. 7 quaest.,1,150
+8,8,Afr. 8 quaest.,1,150
+9,9,Afr. 9 quaest.,1,150
+10,10,Alf. 2 dig.,2,-41
+11,11,Alf. 4 dig.,2,-41
+12,12,Alf. 5 dig.,2,-41
+13,13,Alf. 6 dig.,2,-41
+14,14,Alf. 7 dig.,2,-41
+15,15,Aquila. 0 resp.,13,208
+16,16,Arcad. l. s. de mun. civil.,3,321
+17,17,Arcad. l. s. de off. praef. pr.,3,321
+18,18,Arcad. l. s. de test.,3,321
+19,19,Call. 0 x.,5,205
+20,20,Call. 0. x.,5,205
+21,21,Call. 1 de cogn.,5,205
+22,22,Call. 1 de iure fisci.,5,205
+23,23,Call. 1 ed. monit.,5,205
+24,24,Call. 1 quaest.,5,205
+25,25,Call. 2 de cogn.,5,205
+26,26,Call. 2 de iure fisci.,5,205
+27,27,Call. 2 ed. monit.,5,205
+28,28,Call. 2 inst.,5,205
+29,29,Call. 2 quaest.,5,205
+30,30,Call. 3 de cogn.,5,205
+31,31,Call. 3 de iure fisci.,5,205
+32,32,Call. 3 ed. monit.,5,205
+33,33,Call. 3 inst.,5,205
+34,34,Call. 4 de cogn.,5,205
+35,35,Call. 4 ed. monit.,5,205
+36,36,Call. 5 de cogn.,5,205
+37,37,Call. 6 de cogn.,5,205
+38,38,Cels. 1 dig.,6,110
+39,39,Cels. 10 dig.,6,110
+40,40,Cels. 11 dig.,6,110
+41,41,Cels. 12 dig.,6,110
+42,42,Cels. 13 dig.,6,110
+43,43,Cels. 14 dig.,6,110
+44,44,Cels. 15 dig.,6,110
+45,45,Cels. 16 dig.,6,110
+46,46,Cels. 17 dig.,6,110
+47,47,Cels. 18 dig.,6,110
+48,48,Cels. 19 dig.,6,110
+49,49,Cels. 2 dig.,6,110
+50,50,Cels. 20 dig.,6,110
+51,51,Cels. 21 dig.,6,110
+52,52,Cels. 22 dig.,6,110
+53,53,Cels. 23 dig.,6,110
+54,54,Cels. 24 dig.,6,110
+55,55,Cels. 25 dig.,6,110
+56,56,Cels. 26 dig.,6,110
+57,57,Cels. 27 dig.,6,110
+58,58,Cels. 28 dig.,6,110
+59,59,Cels. 29 dig.,6,110
+60,60,Cels. 3 dig.,6,110
+61,61,Cels. 30 dig.,6,110
+62,62,Cels. 32 dig.,6,110
+63,63,Cels. 33 dig.,6,110
+64,64,Cels. 34 dig.,6,110
+65,65,Cels. 35 dig.,6,110
+66,66,Cels. 36 dig.,6,110
+67,67,Cels. 37 dig.,6,110
+68,68,Cels. 38 dig.,6,110
+69,69,Cels. 39 dig.,6,110
+70,70,Cels. 4 dig.,6,110
+71,71,Cels. 5 dig.,6,110
+72,72,Cels. 6 dig.,6,110
+73,73,Cels. 7 dig.,6,110
+74,74,Cels. 8 dig.,6,110
+75,75,Cels. 9 dig.,6,110
+76,76,Claud. not. ad Scaev. 18 dig.,33,200
+77,77,Claud. not. ad Scaev. 21 dig.,33,200
+78,78,Claud. not. ad Scaev. 30 dig.,33,200
+79,79,Clem. 10 ad leg. Iul. et Pap.,31,150
+80,80,Clem. 11 ad leg. Iul. et Pap.,31,150
+81,81,Clem. 12 ad leg. Iul. et Pap.,31,150
+82,82,Clem. 13 ad leg. Iul. et Pap.,31,150
+83,83,Clem. 15 ad leg. Iul. et Pap.,31,150
+84,84,Clem. 16 ad leg. Iul. et Pap.,31,150
+85,85,Clem. 17 ad leg. Iul. et Pap.,31,150
+86,86,Clem. 18 ad leg. Iul. et Pap.,31,150
+87,87,Clem. 2 ad leg. Iul. et Pap.,31,150
+88,88,Clem. 3 ad leg. Iul. et Pap.,31,150
+89,89,Clem. 4 ad leg. Iul. et Pap.,31,150
+90,90,Clem. 5 ad leg. Iul. et Pap.,31,150
+91,91,Clem. 8 ad leg. Iul. et Pap.,31,150
+92,92,Clem. 9 ad leg. Iul. et Pap.,31,150
+93,93,Flor. 1 inst.,7,180
+94,94,Flor. 10 inst.,7,180
+95,95,Flor. 11 inst.,7,180
+96,96,Flor. 3 inst.,7,180
+97,97,Flor. 6 inst.,7,180
+98,98,Flor. 7 inst.,7,180
+99,99,Flor. 8 inst.,7,180
+100,100,Flor. 9 inst.,7,180
+101,101,Furius 1 ad ed.,12,129
+102,102,Gai. 0 ad l. XII tab.,9,165
+103,103,Gai. 1 ad ed. aedil. curul.,9,165
+104,104,Gai. 1 ad ed. provinc.,9,165
+105,105,Gai. 1 ad l. XII tab.,9,165
+106,106,Gai. 1 ad leg. Iul. et Pap.,9,165
+107,107,Gai. 1 de legatis ad ed. provinc.,9,165
+108,108,Gai. 1 de manumiss.,9,165
+109,109,Gai. 1 de testam. ad ed. pu.,9,165
+110,110,Gai. 1 de verb. oblig.,9,165
+111,111,Gai. 1 fideicomm.,9,165
+112,112,Gai. 1 inst.,9,165
+113,113,Gai. 1 reg.,9,165
+114,114,Gai. 1 rer. cott.,9,165
+115,115,Gai. 10 ad ed. provinc.,9,165
+116,116,Gai. 10 ad leg. Iul. et Pap.,9,165
+117,117,Gai. 11 ad ed. provinc.,9,165
+118,118,Gai. 11 ad leg. Iul. et Pap.,9,165
+119,119,Gai. 12 ad ed. provinc.,9,165
+120,120,Gai. 12 ad leg. Iul. et Pap.,9,165
+121,121,Gai. 13 ad ed. provinc.,9,165
+122,122,Gai. 13 ad leg. Iul. et Pap.,9,165
+123,123,Gai. 14 ad ed. provinc.,9,165
+124,124,Gai. 14 ad leg. Iul. et Pap.,9,165
+125,125,Gai. 15 ad ed. provinc.,9,165
+126,126,Gai. 15 ad leg. Iul. et Pap.,9,165
+127,127,Gai. 16 ad ed. provinc.,9,165
+128,128,Gai. 17 ad ed. provinc.,9,165
+129,129,Gai. 18 ad ed. provinc.,9,165
+130,130,Gai. 19 ad ed. provinc.,9,165
+131,131,Gai. 2 ad ed. aedil. curul.,9,165
+132,132,Gai. 2 ad ed. provinc.,9,165
+133,133,Gai. 2 ad ed. pu.,9,165
+134,134,Gai. 2 ad ed. pu. de liberali causa.,9,165
+135,135,Gai. 2 ad ed. urbicum.,9,165
+136,136,Gai. 2 ad l. XII tab.,9,165
+137,137,Gai. 2 ad leg. Iul. et Pap.,9,165
+138,138,Gai. 2 de legatis ad ed. provinc.,9,165
+139,139,Gai. 2 de legatis ad ed. urb.,9,165
+140,140,Gai. 2 de testam. ad ed. pu.,9,165
+141,141,Gai. 2 de verb. oblig.,9,165
+142,142,Gai. 2 fideicomm.,9,165
+143,143,Gai. 2 inst.,9,165
+144,144,Gai. 2 rer. cott.,9,165
+145,145,Gai. 20 ad ed. provinc.,9,165
+146,146,Gai. 21 ad ed. provinc.,9,165
+147,147,Gai. 22 ad ed. provinc.,9,165
+148,148,Gai. 23 ad ed. provinc.,9,165
+149,149,Gai. 24 ad ed. provinc.,9,165
+150,150,Gai. 25 ad ed. provinc.,9,165
+151,151,Gai. 26 ad ed. provinc.,9,165
+152,152,Gai. 27 ad ed. provinc.,9,165
+153,153,Gai. 28 ad ed. provinc.,9,165
+154,154,Gai. 29 ad ed. provinc.,9,165
+155,155,Gai. 3 ad ed. provinc.,9,165
+156,156,Gai. 3 ad l. XII tab.,9,165
+157,157,Gai. 3 ad leg. Iul. et Pap.,9,165
+158,158,Gai. 3 de legatis ad ed. provinc.,9,165
+159,159,Gai. 3 de legatis ad ed. urb.,9,165
+160,160,Gai. 3 de manumiss.,9,165
+161,161,Gai. 3 de verb. oblig.,9,165
+162,162,Gai. 3 inst.,9,165
+163,163,Gai. 3 reg.,9,165
+164,164,Gai. 3 rer. cott.,9,165
+165,165,Gai. 30 ad ed. provinc.,9,165
+166,166,Gai. 4 ad ed. provinc.,9,165
+167,167,Gai. 4 ad l. XII tab.,9,165
+168,168,Gai. 4 ad leg. Iul. et Pap.,9,165
+169,169,Gai. 5 ad ed. provinc.,9,165
+170,170,Gai. 5 ad l. XII tab.,9,165
+171,171,Gai. 5 ad leg. Iul. et Pap.,9,165
+172,172,Gai. 6 ad ed. provinc.,9,165
+173,173,Gai. 6 ad l. XII tab.,9,165
+174,174,Gai. 6 ad leg. Iul. et Pap.,9,165
+175,175,Gai. 7 ad ed. provinc.,9,165
+176,176,Gai. 8 ad ed. provinc.,9,165
+177,177,Gai. 8 ad leg. Iul. et Pap.,9,165
+178,178,Gai. 9 ad ed. provinc.,9,165
+179,179,Gai. 9 ad leg. Iul. et Pap.,9,165
+180,180,Gai. ad ed. pu.,9,165
+181,181,Gai. ad ed. pu. de liberali causa.,9,165
+182,182,Gai. ad ed. pu. de praediator.,9,165
+183,183,Gai. ad ed. pu. de publicanis.,9,165
+184,184,Gai. ad ed. pu. de re iudicata.,9,165
+185,185,Gai. ad ed. pu. q. n. s. n. d.,9,165
+186,186,Gai. l. s. ad l. Glitiam.,9,165
+187,187,Gai. l. s. ad sc Orfit.,9,165
+188,188,Gai. l. s. ad sc Tert.,9,165
+189,189,Gai. l. s. de casib.,9,165
+190,190,Gai. l. s. de form. hypoth.,9,165
+191,191,Gai. l. s. de tac. fideicomm.,9,165
+192,192,Gai. l. s. reg.,9,165
+193,193,Gallus. 1 de verb. sign.,0,-47
+194,194,Hermog. 1 iuris epit.,10,345
+195,195,Hermog. 2 iuris epit.,10,345
+196,196,Hermog. 3 iuris epit.,10,345
+197,197,Hermog. 4 iuris epit.,10,345
+198,198,Hermog. 4 iuris. epit.,10,345
+199,199,Hermog. 5 iuris epit.,10,345
+200,200,Hermog. 6 iuris epit.,10,345
+201,201,Iav. 1 ad Plaut.,11,102
+202,202,Iav. 1 epist.,11,102
+203,203,Iav. 1 ex Cass.,11,102
+204,204,Iav. 1 ex post. Labeonis.,11,102
+205,205,Iav. 10 epist.,11,102
+206,206,Iav. 10 ex Cass.,11,102
+207,207,Iav. 10 ex post. Labeonis.,11,102
+208,208,Iav. 11 epist.,11,102
+209,209,Iav. 11 ex Cass.,11,102
+210,210,Iav. 12 epist.,11,102
+211,211,Iav. 12 ex Cass.,11,102
+212,212,Iav. 13 epist.,11,102
+213,213,Iav. 13 ex Cass.,11,102
+214,214,Iav. 14 epist.,11,102
+215,215,Iav. 14 ex Cass.,11,102
+216,216,Iav. 15 ex Cass.,11,102
+217,217,Iav. 2 ad Plaut.,11,102
+218,218,Iav. 2 epist.,11,102
+219,219,Iav. 2 ex Cass.,11,102
+220,220,Iav. 2 ex post. Labeonis.,11,102
+221,221,Iav. 3 ad Plaut.,11,102
+222,222,Iav. 3 epist.,11,102
+223,223,Iav. 3 ex Cass.,11,102
+224,224,Iav. 3 ex post. Labeonis.,11,102
+225,225,Iav. 4 ad Plaut.,11,102
+226,226,Iav. 4 epist.,11,102
+227,227,Iav. 4 ex Cass.,11,102
+228,228,Iav. 4 ex post. Labeonis.,11,102
+229,229,Iav. 5 ad Plaut.,11,102
+230,230,Iav. 5 epist.,11,102
+231,231,Iav. 5 ex Cass.,11,102
+232,232,Iav. 5 ex post. Labeonis.,11,102
+233,233,Iav. 6 epist.,11,102
+234,234,Iav. 6 ex Cass.,11,102
+235,235,Iav. 6 ex post. Labeonis.,11,102
+236,236,Iav. 7 epist.,11,102
+237,237,Iav. 7 ex Cass.,11,102
+238,238,Iav. 8 epist.,11,102
+239,239,Iav. 8 ex Cass.,11,102
+240,240,Iav. 8 ex post. Labeonis.,11,102
+241,241,Iav. 9 epist.,11,102
+242,242,Iav. 9 ex Cass.,11,102
+243,243,Iav. 9 ex post. Labeonis.,11,102
+244,244,Iul. 1 ad Urs. Ferocem.,12,129
+245,245,Iul. 1 ad ed.,12,129
+246,246,Iul. 1 dig.,12,129
+247,247,Iul. 1 ex Minic.,12,129
+248,248,Iul. 10 dig.,12,129
+249,249,Iul. 11 dig.,12,129
+250,250,Iul. 12 dig.,12,129
+251,251,Iul. 13 dig.,12,129
+252,252,Iul. 14 dig.,12,129
+253,253,Iul. 15 dig.,12,129
+254,254,Iul. 16 dig.,12,129
+255,255,Iul. 17 dig.,12,129
+256,256,Iul. 18 dig.,12,129
+257,257,Iul. 19 dig.,12,129
+258,258,Iul. 2 ad Urs. Ferocem.,12,129
+259,259,Iul. 2 dig.,12,129
+260,260,Iul. 2 ex Minic.,12,129
+261,261,Iul. 20 dig.,12,129
+262,262,Iul. 21 dig.,12,129
+263,263,Iul. 22 dig.,12,129
+264,264,Iul. 23 dig.,12,129
+265,265,Iul. 24 dig.,12,129
+266,266,Iul. 25 dig.,12,129
+267,267,Iul. 26 dig.,12,129
+268,268,Iul. 27 dig.,12,129
+269,269,Iul. 28 dig.,12,129
+270,270,Iul. 29 dig.,12,129
+271,271,Iul. 3 ad Urs. Ferocem.,12,129
+272,272,Iul. 3 dig.,12,129
+273,273,Iul. 3 ex Minic.,12,129
+274,274,Iul. 30 dig.,12,129
+275,275,Iul. 31 dig.,12,129
+276,276,Iul. 32 dig.,12,129
+277,277,Iul. 33 dig.,12,129
+278,278,Iul. 34 dig.,12,129
+279,279,Iul. 35 dig.,12,129
+280,280,Iul. 36 dig.,12,129
+281,281,Iul. 37 dig.,12,129
+282,282,Iul. 38 dig.,12,129
+283,283,Iul. 39 dig.,12,129
+284,284,Iul. 4 ad Urs. Ferocem.,12,129
+285,285,Iul. 4 dig.,12,129
+286,286,Iul. 4 ex Minic.,12,129
+287,287,Iul. 40 dig.,12,129
+288,288,Iul. 41 dig.,12,129
+289,289,Iul. 42 dig.,12,129
+290,290,Iul. 43 dig.,12,129
+291,291,Iul. 44 dig.,12,129
+292,292,Iul. 45 dig.,12,129
+293,293,Iul. 46 dig.,12,129
+294,294,Iul. 47 dig.,12,129
+295,295,Iul. 48 dig.,12,129
+296,296,Iul. 49 dig.,12,129
+297,297,Iul. 5 dig.,12,129
+298,298,Iul. 5 ex Minic.,12,129
+299,299,Iul. 50 dig.,12,129
+300,300,Iul. 51 dig.,12,129
+301,301,Iul. 52 dig.,12,129
+302,302,Iul. 53 dig.,12,129
+303,303,Iul. 54 dig.,12,129
+304,304,Iul. 55 dig.,12,129
+305,305,Iul. 56 dig.,12,129
+306,306,Iul. 57 dig.,12,129
+307,307,Iul. 58 dig.,12,129
+308,308,Iul. 59 dig.,12,129
+309,309,Iul. 6 dig.,12,129
+310,310,Iul. 6 ex Minic.,12,129
+311,311,Iul. 60 dig.,12,129
+312,312,Iul. 61 dig.,12,129
+313,313,Iul. 62 dig.,12,129
+314,314,Iul. 63 dig.,12,129
+315,315,Iul. 64 dig.,12,129
+316,316,Iul. 65 dig.,12,129
+317,317,Iul. 68 dig.,12,129
+318,318,Iul. 69 dig.,12,129
+319,319,Iul. 7 dig.,12,129
+320,320,Iul. 70 dig.,12,129
+321,321,Iul. 73 dig.,12,129
+322,322,Iul. 77 dig.,12,129
+323,323,Iul. 78 dig.,12,129
+324,324,Iul. 8 dig.,12,129
+325,325,Iul. 80 dig.,12,129
+326,326,Iul. 81 dig.,12,129
+327,327,Iul. 82 dig.,12,129
+328,328,Iul. 83 dig.,12,129
+329,329,Iul. 84 dig.,12,129
+330,330,Iul. 85 dig.,12,129
+331,331,Iul. 86 dig.,12,129
+332,332,Iul. 87 dig.,12,129
+333,333,Iul. 88 dig.,12,129
+334,334,Iul. 89 dig.,12,129
+335,335,Iul. 9 dig.,12,129
+336,336,Iul. 90 dig.,12,129
+337,337,Iul. ad Urs. Ferocem.,12,129
+338,338,Iul. l. s. de ambig.,12,129
+339,339,Lab. 1 pith.,14,-62
+340,340,Lab. 2 pith.,14,-62
+341,341,Lab. 3 pith.,14,-62
+342,342,Lab. 4 pith.,14,-62
+343,343,Lab. 5 pith.,14,-62
+344,344,Lab. 6 ex post. Labeonis.,11,102
+345,345,Lab. 6 pith.,14,-62
+346,346,Lab. 7 pith.,14,-62
+347,347,Lab. 8 pith.,14,-62
+348,348,Licin. 1 reg.,15,248
+349,349,Licin. 10 reg.,15,248
+350,350,Licin. 13 reg.,15,248
+351,351,Licin. 2 reg.,15,248
+352,352,Licin. 3 reg.,15,248
+353,353,Licin. 4 reg.,15,248
+354,354,Licin. 5 reg.,15,248
+355,355,Licin. 6 reg.,15,248
+356,356,Licin. 7 reg.,15,248
+357,357,Licin. 8 reg.,15,248
+358,358,Macer. 0 de publ. iudic.,16,230
+359,359,Macer. 1 ad l. vices.,16,230
+360,360,Macer. 1 de appellat.,16,230
+361,361,Macer. 1 de off. praesid.,16,230
+362,362,Macer. 1 de publ. iudic.,16,230
+363,363,Macer. 1 de re milit.,16,230
+364,364,Macer. 2 ad l. vices.,16,230
+365,365,Macer. 2 de appellat.,16,230
+366,366,Macer. 2 de off. praesid.,16,230
+367,367,Macer. 2 de publ. iudic.,16,230
+368,368,Macer. 2 de re milit.,16,230
+369,369,Maec. 1 fideicomm.,17,135
+370,370,Maec. 10 de publ. iudic.,17,135
+371,371,Maec. 10 fideicomm.,17,135
+372,372,Maec. 11 de publ. iudic.,17,135
+373,373,Maec. 12 fideicomm.,17,135
+374,374,Maec. 13 fideicomm.,17,135
+375,375,Maec. 15 fideicomm.,17,135
+376,376,Maec. 16 fideicomm.,17,135
+377,377,Maec. 2 fideicomm.,17,135
+378,378,Maec. 3 fideicomm.,17,135
+379,379,Maec. 4 fideicomm.,17,135
+380,380,Maec. 5 de publ. iudic.,17,135
+381,381,Maec. 5 fideicomm.,17,135
+382,382,Maec. 6 fideicomm.,17,135
+383,383,Maec. 7 fideicomm.,17,135
+384,384,Maec. 8 fideicomm.,17,135
+385,385,Maec. 9 fideicomm.,17,135
+386,386,Maec. ex l. Rhodia.,17,135
+387,387,Marcell. 1 ad leg. Iul. et Pap.,18,145
+388,388,Marcell. 1 de off. praesid.,18,145
+389,389,Marcell. 1 dig.,18,145
+390,390,Marcell. 10 dig.,18,145
+391,391,Marcell. 11 dig.,18,145
+392,392,Marcell. 12 dig.,18,145
+393,393,Marcell. 13 dig.,18,145
+394,394,Marcell. 14 dig.,18,145
+395,395,Marcell. 15 dig.,18,145
+396,396,Marcell. 16 dig.,18,145
+397,397,Marcell. 17 dig.,18,145
+398,398,Marcell. 18 dig.,18,145
+399,399,Marcell. 19 dig.,18,145
+400,400,Marcell. 2 dig.,18,145
+401,401,Marcell. 2 publ.,18,145
+402,402,Marcell. 20 dig.,18,145
+403,403,Marcell. 21 dig.,18,145
+404,404,Marcell. 22 dig.,18,145
+405,405,Marcell. 23 dig.,18,145
+406,406,Marcell. 24 dig.,18,145
+407,407,Marcell. 25 dig.,18,145
+408,408,Marcell. 26 dig.,18,145
+409,409,Marcell. 28 dig.,18,145
+410,410,Marcell. 29 dig.,18,145
+411,411,Marcell. 3 ad leg. Iul. et Pap.,18,145
+412,412,Marcell. 3 dig.,18,145
+413,413,Marcell. 30 dig.,18,145
+414,414,Marcell. 31 dig.,18,145
+415,415,Marcell. 39 dig.,18,145
+416,416,Marcell. 4 dig.,18,145
+417,417,Marcell. 40 dig.,18,145
+418,418,Marcell. 5 dig.,18,145
+419,419,Marcell. 6 dig.,18,145
+420,420,Marcell. 7 dig.,18,145
+421,421,Marcell. 8 dig.,18,145
+422,422,Marcell. 9 dig.,18,145
+423,423,Marcell. l. s. resp.,18,145
+424,424,Marcell. not. ad Iul. 27 dig.,18,145
+425,425,Marcell. not. ad Iul. 29 dig.,18,145
+426,426,Marcell. not. ad Iul. 30 dig.,18,145
+427,427,Marcell. not. ad Iul. 32 dig.,18,145
+428,428,Marcell. not. ad Iul. 42 dig.,18,145
+429,429,Marcell. not. ad Pomp. l. s. reg.,18,145
+430,430,Marcian. 0 x.,19,225
+431,431,Marcian. 1 de appellat.,19,225
+432,432,Marcian. 1 de publ. iudic.,19,225
+433,433,Marcian. 1 inst.,19,225
+434,434,Marcian. 1 reg.,19,225
+435,435,Marcian. 10 inst.,19,225
+436,436,Marcian. 11 inst.,19,225
+437,437,Marcian. 12 inst.,19,225
+438,438,Marcian. 13 inst.,19,225
+439,439,Marcian. 14 inst.,19,225
+440,440,Marcian. 15 inst.,19,225
+441,441,Marcian. 16 inst.,19,225
+442,442,Marcian. 2 de adult.,19,225
+443,443,Marcian. 2 de appellat.,19,225
+444,444,Marcian. 2 de publ. iudic.,19,225
+445,445,Marcian. 2 inst.,19,225
+446,446,Marcian. 2 reg.,19,225
+447,447,Marcian. 3 inst.,19,225
+448,448,Marcian. 3 reg.,19,225
+449,449,Marcian. 4 inst.,19,225
+450,450,Marcian. 4 reg.,19,225
+451,451,Marcian. 5 inst.,19,225
+452,452,Marcian. 5 reg.,19,225
+453,453,Marcian. 6 inst.,19,225
+454,454,Marcian. 7 dig.,19,225
+455,455,Marcian. 7 inst.,19,225
+456,456,Marcian. 8 inst.,19,225
+457,457,Marcian. 9 inst.,19,225
+458,458,Marcian. de publ. iudic.,19,225
+459,459,Marcian. l. s. ad form. hypoth.,19,225
+460,460,Marcian. l. s. ad sc Turpill.,19,225
+461,461,Marcian. l. s. de delator.,19,225
+462,462,Marcian. not. ad Pap. 2 adult.,19,225
+463,463,Mauric. 2 ad leg. Iul. et Pap.,20,175
+464,464,Mauric. 2 de poen.,20,175
+465,465,Mauric. 3 ad leg. Iul. et Pap.,20,175
+466,466,Men. 1 de re milit.,4,191
+467,467,Men. 2 de re milit.,4,191
+468,468,Men. 3 de re milit.,4,191
+469,469,Mod. 0 diff.,21,230
+470,470,Mod. 0 pand.,21,230
+471,471,Mod. 1 de poen.,21,230
+472,472,Mod. 1 diff.,21,230
+473,473,Mod. 1 excus.,21,230
+474,474,Mod. 1 pand.,21,230
+475,475,Mod. 1 reg.,21,230
+476,476,Mod. 1 resp.,21,230
+477,477,Mod. 10 pand.,21,230
+478,478,Mod. 10 resp.,21,230
+479,479,Mod. 11 pand.,21,230
+480,480,Mod. 11 resp.,21,230
+481,481,Mod. 12 pand.,21,230
+482,482,Mod. 12 resp.,21,230
+483,483,Mod. 13 resp.,21,230
+484,484,Mod. 14 ad Q. Muc.,21,230
+485,485,Mod. 14 resp.,21,230
+486,486,Mod. 15 resp.,21,230
+487,487,Mod. 16 resp.,21,230
+488,488,Mod. 17 resp.,21,230
+489,489,Mod. 18 resp.,21,230
+490,490,Mod. 2 de poen.,21,230
+491,491,Mod. 2 diff.,21,230
+492,492,Mod. 2 excus.,21,230
+493,493,Mod. 2 pand.,21,230
+494,494,Mod. 2 reg.,21,230
+495,495,Mod. 2 resp.,21,230
+496,496,Mod. 3 de poen.,21,230
+497,497,Mod. 3 diff.,21,230
+498,498,Mod. 3 excus.,21,230
+499,499,Mod. 3 pand.,21,230
+500,500,Mod. 3 reg.,21,230
+501,501,Mod. 3 resp.,21,230
+502,502,Mod. 31 ad Q. Muc.,21,230
+503,503,Mod. 4 de poen.,21,230
+504,504,Mod. 4 de praescr.,21,230
+505,505,Mod. 4 diff.,21,230
+506,506,Mod. 4 excus.,21,230
+507,507,Mod. 4 pand.,21,230
+508,508,Mod. 4 reg.,21,230
+509,509,Mod. 4 resp.,21,230
+510,510,Mod. 5 diff.,21,230
+511,511,Mod. 5 excus.,21,230
+512,512,Mod. 5 pand.,21,230
+513,513,Mod. 5 reg.,21,230
+514,514,Mod. 5 resp.,21,230
+515,515,Mod. 6 diff.,21,230
+516,516,Mod. 6 excus.,21,230
+517,517,Mod. 6 pand.,21,230
+518,518,Mod. 6 reg.,21,230
+519,519,Mod. 6 resp.,21,230
+520,520,Mod. 7 diff.,21,230
+521,521,Mod. 7 pand.,21,230
+522,522,Mod. 7 reg.,21,230
+523,523,Mod. 7 resp.,21,230
+524,524,Mod. 8 diff.,21,230
+525,525,Mod. 8 pand.,21,230
+526,526,Mod. 8 reg.,21,230
+527,527,Mod. 8 resp.,21,230
+528,528,Mod. 9 diff.,21,230
+529,529,Mod. 9 pand.,21,230
+530,530,Mod. 9 reg.,21,230
+531,531,Mod. 9 resp.,21,230
+532,532,Mod. l. s. de diff. dotis.,21,230
+533,533,Mod. l. s. de enucl. cas.,21,230
+534,534,Mod. l. s. de heuremat.,21,230
+535,535,Mod. l. s. de inoff. testam.,21,230
+536,536,Mod. l. s. de manumiss.,21,230
+537,537,Mod. l. s. de praescr.,21,230
+538,538,Mod. l. s. de ritu nupt.,21,230
+539,539,Muc. l. s. horon.,29,-105
+540,540,Ner. 1 membr.,22,110
+541,541,Ner. 1 resp.,22,110
+542,542,Ner. 10 reg.,22,110
+543,543,Ner. 2 membr.,22,110
+544,544,Ner. 2 resp.,22,110
+545,545,Ner. 3 membr.,22,110
+546,546,Ner. 3 reg.,22,110
+547,547,Ner. 4 membr.,22,110
+548,548,Ner. 4 reg.,22,110
+549,549,Ner. 5 membr.,22,110
+550,550,Ner. 5 reg.,22,110
+551,551,Ner. 6 membr.,22,110
+552,552,Ner. 6 reg.,22,110
+553,553,Ner. 7 membr.,22,110
+554,554,Pap. 1 de adult.,23,192
+555,555,Pap. 1 def.,23,192
+556,556,Pap. 1 quaest.,23,192
+557,557,Pap. 1 resp.,23,192
+558,558,Pap. 10 quaest.,23,192
+559,559,Pap. 10 resp.,23,192
+560,560,Pap. 11 quaest.,23,192
+561,561,Pap. 11 resp.,23,192
+562,562,Pap. 12 quaest.,23,192
+563,563,Pap. 12 resp.,23,192
+564,564,Pap. 13 quaest.,23,192
+565,565,Pap. 13 resp.,23,192
+566,566,Pap. 14 quaest.,23,192
+567,567,Pap. 14 resp.,23,192
+568,568,Pap. 15 quaest.,23,192
+569,569,Pap. 15 resp.,23,192
+570,570,Pap. 16 quaest.,23,192
+571,571,Pap. 16 resp.,23,192
+572,572,Pap. 17 quaest.,23,192
+573,573,Pap. 17 resp.,23,192
+574,574,Pap. 18 quaest.,23,192
+575,575,Pap. 19 quaest.,23,192
+576,576,Pap. 19 resp.,23,192
+577,577,Pap. 2 de adult.,23,192
+578,578,Pap. 2 def.,23,192
+579,579,Pap. 2 quaest.,23,192
+580,580,Pap. 2 resp.,23,192
+581,581,Pap. 20 quaest.,23,192
+582,582,Pap. 21 quaest.,23,192
+583,583,Pap. 22 quaest.,23,192
+584,584,Pap. 23 quaest.,23,192
+585,585,Pap. 24 quaest.,23,192
+586,586,Pap. 25 quaest.,23,192
+587,587,Pap. 26 quaest.,23,192
+588,588,Pap. 27 quaest.,23,192
+589,589,Pap. 28 quaest.,23,192
+590,590,Pap. 29 quaest.,23,192
+591,591,Pap. 3 quaest.,23,192
+592,592,Pap. 3 resp.,23,192
+593,593,Pap. 30 quaest.,23,192
+594,594,Pap. 31 quaest.,23,192
+595,595,Pap. 32 quaest.,23,192
+596,596,Pap. 33 quaest.,23,192
+597,597,Pap. 34 quaest.,23,192
+598,598,Pap. 35 quaest.,23,192
+599,599,Pap. 36 quaest.,23,192
+600,600,Pap. 37 quaest.,23,192
+601,601,Pap. 4 quaest.,23,192
+602,602,Pap. 4 resp.,23,192
+603,603,Pap. 5 quaest.,23,192
+604,604,Pap. 5 resp.,23,192
+605,605,Pap. 6 quaest.,23,192
+606,606,Pap. 6 resp.,23,192
+607,607,Pap. 7 quaest.,23,192
+608,608,Pap. 7 resp.,23,192
+609,609,Pap. 8 quaest.,23,192
+610,610,Pap. 8 resp.,23,192
+611,611,Pap. 9 quaest.,23,192
+612,612,Pap. 9 resp.,23,192
+613,613,Pap. de cura urb.,23,192
+614,614,Pap. l. s. de adult.,23,192
+615,615,Papir. 1 const.,24,170
+616,616,Papir. 2 const.,24,170
+617,617,Papir. 8 const.,24,170
+618,618,Paul. 0 quaest.,25,208
+619,619,Paul. 0 x.,25,208
+620,620,Paul. 1 ad Ner.,25,208
+621,621,Paul. 1 ad Plaut.,25,208
+622,622,Paul. 1 ad Sab.,25,208
+623,623,Paul. 1 ad Vitell.,25,208
+624,624,Paul. 1 ad ed.,25,208
+625,625,Paul. 1 ad ed. aedil. curul.,25,208
+626,626,Paul. 1 ad l. Aeliam Sentiam.,25,208
+627,627,Paul. 1 ad leg. Iul. et Pap.,25,208
+628,628,Paul. 1 ad leg. Iuliam.,25,208
+629,629,Paul. 1 de adult.,25,208
+630,630,Paul. 1 de iure fisci.,25,208
+631,631,Paul. 1 de off. procons.,25,208
+632,632,Paul. 1 decr.,25,208
+633,633,Paul. 1 epit. Alf.,25,208
+634,634,Paul. 1 fideicomm.,25,208
+635,635,Paul. 1 imp. sent. In c.p.,25,208
+636,636,Paul. 1 imp. sent. i. c. p.,25,208
+637,637,Paul. 1 inst.,25,208
+638,638,Paul. 1 manual.,25,208
+639,639,Paul. 1 quaest.,25,208
+640,640,Paul. 1 reg.,25,208
+641,641,Paul. 1 resp.,25,208
+642,642,Paul. 1 sent.,25,208
+643,643,Paul. 10 ad Plaut.,25,208
+644,644,Paul. 10 ad Sab.,25,208
+645,645,Paul. 10 ad ed.,25,208
+646,646,Paul. 10 ad leg. Iul. et Pap.,25,208
+647,647,Paul. 10 quaest.,25,208
+648,648,Paul. 10 resp.,25,208
+649,649,Paul. 11 ad Plaut.,25,208
+650,650,Paul. 11 ad Sab.,25,208
+651,651,Paul. 11 ad ed.,25,208
+652,652,Paul. 11 quaest.,25,208
+653,653,Paul. 11 resp.,25,208
+654,654,Paul. 12 ad Plaut.,25,208
+655,655,Paul. 12 ad Sab.,25,208
+656,656,Paul. 12 ad ed.,25,208
+657,657,Paul. 12 ad leg. Iul. et Pap.,25,208
+658,658,Paul. 12 quaest.,25,208
+659,659,Paul. 12 resp.,25,208
+660,660,Paul. 13 ad Plaut.,25,208
+661,661,Paul. 13 ad Sab.,25,208
+662,662,Paul. 13 ad ed.,25,208
+663,663,Paul. 13 quaest.,25,208
+664,664,Paul. 13 resp.,25,208
+665,665,Paul. 14 ad Plaut.,25,208
+666,666,Paul. 14 ad Sab.,25,208
+667,667,Paul. 14 ad ed.,25,208
+668,668,Paul. 14 quaest.,25,208
+669,669,Paul. 14 resp.,25,208
+670,670,Paul. 15 ad Plaut.,25,208
+671,671,Paul. 15 ad Sab.,25,208
+672,672,Paul. 15 ad ed.,25,208
+673,673,Paul. 15 quaest.,25,208
+674,674,Paul. 15 resp.,25,208
+675,675,Paul. 16 ad Plaut.,25,208
+676,676,Paul. 16 ad Sab.,25,208
+677,677,Paul. 16 ad ed.,25,208
+678,678,Paul. 16 brev.,25,208
+679,679,Paul. 16 quaest.,25,208
+680,680,Paul. 16 resp.,25,208
+681,681,Paul. 17 ad Plaut.,25,208
+682,682,Paul. 17 ad ed.,25,208
+683,683,Paul. 17 quaest.,25,208
+684,684,Paul. 17 resp.,25,208
+685,685,Paul. 18 ad Plaut.,25,208
+686,686,Paul. 18 ad ed.,25,208
+687,687,Paul. 18 resp.,25,208
+688,688,Paul. 19 ad ed.,25,208
+689,689,Paul. 19 quaest.,25,208
+690,690,Paul. 19 resp.,25,208
+691,691,Paul. 2 ad Ner.,25,208
+692,692,Paul. 2 ad Plaut.,25,208
+693,693,Paul. 2 ad Sab.,25,208
+694,694,Paul. 2 ad Vitell.,25,208
+695,695,Paul. 2 ad ed.,25,208
+696,696,Paul. 2 ad ed. aedil. curul.,25,208
+697,697,Paul. 2 ad l. Aeliam Sentiam.,25,208
+698,698,Paul. 2 ad leg. Iul. et Pap.,25,208
+699,699,Paul. 2 de adult.,25,208
+700,700,Paul. 2 de cens.,25,208
+701,701,Paul. 2 de off. procons.,25,208
+702,702,Paul. 2 decr.,25,208
+703,703,Paul. 2 epit. Alf.,25,208
+704,704,Paul. 2 fideicomm.,25,208
+705,705,Paul. 2 imp. sent. i. c. p.,25,208
+706,706,Paul. 2 inst.,25,208
+707,707,Paul. 2 manual.,25,208
+708,708,Paul. 2 quaest.,25,208
+709,709,Paul. 2 reg.,25,208
+710,710,Paul. 2 resp.,25,208
+711,711,Paul. 2 sent.,25,208
+712,712,Paul. 20 ad ed.,25,208
+713,713,Paul. 20 resp.,25,208
+714,714,Paul. 21 ad ed.,25,208
+715,715,Paul. 21 quaest.,25,208
+716,716,Paul. 21 resp.,25,208
+717,717,Paul. 22 ad ed.,25,208
+718,718,Paul. 22 quaest.,25,208
+719,719,Paul. 23 ad ed.,25,208
+720,720,Paul. 23 quaest.,25,208
+721,721,Paul. 24 ad ed.,25,208
+722,722,Paul. 24 quaest.,25,208
+723,723,Paul. 25 ad ed.,25,208
+724,724,Paul. 25 quaest.,25,208
+725,725,Paul. 26 ad ed.,25,208
+726,726,Paul. 27 ad ed.,25,208
+727,727,Paul. 28 ad ed.,25,208
+728,728,Paul. 29 ad ed.,25,208
+729,729,Paul. 3  epit. Alf.,25,208
+730,730,Paul. 3 ad Ner.,25,208
+731,731,Paul. 3 ad Plaut.,25,208
+732,732,Paul. 3 ad Sab.,25,208
+733,733,Paul. 3 ad Vitell.,25,208
+734,734,Paul. 3 ad ed.,25,208
+735,735,Paul. 3 ad l. Aeliam Sentiam.,25,208
+736,736,Paul. 3 ad leg. Iul. et Pap.,25,208
+737,737,Paul. 3 brev.,25,208
+738,738,Paul. 3 de adult.,25,208
+739,739,Paul. 3 decr.,25,208
+740,740,Paul. 3 epit. Alf.,25,208
+741,741,Paul. 3 fideicomm.,25,208
+742,742,Paul. 3 quaest.,25,208
+743,743,Paul. 3 reg.,25,208
+744,744,Paul. 3 resp.,25,208
+745,745,Paul. 3 sent.,25,208
+746,746,Paul. 30 ad ed.,25,208
+747,747,Paul. 31 ad ed.,25,208
+748,748,Paul. 32 ad Sab.,25,208
+749,749,Paul. 32 ad ed.,25,208
+750,750,Paul. 33 ad ed.,25,208
+751,751,Paul. 34 ad ed.,25,208
+752,752,Paul. 35 ad ed.,25,208
+753,753,Paul. 36 ad ed.,25,208
+754,754,Paul. 37 ad ed.,25,208
+755,755,Paul. 38 ad ed.,25,208
+756,756,Paul. 39 ad ed.,25,208
+757,757,Paul. 4 ad Ner.,25,208
+758,758,Paul. 4 ad Plaut.,25,208
+759,759,Paul. 4 ad Sab.,25,208
+760,760,Paul. 4 ad Vitell.,25,208
+761,761,Paul. 4 ad ed.,25,208
+762,762,Paul. 4 ad leg. Iul. et Pap.,25,208
+763,763,Paul. 4 epit. Alf.,25,208
+764,764,Paul. 4 quaest.,25,208
+765,765,Paul. 4 reg.,25,208
+766,766,Paul. 4 resp.,25,208
+767,767,Paul. 4 sent.,25,208
+768,768,Paul. 40 ad Sab.,25,208
+769,769,Paul. 40 ad ed.,25,208
+770,770,Paul. 41 ad ed.,25,208
+771,771,Paul. 42 ad ed.,25,208
+772,772,Paul. 43 ad ed.,25,208
+773,773,Paul. 44 ad ed.,25,208
+774,774,Paul. 45 ad ed.,25,208
+775,775,Paul. 46 ad ed.,25,208
+776,776,Paul. 47 ad ed.,25,208
+777,777,Paul. 48 ad ed.,25,208
+778,778,Paul. 49 ad ed.,25,208
+779,779,Paul. 5 ad Plaut.,25,208
+780,780,Paul. 5 ad Sab.,25,208
+781,781,Paul. 5 ad ed.,25,208
+782,782,Paul. 5 ad leg. Iul. et Pap.,25,208
+783,783,Paul. 5 ad leg. Iuliam.,25,208
+784,784,Paul. 5 epit. Alf.,25,208
+785,785,Paul. 5 quaest.,25,208
+786,786,Paul. 5 resp.,25,208
+787,787,Paul. 5 sent.,25,208
+788,788,Paul. 50 ad ed.,25,208
+789,789,Paul. 51 ad ed.,25,208
+790,790,Paul. 52 ad ed.,25,208
+791,791,Paul. 53 ad ed.,25,208
+792,792,Paul. 54 ad ed.,25,208
+793,793,Paul. 55 ad ed.,25,208
+794,794,Paul. 56 ad ed.,25,208
+795,795,Paul. 57 ad ed.,25,208
+796,796,Paul. 58 ad ed.,25,208
+797,797,Paul. 59 ad ed.,25,208
+798,798,Paul. 6 ad Plaut.,25,208
+799,799,Paul. 6 ad Sab.,25,208
+800,800,Paul. 6 ad ed.,25,208
+801,801,Paul. 6 ad leg. Iul. et Pap.,25,208
+802,802,Paul. 6 brev.,25,208
+803,803,Paul. 6 epit. Alf.,25,208
+804,804,Paul. 6 quaest.,25,208
+805,805,Paul. 6 reg.,25,208
+806,806,Paul. 6 resp.,25,208
+807,807,Paul. 60 ad ed.,25,208
+808,808,Paul. 61 ad ed.,25,208
+809,809,Paul. 62 ad ed.,25,208
+810,810,Paul. 63 ad ed.,25,208
+811,811,Paul. 64 ad ed.,25,208
+812,812,Paul. 65 ad ed.,25,208
+813,813,Paul. 66 ad ed.,25,208
+814,814,Paul. 67 ad ed.,25,208
+815,815,Paul. 68 ad ed.,25,208
+816,816,Paul. 69 ad ed.,25,208
+817,817,Paul. 7 ad Plaut.,25,208
+818,818,Paul. 7 ad Sab.,25,208
+819,819,Paul. 7 ad ed.,25,208
+820,820,Paul. 7 ad leg. Iul. et Pap.,25,208
+821,821,Paul. 7 brev.,25,208
+822,822,Paul. 7 quaest.,25,208
+823,823,Paul. 7 resp.,25,208
+824,824,Paul. 70 ad ed.,25,208
+825,825,Paul. 71 ad ed.,25,208
+826,826,Paul. 72 ad ed.,25,208
+827,827,Paul. 73 ad ed.,25,208
+828,828,Paul. 74 ad ed.,25,208
+829,829,Paul. 75 ad ed.,25,208
+830,830,Paul. 76 ad ed.,25,208
+831,831,Paul. 77 ad ed.,25,208
+832,832,Paul. 78 ad ed.,25,208
+833,833,Paul. 8 ad Plaut.,25,208
+834,834,Paul. 8 ad Sab.,25,208
+835,835,Paul. 8 ad ed.,25,208
+836,836,Paul. 8 ad leg. Iul. et Pap.,25,208
+837,837,Paul. 8 brev.,25,208
+838,838,Paul. 8 epit. Alf.,25,208
+839,839,Paul. 8 quaest.,25,208
+840,840,Paul. 8 resp.,25,208
+841,841,Paul. 9 ad Plaut.,25,208
+842,842,Paul. 9 ad Sab.,25,208
+843,843,Paul. 9 ad ed.,25,208
+844,844,Paul. 9 ad leg. Iul. et Pap.,25,208
+845,845,Paul. 9 quaest.,25,208
+846,846,Paul. 9 resp.,25,208
+847,847,Paul. l. s. ad l. Cinc.,25,208
+848,848,Paul. l. s. ad l. Falcid.,25,208
+849,849,Paul. l. s. ad l. Fuf. Canin.,25,208
+850,850,Paul. l. s. ad or. Ant. et Comm.,25,208
+851,851,Paul. l. s. ad reg. Caton.,25,208
+852,852,Paul. l. s. ad sc Claudianum.,25,208
+853,853,Paul. l. s. ad sc Libon.,25,208
+854,854,Paul. l. s. ad sc Orfit.,25,208
+855,855,Paul. l. s. ad sc Silan.,25,208
+856,856,Paul. l. s. ad sc Tert.,25,208
+857,857,Paul. l. s. ad sc Turpill.,25,208
+858,858,Paul. l. s. ad sc Velle.,25,208
+859,859,Paul. l. s. de adsign. libert.,25,208
+860,860,Paul. l. s. de adult.,25,208
+861,861,Paul. l. s. de appellat.,25,208
+862,862,Paul. l. s. de art. liberalis c.,25,208
+863,863,Paul. l. s. de cogn.,25,208
+864,864,Paul. l. s. de concept. form.,25,208
+865,865,Paul. l. s. de concurr. actionum.,25,208
+866,866,Paul. l. s. de dotis repet.,25,208
+867,867,Paul. l. s. de excus.,25,208
+868,868,Paul. l. s. de forma testamenti.,25,208
+869,869,Paul. l. s. de grad. et adfin.,25,208
+870,870,Paul. l. s. de inoff. testam.,25,208
+871,871,Paul. l. s. de instrumenti sign.,25,208
+872,872,Paul. l. s. de intercess.,25,208
+873,873,Paul. l. s. de iure codicill.,25,208
+874,874,Paul. l. s. de iure libellorum.,25,208
+875,875,Paul. l. s. de iure patronatus.,25,208
+876,876,Paul. l. s. de iure singulari.,25,208
+877,877,Paul. l. s. de iuris et facti ignor.,25,208
+878,878,Paul. l. s. de liberali causa.,25,208
+879,879,Paul. l. s. de libertatibus dandis.,25,208
+880,880,Paul. l. s. de off. adsess.,25,208
+881,881,Paul. l. s. de off. praef. vig.,25,208
+882,882,Paul. l. s. de off. pu.,25,208
+883,883,Paul. l. s. de poen. milit.,25,208
+884,884,Paul. l. s. de poen. omnium legum.,25,208
+885,885,Paul. l. s. de poen. pagan.,25,208
+886,886,Paul. l. s. de portion.,25,208
+887,887,Paul. l. s. de publ. iudic.,25,208
+888,888,Paul. l. s. de secundis tabulis.,25,208
+889,889,Paul. l. s. de senatus consultis.,25,208
+890,890,Paul. l. s. de septemvir. iud.,25,208
+891,891,Paul. l. s. de tac. fideicomm.,25,208
+892,892,Paul. l. s. de usur.,25,208
+893,893,Paul. l. s. de var. lect.,25,208
+894,894,Paul. l. s. reg.,25,208
+895,895,Paul. not. ad Iul. 4 dig.,25,208
+896,896,Paul. not. ad Iul. 8 dig.,25,208
+897,897,Paul. not. ad Pap. 10 quaest.,25,208
+898,898,Paul. not. ad Pap. 31 quaest.,25,208
+899,899,Pomp. 0 x.,26,135
+900,900,Pomp. 1 ad Plaut.,26,135
+901,901,Pomp. 1 ad Q. Muc.,26,135
+902,902,Pomp. 1 ad Sab.,26,135
+903,903,Pomp. 1 enchirid.,26,135
+904,904,Pomp. 1 fideicomm.,26,135
+905,905,Pomp. 1 sen. consult.,26,135
+906,906,Pomp. 1 var. lect.,26,135
+907,907,Pomp. 10 ad Q. Muc.,26,135
+908,908,Pomp. 10 ad Sab.,26,135
+909,909,Pomp. 10 epist.,26,135
+910,910,Pomp. 10 var. lect.,26,135
+911,911,Pomp. 11 ad Q. Muc.,26,135
+912,912,Pomp. 11 ad Sab.,26,135
+913,913,Pomp. 11 epist.,26,135
+914,914,Pomp. 11 var. lect.,26,135
+915,915,Pomp. 12 ad Q. Muc.,26,135
+916,916,Pomp. 12 ad Sab.,26,135
+917,917,Pomp. 12 epist.,26,135
+918,918,Pomp. 12 var. lect.,26,135
+919,919,Pomp. 13 ad Q. Muc.,26,135
+920,920,Pomp. 13 ad Sab.,26,135
+921,921,Pomp. 13 var. lect.,26,135
+922,922,Pomp. 14 ad Q. Muc.,26,135
+923,923,Pomp. 14 ad Sab.,26,135
+924,924,Pomp. 14 var. lect.,26,135
+925,925,Pomp. 15 ad Q. Muc.,26,135
+926,926,Pomp. 15 ad Sab.,26,135
+927,927,Pomp. 16 ad Q. Muc.,26,135
+928,928,Pomp. 16 ad Sab.,26,135
+929,929,Pomp. 16 epist.,26,135
+930,930,Pomp. 17 ad Q. Muc.,26,135
+931,931,Pomp. 17 ad Sab.,26,135
+932,932,Pomp. 17 epist.,26,135
+933,933,Pomp. 18 ad Q. Muc.,26,135
+934,934,Pomp. 18 ad Sab.,26,135
+935,935,Pomp. 18 epist.,26,135
+936,936,Pomp. 19 ad Sab.,26,135
+937,937,Pomp. 2 ad Plaut.,26,135
+938,938,Pomp. 2 ad Q. Muc.,26,135
+939,939,Pomp. 2 ad Sab.,26,135
+940,940,Pomp. 2 enchirid.,26,135
+941,941,Pomp. 2 fideicomm.,26,135
+942,942,Pomp. 2 sen. consult.,26,135
+943,943,Pomp. 2 var. lect.,26,135
+944,944,Pomp. 20 ad Q. Muc.,26,135
+945,945,Pomp. 20 ad Sab.,26,135
+946,946,Pomp. 20 epist.,26,135
+947,947,Pomp. 21 ad Q. Muc.,26,135
+948,948,Pomp. 21 ad Sab.,26,135
+949,949,Pomp. 22 ad Q. Muc.,26,135
+950,950,Pomp. 22 ad Sab.,26,135
+951,951,Pomp. 23 ad Q. Muc.,26,135
+952,952,Pomp. 23 ad Sab.,26,135
+953,953,Pomp. 24 ad Q. Muc.,26,135
+954,954,Pomp. 24 ad Sab.,26,135
+955,955,Pomp. 25 ad Q. Muc.,26,135
+956,956,Pomp. 25 ad Sab.,26,135
+957,957,Pomp. 26 ad Q. Muc.,26,135
+958,958,Pomp. 26 ad Sab.,26,135
+959,959,Pomp. 27 ad Q. Muc.,26,135
+960,960,Pomp. 27 ad Sab.,26,135
+961,961,Pomp. 28 ad Q. Muc.,26,135
+962,962,Pomp. 29 ad Sab.,26,135
+963,963,Pomp. 3 ad Plaut.,26,135
+964,964,Pomp. 3 ad Q. Muc.,26,135
+965,965,Pomp. 3 ad Sab.,26,135
+966,966,Pomp. 3 fideicomm.,26,135
+967,967,Pomp. 3 sen. consult.,26,135
+968,968,Pomp. 30 ad Q. Muc.,26,135
+969,969,Pomp. 30 ad Sab.,26,135
+970,970,Pomp. 31 ad Q. Muc.,26,135
+971,971,Pomp. 31 ad Sab.,26,135
+972,972,Pomp. 32 ad Q. Muc.,26,135
+973,973,Pomp. 32 ad Sab.,26,135
+974,974,Pomp. 33 ad Q. Muc.,26,135
+975,975,Pomp. 33 ad Sab.,26,135
+976,976,Pomp. 34 ad Sab.,26,135
+977,977,Pomp. 35 ad Q. Muc.,26,135
+978,978,Pomp. 35 ad Sab.,26,135
+979,979,Pomp. 36 ad Q. Muc.,26,135
+980,980,Pomp. 36 ad Sab.,26,135
+981,981,Pomp. 37 ad Q. Muc.,26,135
+982,982,Pomp. 38 ad Q. Muc.,26,135
+983,983,Pomp. 39 ad Q. Muc.,26,135
+984,984,Pomp. 4 ad Plaut.,26,135
+985,985,Pomp. 4 ad Q. Muc.,26,135
+986,986,Pomp. 4 ad Sab.,26,135
+987,987,Pomp. 4 fideicomm.,26,135
+988,988,Pomp. 4 sen. consult.,26,135
+989,989,Pomp. 4 var. lect.,26,135
+990,990,Pomp. 5 ad Plaut.,26,135
+991,991,Pomp. 5 ad Q. Muc.,26,135
+992,992,Pomp. 5 ad Sab.,26,135
+993,993,Pomp. 5 epist.,26,135
+994,994,Pomp. 5 sen. consult.,26,135
+995,995,Pomp. 6 ad Plaut.,26,135
+996,996,Pomp. 6 ad Q. Muc.,26,135
+997,997,Pomp. 6 ad Sab.,26,135
+998,998,Pomp. 6 epist.,26,135
+999,999,Pomp. 7 ad Plaut.,26,135
+1000,1000,Pomp. 7 ad Q. Muc.,26,135
+1001,1001,Pomp. 7 ad Sab.,26,135
+1002,1002,Pomp. 7 epist.,26,135
+1003,1003,Pomp. 7 var. lect.,26,135
+1004,1004,Pomp. 8 ad Q. Muc.,26,135
+1005,1005,Pomp. 8 ad Sab.,26,135
+1006,1006,Pomp. 8 epist.,26,135
+1007,1007,Pomp. 9 ad Q. Muc.,26,135
+1008,1008,Pomp. 9 ad Sab.,26,135
+1009,1009,Pomp. 9 epist.,26,135
+1010,1010,Pomp. 9 var. lect.,26,135
+1011,1011,Pomp. l. s. enchirid.,26,135
+1012,1012,Pomp. l. s. reg.,26,135
+1013,1013,Proc. 1 epist.,27,55
+1014,1014,Proc. 11 epist.,27,55
+1015,1015,Proc. 2 epist.,27,55
+1016,1016,Proc. 3 ex post. Labeonis.,27,55
+1017,1017,Proc. 4 epist.,27,55
+1018,1018,Proc. 5 epist.,27,55
+1019,1019,Proc. 6 epist.,27,55
+1020,1020,Proc. 7 epist.,27,55
+1021,1021,Proc. 8 epist.,27,55
+1022,1022,Rutil. l. s. ad l. Falcid.,28,-105
+1023,1023,Scaev. 1 dig.,29,-105
+1024,1024,Scaev. 1 quaest.,29,-105
+1025,1025,Scaev. 1 reg.,29,-105
+1026,1026,Scaev. 1 resp.,29,-105
+1027,1027,Scaev. 10 dig.,29,-105
+1028,1028,Scaev. 11 dig.,29,-105
+1029,1029,Scaev. 12 quaest.,29,-105
+1030,1030,Scaev. 13 dig.,29,-105
+1031,1031,Scaev. 13 quaest.,29,-105
+1032,1032,Scaev. 14 dig.,29,-105
+1033,1033,Scaev. 15 dig.,29,-105
+1034,1034,Scaev. 15 quaest.,29,-105
+1035,1035,Scaev. 16 dig.,29,-105
+1036,1036,Scaev. 16 quaest.,29,-105
+1037,1037,Scaev. 17 dig.,29,-105
+1038,1038,Scaev. 18 dig.,29,-105
+1039,1039,Scaev. 18 quaest.,29,-105
+1040,1040,Scaev. 19 dig.,29,-105
+1041,1041,Scaev. 19 quaest.,29,-105
+1042,1042,Scaev. 2 dig.,29,-105
+1043,1043,Scaev. 2 quaest.,29,-105
+1044,1044,Scaev. 2 reg.,29,-105
+1045,1045,Scaev. 2 resp.,29,-105
+1046,1046,Scaev. 20 dig.,29,-105
+1047,1047,Scaev. 21 dig.,29,-105
+1048,1048,Scaev. 22 dig.,29,-105
+1049,1049,Scaev. 23 dig.,29,-105
+1050,1050,Scaev. 24 dig.,29,-105
+1051,1051,Scaev. 25 dig.,29,-105
+1052,1052,Scaev. 26 dig.,29,-105
+1053,1053,Scaev. 27 dig.,29,-105
+1054,1054,Scaev. 28 dig.,29,-105
+1055,1055,Scaev. 29 dig.,29,-105
+1056,1056,Scaev. 3 dig.,29,-105
+1057,1057,Scaev. 3 quaest.,29,-105
+1058,1058,Scaev. 3 reg.,29,-105
+1059,1059,Scaev. 3 resp.,29,-105
+1060,1060,Scaev. 31 dig.,29,-105
+1061,1061,Scaev. 32 dig.,29,-105
+1062,1062,Scaev. 33 dig.,29,-105
+1063,1063,Scaev. 34 dig.,29,-105
+1064,1064,Scaev. 4 dig.,29,-105
+1065,1065,Scaev. 4 quaest.,29,-105
+1066,1066,Scaev. 4 reg.,29,-105
+1067,1067,Scaev. 4 resp.,29,-105
+1068,1068,Scaev. 5 dig.,29,-105
+1069,1069,Scaev. 5 quaest.,29,-105
+1070,1070,Scaev. 5 resp.,29,-105
+1071,1071,Scaev. 6 dig.,29,-105
+1072,1072,Scaev. 6 quaest.,29,-105
+1073,1073,Scaev. 6 resp.,29,-105
+1074,1074,Scaev. 7 dig.,29,-105
+1075,1075,Scaev. 8 dig.,29,-105
+1076,1076,Scaev. 8 quaest.,29,-105
+1077,1077,Scaev. 9 dig.,29,-105
+1078,1078,Scaev. 9 quaest.,29,-105
+1079,1079,Scaev. l. s. quaest. publ. tract.,29,-105
+1080,1080,Scaev. not. ad Iul. 22 dig.,29,-105
+1081,1081,Scaev. not. ad Iul. 7 dig.,29,-105
+1082,1082,Tarrunt. 1 de re milit.,30,170
+1083,1083,Tarrunt. 2 de re milit.,30,170
+1084,1084,Tert. 1 quaest.,32,215
+1085,1085,Tert. l. s. de castr. peculio.,32,215
+1086,1086,Tryph. 1 disp.,33,200
+1087,1087,Tryph. 10 disp.,33,200
+1088,1088,Tryph. 11 disp.,33,200
+1089,1089,Tryph. 12 disp.,33,200
+1090,1090,Tryph. 13 disp.,33,200
+1091,1091,Tryph. 14 disp.,33,200
+1092,1092,Tryph. 15 disp.,33,200
+1093,1093,Tryph. 16 disp.,33,200
+1094,1094,Tryph. 17 disp.,33,200
+1095,1095,Tryph. 18 disp.,33,200
+1096,1096,Tryph. 19 disp.,33,200
+1097,1097,Tryph. 2 disp.,33,200
+1098,1098,Tryph. 20 disp.,33,200
+1099,1099,Tryph. 21 disp.,33,200
+1100,1100,Tryph. 3 disp.,33,200
+1101,1101,Tryph. 4 disp.,33,200
+1102,1102,Tryph. 5 disp.,33,200
+1103,1103,Tryph. 6 disp.,33,200
+1104,1104,Tryph. 7 disp.,33,200
+1105,1105,Tryph. 8 disp.,33,200
+1106,1106,Tryph. 9 disp.,33,200
+1107,1107,Ulp. 0 de off. procons.,34,208
+1108,1108,Ulp. 0 x.,34,208
+1109,1109,Ulp. 1 ad Sab.,34,208
+1110,1110,Ulp. 1 ad ed.,34,208
+1111,1111,Ulp. 1 ad ed. aedil. curul.,34,208
+1112,1112,Ulp. 1 ad l. Aeliam Sentiam.,34,208
+1113,1113,Ulp. 1 ad leg. Iul. et Pap.,34,208
+1114,1114,Ulp. 1 de adult.,34,208
+1115,1115,Ulp. 1 de appellat.,34,208
+1116,1116,Ulp. 1 de cens.,34,208
+1117,1117,Ulp. 1 de off. cons.,34,208
+1118,1118,Ulp. 1 de off. procons.,34,208
+1119,1119,Ulp. 1 de omn. trib.,34,208
+1120,1120,Ulp. 1 disp.,34,208
+1121,1121,Ulp. 1 fideicomm.,34,208
+1122,1122,Ulp. 1 inst.,34,208
+1123,1123,Ulp. 1 opin.,34,208
+1124,1124,Ulp. 1 reg.,34,208
+1125,1125,Ulp. 1 resp.,34,208
+1126,1126,Ulp. 10 ad Sab.,34,208
+1127,1127,Ulp. 10 ad ed.,34,208
+1128,1128,Ulp. 10 ad leg. Iul. et Pap.,34,208
+1129,1129,Ulp. 10 de off. procons.,34,208
+1130,1130,Ulp. 10 disp.,34,208
+1131,1131,Ulp. 11 ad Sab.,34,208
+1132,1132,Ulp. 11 ad ed.,34,208
+1133,1133,Ulp. 11 ad leg. Iul. et Pap.,34,208
+1134,1134,Ulp. 12 ad Sab.,34,208
+1135,1135,Ulp. 12 ad ed.,34,208
+1136,1136,Ulp. 13 ad Sab.,34,208
+1137,1137,Ulp. 13 ad ed.,34,208
+1138,1138,Ulp. 13 ad leg. Iul. et Pap.,34,208
+1139,1139,Ulp. 14 ad Sab.,34,208
+1140,1140,Ulp. 14 ad ed.,34,208
+1141,1141,Ulp. 14 ad leg. Iul. et Pap.,34,208
+1142,1142,Ulp. 15 ad Sab.,34,208
+1143,1143,Ulp. 15 ad ed.,34,208
+1144,1144,Ulp. 15 ad leg. Iul. et Pap.,34,208
+1145,1145,Ulp. 16 ad Sab.,34,208
+1146,1146,Ulp. 16 ad ed.,34,208
+1147,1147,Ulp. 16 ad leg. Iul. et Pap.,34,208
+1148,1148,Ulp. 17 ad Sab.,34,208
+1149,1149,Ulp. 17 ad ed.,34,208
+1150,1150,Ulp. 18 ad Sab.,34,208
+1151,1151,Ulp. 18 ad ed.,34,208
+1152,1152,Ulp. 18 ad leg. Iul. et Pap.,34,208
+1153,1153,Ulp. 19 ad Sab.,34,208
+1154,1154,Ulp. 19 ad ed.,34,208
+1155,1155,Ulp. 19 ad leg. Iul. et Pap.,34,208
+1156,1156,Ulp. 2 ad Sab.,34,208
+1157,1157,Ulp. 2 ad ed.,34,208
+1158,1158,Ulp. 2 ad ed. aedil. curul.,34,208
+1159,1159,Ulp. 2 ad l. Aeliam Sentiam.,34,208
+1160,1160,Ulp. 2 ad leg. Iul. et Pap.,34,208
+1161,1161,Ulp. 2 de adult.,34,208
+1162,1162,Ulp. 2 de appellat.,34,208
+1163,1163,Ulp. 2 de cens.,34,208
+1164,1164,Ulp. 2 de off. cons.,34,208
+1165,1165,Ulp. 2 de off. procons.,34,208
+1166,1166,Ulp. 2 de omn. trib.,34,208
+1167,1167,Ulp. 2 disp.,34,208
+1168,1168,Ulp. 2 fideicomm.,34,208
+1169,1169,Ulp. 2 inst.,34,208
+1170,1170,Ulp. 2 opin.,34,208
+1171,1171,Ulp. 2 reg.,34,208
+1172,1172,Ulp. 2 resp.,34,208
+1173,1173,Ulp. 20 ad Sab.,34,208
+1174,1174,Ulp. 20 ad ed.,34,208
+1175,1175,Ulp. 20 ad leg. Iul. et Pap.,34,208
+1176,1176,Ulp. 21 ad Sab.,34,208
+1177,1177,Ulp. 21 ad ed.,34,208
+1178,1178,Ulp. 22 ad Sab.,34,208
+1179,1179,Ulp. 22 ad ed.,34,208
+1180,1180,Ulp. 23 ad Sab.,34,208
+1181,1181,Ulp. 23 ad ed.,34,208
+1182,1182,Ulp. 24 ad Sab.,34,208
+1183,1183,Ulp. 24 ad ed.,34,208
+1184,1184,Ulp. 25 ad Sab.,34,208
+1185,1185,Ulp. 25 ad ed.,34,208
+1186,1186,Ulp. 26 ad Sab.,34,208
+1187,1187,Ulp. 26 ad ed.,34,208
+1188,1188,Ulp. 27 ad Sab.,34,208
+1189,1189,Ulp. 27 ad ed.,34,208
+1190,1190,Ulp. 28 ad Sab.,34,208
+1191,1191,Ulp. 28 ad ed.,34,208
+1192,1192,Ulp. 29 ad Sab.,34,208
+1193,1193,Ulp. 29 ad ed.,34,208
+1194,1194,Ulp. 3 ad Sab.,34,208
+1195,1195,Ulp. 3 ad ed.,34,208
+1196,1196,Ulp. 3 ad leg. Iul. et Pap.,34,208
+1197,1197,Ulp. 3 de adult.,34,208
+1198,1198,Ulp. 3 de appellat.,34,208
+1199,1199,Ulp. 3 de cens.,34,208
+1200,1200,Ulp. 3 de off. cons.,34,208
+1201,1201,Ulp. 3 de off. procons.,34,208
+1202,1202,Ulp. 3 de omn. trib.,34,208
+1203,1203,Ulp. 3 disp.,34,208
+1204,1204,Ulp. 3 fideicomm.,34,208
+1205,1205,Ulp. 3 opin.,34,208
+1206,1206,Ulp. 3 reg.,34,208
+1207,1207,Ulp. 30 ad Sab.,34,208
+1208,1208,Ulp. 30 ad ed.,34,208
+1209,1209,Ulp. 31 ad Sab.,34,208
+1210,1210,Ulp. 31 ad ed.,34,208
+1211,1211,Ulp. 32 ad Sab.,34,208
+1212,1212,Ulp. 32 ad ed.,34,208
+1213,1213,Ulp. 33 ad Sab.,34,208
+1214,1214,Ulp. 33 ad ed.,34,208
+1215,1215,Ulp. 34 ad Sab.,34,208
+1216,1216,Ulp. 34 ad ed.,34,208
+1217,1217,Ulp. 35 ad Sab.,34,208
+1218,1218,Ulp. 35 ad ed.,34,208
+1219,1219,Ulp. 36 ad Sab.,34,208
+1220,1220,Ulp. 36 ad ed.,34,208
+1221,1221,Ulp. 37 ad Sab.,34,208
+1222,1222,Ulp. 37 ad ed.,34,208
+1223,1223,Ulp. 38 ad Sab.,34,208
+1224,1224,Ulp. 38 ad ed.,34,208
+1225,1225,Ulp. 39 ad Sab.,34,208
+1226,1226,Ulp. 39 ad ed.,34,208
+1227,1227,Ulp. 4 ad Sab.,34,208
+1228,1228,Ulp. 4 ad ed.,34,208
+1229,1229,Ulp. 4 ad l. Aeliam Sentiam.,34,208
+1230,1230,Ulp. 4 ad leg. Iul. et Pap.,34,208
+1231,1231,Ulp. 4 de adult.,34,208
+1232,1232,Ulp. 4 de appellat.,34,208
+1233,1233,Ulp. 4 de cens.,34,208
+1234,1234,Ulp. 4 de off. procons.,34,208
+1235,1235,Ulp. 4 de omn. trib.,34,208
+1236,1236,Ulp. 4 disp.,34,208
+1237,1237,Ulp. 4 fideicomm.,34,208
+1238,1238,Ulp. 4 opin.,34,208
+1239,1239,Ulp. 4 reg.,34,208
+1240,1240,Ulp. 40 ad Sab.,34,208
+1241,1241,Ulp. 40 ad ed.,34,208
+1242,1242,Ulp. 41 ad Sab.,34,208
+1243,1243,Ulp. 41 ad ed.,34,208
+1244,1244,Ulp. 42 ad Sab.,34,208
+1245,1245,Ulp. 42 ad ed.,34,208
+1246,1246,Ulp. 43 ad Sab.,34,208
+1247,1247,Ulp. 43 ad ed.,34,208
+1248,1248,Ulp. 44 ad Sab.,34,208
+1249,1249,Ulp. 44 ad ed.,34,208
+1250,1250,Ulp. 45 ad Sab.,34,208
+1251,1251,Ulp. 45 ad ed.,34,208
+1252,1252,Ulp. 46 ad Sab.,34,208
+1253,1253,Ulp. 46 ad ed.,34,208
+1254,1254,Ulp. 47 ad Sab.,34,208
+1255,1255,Ulp. 47 ad ed.,34,208
+1256,1256,Ulp. 48 ad Sab.,34,208
+1257,1257,Ulp. 48 ad ed.,34,208
+1258,1258,Ulp. 49 ad Sab.,34,208
+1259,1259,Ulp. 49 ad ed.,34,208
+1260,1260,Ulp. 5 ad Sab.,34,208
+1261,1261,Ulp. 5 ad ed.,34,208
+1262,1262,Ulp. 5 ad leg. Iul. et Pap.,34,208
+1263,1263,Ulp. 5 de adult.,34,208
+1264,1264,Ulp. 5 de cens.,34,208
+1265,1265,Ulp. 5 de off. procons.,34,208
+1266,1266,Ulp. 5 de omn. trib.,34,208
+1267,1267,Ulp. 5 disp.,34,208
+1268,1268,Ulp. 5 fideicomm.,34,208
+1269,1269,Ulp. 5 opin.,34,208
+1270,1270,Ulp. 5 reg.,34,208
+1271,1271,Ulp. 50 ad Sab.,34,208
+1272,1272,Ulp. 50 ad ed.,34,208
+1273,1273,Ulp. 51 ad Sab.,34,208
+1274,1274,Ulp. 51 ad ed.,34,208
+1275,1275,Ulp. 52 ad ed.,34,208
+1276,1276,Ulp. 53 ad ed.,34,208
+1277,1277,Ulp. 54 ad ed.,34,208
+1278,1278,Ulp. 55 ad ed.,34,208
+1279,1279,Ulp. 56 ad ed.,34,208
+1280,1280,Ulp. 57 ad ed.,34,208
+1281,1281,Ulp. 58 ad ed.,34,208
+1282,1282,Ulp. 59 ad ed.,34,208
+1283,1283,Ulp. 6 ad Sab.,34,208
+1284,1284,Ulp. 6 ad ed.,34,208
+1285,1285,Ulp. 6 ad leg. Iul. et Pap.,34,208
+1286,1286,Ulp. 6 de off. procons.,34,208
+1287,1287,Ulp. 6 disp.,34,208
+1288,1288,Ulp. 6 fideicomm.,34,208
+1289,1289,Ulp. 6 opin.,34,208
+1290,1290,Ulp. 6 reg.,34,208
+1291,1291,Ulp. 60 ad ed.,34,208
+1292,1292,Ulp. 61 ad ed.,34,208
+1293,1293,Ulp. 62 ad ed.,34,208
+1294,1294,Ulp. 63 ad ed.,34,208
+1295,1295,Ulp. 64 ad ed.,34,208
+1296,1296,Ulp. 65 ad ed.,34,208
+1297,1297,Ulp. 66 ad ed.,34,208
+1298,1298,Ulp. 67 ad ed.,34,208
+1299,1299,Ulp. 68 ad ed.,34,208
+1300,1300,Ulp. 69 ad ed.,34,208
+1301,1301,Ulp. 7 ad Sab.,34,208
+1302,1302,Ulp. 7 ad ed.,34,208
+1303,1303,Ulp. 7 ad leg. Iul. et Pap.,34,208
+1304,1304,Ulp. 7 de off. procons.,34,208
+1305,1305,Ulp. 7 disp.,34,208
+1306,1306,Ulp. 7 reg.,34,208
+1307,1307,Ulp. 70 ad ed.,34,208
+1308,1308,Ulp. 71 ad ed.,34,208
+1309,1309,Ulp. 72 ad ed.,34,208
+1310,1310,Ulp. 73 ad ed.,34,208
+1311,1311,Ulp. 74 ad ed.,34,208
+1312,1312,Ulp. 75 ad ed.,34,208
+1313,1313,Ulp. 76 ad ed.,34,208
+1314,1314,Ulp. 77 ad ed.,34,208
+1315,1315,Ulp. 78 ad ed.,34,208
+1316,1316,Ulp. 79 ad ed.,34,208
+1317,1317,Ulp. 8 ad Sab.,34,208
+1318,1318,Ulp. 8 ad ed.,34,208
+1319,1319,Ulp. 8 ad leg. Iul. et Pap.,34,208
+1320,1320,Ulp. 8 de off. procons.,34,208
+1321,1321,Ulp. 8 de omn. trib.,34,208
+1322,1322,Ulp. 8 disp.,34,208
+1323,1323,Ulp. 80 ad ed.,34,208
+1324,1324,Ulp. 81 ad ed.,34,208
+1325,1325,Ulp. 9 ad Sab.,34,208
+1326,1326,Ulp. 9 ad ed.,34,208
+1327,1327,Ulp. 9 ad leg. Iul. et Pap.,34,208
+1328,1328,Ulp. 9 de off. procons.,34,208
+1329,1329,Ulp. 9 de omn. trib.,34,208
+1330,1330,Ulp. 9 disp.,34,208
+1331,1331,Ulp. l. s. de off. const.,34,208
+1332,1332,Ulp. l. s. de off. curat. rei p.,34,208
+1333,1333,Ulp. l. s. de off. praef. vig.,34,208
+1334,1334,Ulp. l. s. de off. praet. tutel.,34,208
+1335,1335,Ulp. l. s. de off. prutelari.,34,208
+1336,1336,Ulp. l. s. de off. pu.,34,208
+1337,1337,Ulp. l. s. de off. quaest.,34,208
+1338,1338,Ulp. l. s. de sponsal.,34,208
+1339,1339,Ulp. l. s. excus.,34,208
+1340,1340,Ulp. l. s. pand.,34,208
+1341,1341,Ulp. l. s. reg.,34,208
+1342,1342,Valens. 1 fideicomm.,35,135
+1343,1343,Valens. 2 fideicomm.,35,135
+1344,1344,Valens. 3 fideicomm.,35,135
+1345,1345,Valens. 4 fideicomm.,35,135
+1346,1346,Valens. 5 fideicomm.,35,135
+1347,1347,Valens. 6 fideicomm.,35,135
+1348,1348,Valens. 7 actionum.,35,135
+1349,1349,Valens. 7 fideicomm.,35,135
+1350,1350,Ven. 1 de off. procons.,36,165
+1351,1351,Ven. 1 de publ. iudic.,36,165
+1352,1352,Ven. 1 interd.,36,165
+1353,1353,Ven. 1 stipul.,36,165
+1354,1354,Ven. 10 actionum.,36,165
+1355,1355,Ven. 11 stipul.,36,165
+1356,1356,Ven. 12 stipul.,36,165
+1357,1357,Ven. 15 stipul.,36,165
+1358,1358,Ven. 16 stipul.,36,165
+1359,1359,Ven. 17 stipul.,36,165
+1360,1360,Ven. 2  de publ. iudic.,36,165
+1361,1361,Ven. 2 de off. procons.,36,165
+1362,1362,Ven. 2 de publ. iudic.,36,165
+1363,1363,Ven. 2 interd.,36,165
+1364,1364,Ven. 2 stipul.,36,165
+1365,1365,Ven. 3 de publ. iudic.,36,165
+1366,1366,Ven. 3 interd.,36,165
+1367,1367,Ven. 3 stipul.,36,165
+1368,1368,Ven. 4 actionum.,36,165
+1369,1369,Ven. 4 interd.,36,165
+1370,1370,Ven. 4 stipul.,36,165
+1371,1371,Ven. 5 actionum.,36,165
+1372,1372,Ven. 5 interd.,36,165
+1373,1373,Ven. 6 interd.,36,165
+1374,1374,Ven. 6 stipul.,36,165
+1375,1375,Ven. 7 actionum.,36,165
+1376,1376,Ven. 7 disp.,36,165
+1377,1377,Ven. 7 stipul.,36,165
+1378,1378,Ven. 8 actionum.,36,165
+1379,1379,Ven. 9 stipul.,36,165
+1380,1380,Ven. l. s. de poen. pagan.,36,165

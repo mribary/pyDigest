@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Load filtered dataframe from Ddf.csv and remove trailing white space
-Ddf = pd.read_csv('./input/Ddf_v102.csv', usecols=['BKO_key'])
+Ddf = pd.read_csv('./dump/Ddf_v102.csv', usecols=['BKO_key'])
 Ddf.BKO_key = Ddf.BKO_key.map(lambda x: x.strip())
 # print(list(Ddf.BKO_key))
 BKO_unique = Ddf.BKO_key.unique()
@@ -11,7 +11,7 @@ BKO_unique = Ddf.BKO_key.unique()
 #print(np.count_nonzero(Ddf.BKO_key.unique()))
 
 # Load filtered dataframe from BKO.csv and remove trailing white space
-BKOdf = pd.read_csv('./input/BKO_v002.csv', usecols=['Work_ref'])
+BKOdf = pd.read_csv('./dump/BKO_v002.csv', usecols=['Work_ref'])
 BKOdf.Work_ref = BKOdf.Work_ref.astype(str)
 BKOdf.Work_ref = BKOdf.Work_ref.map(lambda x: x.strip())
 # print(list(BKOdf.Work_ref))

@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Read Digest.txt into a string
-str = open('./input/Digest.txt', 'r')
+str = open('./dump/Digest.txt', 'r')
 file = str.read()
 # print(file)
 
@@ -37,7 +37,7 @@ del Dlist[l7i] # 42768 lines remain
 # Create a NumPy array from Dlist to check data: Dnp
 Dnp = np.array(Dlist)
 
-# Phase 1
+### Phase 1
 # Locate section_ref lines from Dnf
 index_list_s = []
 for i in range(0, len(Dnp)):
@@ -71,7 +71,7 @@ for x in index_list_full_capital:
 # print(len(Dnp[index_list_previous_lines]))
 # print(len(index_list_delete)) # 54
 
-# Phase 2
+### Phase 2
 # Run the check for section_ref lines again
 # Locate section_ref lines from Dnp
 index_list_s = []
@@ -107,7 +107,7 @@ Dnp[index_list_r] = np.char.upper(Dnp[index_list_r])
 # print(len(Dnp[index_list_r])) # 27
 # print(len(index_list_delete)) # 81
 
-# Phase 3
+### Phase 3
 # Run the check for section_ref lines again
 # Locate section_ref lines from Dnp
 index_list_s = []
@@ -121,7 +121,7 @@ for i in range(0, len(Dnp)):
 # Update section_ref_pattern to include comma in the title
 section_ref_pattern = r"D\.\s(\d+,\s){2}0\sR\.\s[A-Z\s,]+\."
 
-# Phase 4
+### Phase 4
 # Run the check for section_ref lines with updated pattern
 # Locate section_ref lines from Dnp
 index_list_s = []
@@ -150,7 +150,7 @@ Dnp_new = np.delete(Dnp, index_list_delete)
 # Export Dnp as a 1D dataframe stored in csv: Ddf_v001.csv
 Ddf_v001 = pd.DataFrame(Dnp_new)
 print(Ddf_v001.info())
-Ddf_v001.to_csv('./output/Ddf_v001.csv')
+Ddf_v001.to_csv('./dump/Ddf_v001.csv')
 
 # Close Digest.txt file
 str.close()

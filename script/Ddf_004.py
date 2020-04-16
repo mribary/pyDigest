@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Load Ddf_v100.csv into a pandas data frame
-Ddf = pd.read_csv('./input/Ddf_v100.csv', index_col=0)
+Ddf = pd.read_csv('./dump/Ddf_v100.csv', index_col=0)
 # Ddf.info()
 
 # Remove book number from column "TextUnit_ref" and create a list: Ddf_refs
@@ -430,4 +430,4 @@ for x, y in zip(Proc_no_index, Proc_no_list):
 # print(Proc_count == (len(Proc_no_list))) # True
 
 # Export the new data frame as a csv file: Ddf_v101.csv
-Ddf.to_csv("./output/Ddf_v101.csv")
+Ddf.to_csv("./dump/Ddf_v101.csv")

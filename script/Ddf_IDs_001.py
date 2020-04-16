@@ -4,7 +4,7 @@ import numpy as np
 
 # Load Ddf.csv into a pandas data frame
 load_columns = ['BKO_key', 'Work', 'TextUnit_ref']
-df = pd.read_csv('./input/Ddf_v104.csv', usecols=load_columns)
+df = pd.read_csv('./dump/Ddf_v104.csv', usecols=load_columns)
 # print(type(df))
 # print(df.head())
 # print(df.info())
@@ -16,7 +16,7 @@ df.TextUnit_ref = df.TextUnit_ref.str.strip()
 
 # Load BKO_v004.csv into a pandas data frame
 load_columns = ['Work_ref']
-BKOdf = pd.read_csv('./input/BKO_v004.csv', usecols=load_columns)
+BKOdf = pd.read_csv('./dump/BKO_v004.csv', usecols=load_columns)
 # print(type(BKOdf))
 # print(BKOdf.head())
 # BKOdf.info()
@@ -82,7 +82,7 @@ for col in ['BKO_key', 'Work', 'TextUnit_ref']:
 # print(IDs.tail(10))
 
 # Export ID dataframes: Ddf_IDs.csv, Ddf_BKO_IDs.csv, Ddf_Work_IDs.csv, Ddf_Book_IDs.csv
-IDs.to_csv("./output/Ddf_IDs_v001.csv")
-BKO_keys.to_csv("./output/Ddf_BKO_IDs_v001.csv")
-Works.to_csv("./output/Ddf_Work_IDs_v001.csv")
-Books.to_csv("./output/Ddf_Book_IDs_v001.csv")
+IDs.to_csv("./dump/Ddf_IDs_v001.csv")
+BKO_keys.to_csv("./dump/Ddf_BKO_IDs_v001.csv")
+Works.to_csv("./dump/Ddf_Work_IDs_v001.csv")
+Books.to_csv("./dump/Ddf_Book_IDs_v001.csv")

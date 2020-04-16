@@ -3,10 +3,10 @@ import pandas as pd
 import numpy as np
 
 # Load dataframes frdom csv files
-BKO_IDs = pd.read_csv('./input/Ddf_BKO_IDs_v002.csv')
-Ddf_IDs = pd.read_csv('./input/Ddf_IDs_v002.csv')
-BKO = pd.read_csv('./input/BKO_v004.csv')
-Jurists = pd.read_csv('./input/Jurists_v002.csv', index_col=None)
+BKO_IDs = pd.read_csv('./dump/Ddf_BKO_IDs_v002.csv')
+Ddf_IDs = pd.read_csv('./dump/Ddf_IDs_v002.csv')
+BKO = pd.read_csv('./dump/BKO_v004.csv')
+Jurists = pd.read_csv('./dump/Jurists_v002.csv', index_col=None)
 
 # Merge BKO with Jurists
 BKO1 = pd.merge(BKO, Jurists, left_on='Jurist_name', right_on='Jurist')
@@ -50,8 +50,8 @@ Book_IDs.drop(columns=['index'], inplace=True)
 # print(len(Book_IDs)) # 1381
 
 # Export BKO and ID dataframes
-BKO.to_csv("./output/BKO_v005.csv")
-Ddf_IDs.to_csv("./output/Ddf_IDs_v003.csv")
-BKO_IDs.to_csv("./output/Ddf_BKO_IDs_v003.csv")
-Work_IDs.to_csv("./output/Ddf_Work_IDs_v003.csv")
-Book_IDs.to_csv("./output/Ddf_Book_IDs_v003.csv")
+BKO.to_csv("./dump/BKO_v005.csv")
+Ddf_IDs.to_csv("./dump/Ddf_IDs_v003.csv")
+BKO_IDs.to_csv("./dump/Ddf_BKO_IDs_v003.csv")
+Work_IDs.to_csv("./dump/Ddf_Work_IDs_v003.csv")
+Book_IDs.to_csv("./dump/Ddf_Book_IDs_v003.csv")

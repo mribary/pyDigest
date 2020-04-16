@@ -4,7 +4,7 @@ import numpy as np
 
 # Load filtered dataframe based on Ddf.csv
 load_columns = ['Section_title', 'Book_no']
-df = pd.read_csv('./input/Ddf_v104.csv', usecols=load_columns)
+df = pd.read_csv('./dump/Ddf_v104.csv', usecols=load_columns)
 # print(df.head())
 # print(df.dtypes)
 # print(df.info())
@@ -39,5 +39,5 @@ Section_IDs = Sections2.drop(drop_rows)
 # print(Section_IDs.info())
 
 # Export dataframes: Ddf_sections.csv and Ddf_Section_IDs.csv
-df.to_csv("./output/Ddf_sections_v001.csv")
-Section_IDs.to_csv("./output/Ddf_Section_IDs_v001.csv")
+df.to_csv("./dump/Ddf_sections_v001.csv")
+Section_IDs.to_csv("./dump/Ddf_Section_IDs_v001.csv")
