@@ -2,9 +2,11 @@
 
 The documentation describes the creation of the core dataframes of the `pyDigest` project. It documents the data manipulation steps leading to the core `Ddf` ("_Digest_ daraframe") which includes the text of the _Digest_ in structured machine-ready format. It also describes the creation of supporting structured data related to the text of the _Digest_, for example, authors of passages, legal themes covered in the Digest's 432 sections, and reconstructed characteristics of passages which aim to explain how the _Digest_ was originally created. These dataframes are used to create [the _Digest_'s relational database](link).
 
-### 1. Creation of the base "Ddf" dataframe
+### 1. Creation of the base dataframes
 
 The dcumentation follows the order of output files stored in the prject's `dump` folder. The title of individual steps include the method and the name of the output file in the format of `[Method] > [outputFile]`. The `[Method]` is either (1) manual or (2) executed in Pyhton files which are stored in the `script` folder. The `[Method]` and `[outputFile]` correspond with elements in `Ddf_flowchart`. These steps document the data manipulation pipeline from the raw text of the _Digest_ to its [relational database](link).
+
+![Ddf_flowchart](https://raw.githubusercontent.com/mribary/pyDigest/master/images/Ddf_flowchart.png)
 
 1. Manual editing > ROMTEXT.txt
 
