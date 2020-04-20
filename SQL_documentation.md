@@ -12,7 +12,7 @@ The Python script imports `sqlite3` and its `Error` function and creates an empt
 
 The core structure of the `digest` database is drafted in the yEd graph editor and stored in the `images` folder of the repository. It includes the name and datatype of the fields in the various tables and notes their primary (PK) and foreign keys (FK). The graph's edges uses the arrow symbols to indicate one-and-only-one to many-or-one relations between the tables.
 
-![D_sql_graph][https://raw.githubusercontent.com/mribary/pyDigest/master/images/D_sql_.png]
+![D_sql_graph](https://raw.githubusercontent.com/mribary/pyDigest/master/images/D_sql.png)
 
 3. D_sql_create_tables.py > digest.db
 
