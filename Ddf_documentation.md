@@ -208,6 +208,10 @@ Some `BKO` items do not appear in `Ddf`. Two of these references ("Ulp. de off. 
 
 The manually corrected `Ddf_v104.csv` and `BKO_v004.csv` files are free from errors and any remaining ambiguous entries have been documented. These files are copied into the output folder.
 
+11. Ddf_005.py > Ddf_v106.csv
+
+Manual inspection has revealed that Greek script had been lost during manual editing in step 7 above. The Python file recovers the `TextUnit` column from `Ddf_v102.csv` and inserts them into `Ddf_v105.csv`. The output `csv` file is streamlined to keep the index, the four-level _Digest_ reference and the text only. These columns will be used to create the SQL database.
+
 ### 3. Additional dataframes
 
 1. Sections dataframes
