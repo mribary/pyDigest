@@ -15,7 +15,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 vectorizer = TfidfVectorizer()
 
 # Load dataframes from GitHub repo
-file_path_df = './dump/Ddf_v105.csv'
+file_path_df = './dump/Ddf_v106.csv'
 file_path_s = './dump/Ddf_sections_v001.csv'
 file_path_sID = './dump/Ddf_Section_IDs_v001.csv'
 file_path_stoplist = './dump/D_stoplist_001.txt'
