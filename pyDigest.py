@@ -62,7 +62,7 @@ def similar_sections(id, size=10):
     print("%r" %title)
     return similar_df_id
 
-def linkage_for_clustering(X, threshold=0.5):
+def linkage_for_clustering(X, threshold=0):
     ''' The function takes a matrix X with observations stored in rows and features stored in columns.
     It returns a dataframe with linkage combinations of method and metric used for hierarchical
     clustering sorted by reverse order based on the absolute value of the cophenetic correlation
