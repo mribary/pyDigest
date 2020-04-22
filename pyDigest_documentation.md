@@ -51,3 +51,39 @@ The function returns a dataframe with the most similar thematic sections to the 
 `size`: the number of documents returned, default value is set to 10.
 
 The function is used, for example, in `NLP_sections_002.py` to identify the most similar items among the _Digest_'s 432 thematic sections.
+
+### 3. `linkage_for_clustering(X, threshold=0.5)`
+
+The function takes a matrix X with observations stored in rows and features stored in columns. It returns a dataframe with linkage combinations of method and metric used for hierarchical clustering sorted by reverse order based on the absolute value of the cophenetic correlation coefficient (CCC). The CCC score ranges between -1 and 1 and measures how how faithfully a dendrogram preserves the pairwise distances between the original unmodeled data points. The cophenetic correlation is expected to be positive if the original distances are compared to cophenetic distances (or similarities to similarities) and negative if distances are compared to similarities.
+
+It needs to be noted that CCC is calculated for the whole dendrogram. Ideally, one should calculate CCC at the specific cut point where the dendrogram's output is used to identify the clusters. It is recommended to calculate CCC at the specific cut level yielding k clusters to confirm that the correct method-metric combination has been used for hierarchical clustering.
+
+The 'average' method generally produces the best CCC score especially with matrices with high dimensionality. Instead of relying exclusively on the CCC score, one also needs to consider what method-metric combination suits the particular dataset on which hierarchical clustering is performed by scipy's linkage function.
+
+#### Methods for scipy's linkage function
+
+Default method is `'ward'`.
+
+| Method | Note |
+|:---|:---|
+| 'ward' | Uses the Ward variance minimization algorithm |
+| 'single' | Nearest Point algorithm | 
+| 'complete' | Farthest Point Algorithm or Voor Hees Algorithm |
+| 'average' | UPGMA algorithm |
+| 'weighted'| WPGMA algorithm |
+| 'centroid' | Euclidean distance between the centroid and the centroid of a remaining cluster |
+| 'median' | Merged clusters' centroid to be come the average |
+
+#### Metrics for scipy's linkage function
+
+Default metric is `'euclidean'`.
+
+Possible metrics are ‘braycurtis’, ‘canberra’, ‘chebyshev’, ‘cityblock’, ‘correlation’, ‘cosine’, ‘dice’, \‘euclidean’, ‘hamming’, ‘jaccard’, ‘jensenshannon’, ‘kulsinski’, ‘mahalanobis’, ‘matching’, ‘minkowski’, \‘rogerstanimoto’, ‘russellrao’, ‘seuclidean’, ‘sokalmichener’, ‘sokalsneath’, ‘sqeuclidean’, ‘yule’.
+
+#### How to read the linkage matrix
+
+Z[i] will tell us which clusters were merged in the i-th iteration.
+
+Z[0] with an output array([ 52.     ,  53.     ,   0.04151,   2.     ])
+
+In its first iteration the linkage algorithm decided to merge the two clusters (original samples here) with indices 52 and 53, as they only had a distance of 0.04151. This created a cluster with a total of 2 samples. We can see that each row of the resulting array has the format idx1, idx2, dist, sample_count.

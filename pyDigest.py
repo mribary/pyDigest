@@ -61,3 +61,97 @@ def similar_sections(id, size=10):
     print("Thematic sections most similar to thematic section %r:" %id)
     print("%r" %title)
     return similar_df_id
+
+def linkage_for_clustering(X, threshold=0.5):
+    ''' The function takes a matrix X with observations stored in rows and features stored in columns.
+    It returns a dataframe with linkage combinations of method and metric used for hierarchical
+    clustering sorted by reverse order based on the absolute value of the cophenetic correlation
+    coefficient (CCC). The CCC score ranges between -1 and 1 and measures how how faithfully a
+    dendrogram preserves the pairwise distances between the original unmodeled data points.
+    The cophenetic correlation is expected to be positive if the original distances are compared
+    to cophenetic distances (or similarities to similarities) and negative if distances are
+    compared to similarities.
+    It needs to be noted that CCC is calculated for the whole dendrogram. Ideally, one should
+    calculate CCC at the specific cut point where the dendrogram's output is used to identify the
+    clusters. It is recommended to calculate CCC at the specific cut level yielding k clusters to
+    confirm that the correct method-metric combination has been used for hierarchical clustering.
+    The 'average' method generally produces the best CCC score especially with matrices with high
+    dimensionality. Instead of relying exclusively on the CCC score, one also needs to consider 
+    what method-metric combination suits the particular dataset on which hierarchical clustering 
+    is performed by scipy's linkage function.
+    '''
+    import numpy as np
+    # Handle errors
+    if isinstance(X, np.ndarray) is not True:
+        raise TypeError("X must be a matrix with samples in rows and observations in columns")
+    if type(threshold) != float:
+        raise TypeError("threshold must be a float")
+    if abs(threshold) > 1:
+        raise ValueError("threshold must be between -1 and 1")
+    # Import basic packages
+    import pandas as pd
+    from scipy.cluster.hierarchy import linkage
+    # List of 7 methods for the linkage function
+    methods = ['ward', 'single', 'complete', 'average', 'weighted', 'centroid', 'median']
+    # List of 22 metrics for the linkage function
+    metrics = ['braycurtis', 'canberra', 'chebyshev', 'cityblock', 'correlation', 'cosine', \
+        'dice',  'euclidean', 'hamming', 'jaccard', 'jensenshannon', 'kulsinski', 'mahalanobis', \
+        'matching', 'minkowski', 'rogerstanimoto', 'russellrao', 'seuclidean', 'sokalmichener', \
+        'sokalsneath', 'sqeuclidean', 'yule']
+    # Create list of dictioanries for the 154 method-metric combinations
+    dicts = []
+    for x in methods:
+        for y in metrics:
+            d = {'method':x, 'metric':y}
+            dicts.append(d)
+    # Load combinations into a dataframe
+    linkages = {'method':[], 'metric': []}
+    for i in range(len(dicts)):
+        linkages['method'].append(dicts[i]['method'])
+        linkages['metric'].append(dicts[i]['metric'])
+    l = pd.DataFrame(linkages, columns=['method', 'metric'])
+    # Calculate linkage matrices (Z) from X
+    Z_matrices = []
+    valid_mms = []
+    count = 0
+    for i in range(len(dicts)):
+        try:
+            Z = linkage(X, method=dicts[i]['method'], metric=dicts[i]['metric'])
+            Z_matrices.append(Z)
+            valid_mms.append(True)
+            print(str(count) + ' ' + str(dicts[i]['method']) + ' & ' + (dicts[i]['metric']) + ' - matrix ready')
+            count = count + 1
+        except:
+            valid_mms.append(False)
+            pass
+    # Drop invald combinations and reindex
+    l = l.loc[valid_mms]
+    l.reset_index(drop=True)
+    # Calculate Cophenetic Correlation Coefficient for valid linkage combinations
+    from scipy.cluster.hierarchy import cophenet
+    from scipy.spatial.distance import pdist
+    valid_scores = []
+    CCC_scores = []
+    for Z in Z_matrices:
+        try:
+            c, coph_dists = cophenet(Z, pdist(X))
+            if np.isnan(c):
+                valid_scores.append(False)
+                CCC_scores.append(None)
+                print('no score')
+            else:
+                valid_scores.append(True)
+                CCC_scores.append(c)
+                print(c)
+        except RuntimeWarning:
+            valid_scores.append(False)
+            print('no score')
+            pass
+    # Insert scores, drop no values and reset index
+    l['CCC_score'] = CCC_scores
+    l['CCC_abs_score'] = [abs(number) if number is not None else number for number in CCC_scores]
+    l = l.loc[valid_scores]
+    l.reset_index(drop=True)
+    # Sort method-metric pairs according to CCC score
+    l.sort_values(by=['CCC_score', 'method', 'metric'], ascending=False, inplace=True)
+    return l[l.CCC_score > threshold]
