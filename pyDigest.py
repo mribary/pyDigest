@@ -62,7 +62,7 @@ def similar_sections(id, size=10):
     print("%r" %title)
     return similar_df_id
 
-def linkage_for_clustering(X, threshold=0):
+def linkage_for_clustering(X, threshold=0.0):
     ''' The function takes a matrix X with observations stored in rows and features stored in columns.
     It returns a dataframe with linkage combinations of method and metric used for hierarchical
     clustering sorted by reverse order based on the absolute value of the cophenetic correlation
@@ -113,14 +113,12 @@ def linkage_for_clustering(X, threshold=0):
     # Calculate linkage matrices (Z) from X
     Z_matrices = []
     valid_mms = []
-    count = 0
     for i in range(len(dicts)):
         try:
             Z = linkage(X, method=dicts[i]['method'], metric=dicts[i]['metric'])
             Z_matrices.append(Z)
             valid_mms.append(True)
-            print(str(count) + ' ' + str(dicts[i]['method']) + ' & ' + (dicts[i]['metric']) + ' - matrix ready')
-            count = count + 1
+            print('|', end= '')
         except:
             valid_mms.append(False)
             pass
@@ -138,14 +136,12 @@ def linkage_for_clustering(X, threshold=0):
             if np.isnan(c):
                 valid_scores.append(False)
                 CCC_scores.append(None)
-                print('no score')
             else:
                 valid_scores.append(True)
                 CCC_scores.append(c)
-                print(c)
+                print('|', end= '')
         except RuntimeWarning:
             valid_scores.append(False)
-            print('no score')
             pass
     # Insert scores, drop no values and reset index
     l['CCC_score'] = CCC_scores
