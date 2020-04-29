@@ -14,9 +14,9 @@ The script imports and initializes [cltk's Latin `Stop` module](https://github.c
 
 The constructed stoplist is imported as `D_stoplist_001.txt`.
 
-### 2. Tokenize, lemmatize, vectorize
+### 2. NLP pre-processing:
 
-1. NLP_sections_001.py > D_lemmatized.csv, tfidf_sections.csv, tfidf_titles.csv
+1. Tokenize/lemmatize/vectorize: NLP_sections_001.py > D_lemmatized.csv, tfidf_sections.csv, tfidf_titles.csv
 
 The script loads loads the necessary packages including pandas, regex, nmupy and cltk's `BackoffLatinLemmatizer`. It initilizes the lemmatizer with cltk's Latin model.
 
@@ -26,7 +26,33 @@ The script loads the dataframes including text units, thematic sections and sect
 
 The title and text of thematic sections are passed to `TfidfVectorizer` as two collections of "documents" (`corpus`) from the `title` and `doc` columns of the dataframe. The script returns two matrices: (1) one in the shape of 432 x 649 where 432 is the number of thematic sections ("documents") and 649 is the number of terms ("features") in the `corpus` of `title`, and (2) another in the shape of 432 x 10875 where 432 is the number of thematic sections ("documents") and 10875 is the number of terms ("features") in the `corpus` of `doc`. By extracting scores in an array and feature names in a list, the script builds two dataframes which include the Tfidf scores of the lemmas in the titles and texts of all 432 thematic sections. The dataframes with the Tfidf matrix are exported as `tfidf_sections.csv` and `tfidf_titles.csv`.
 
-2. NLP_sections_002.py > 
+2. Normalize: NLP_sections_002.py > D_lemmatized_norm.csv, tfidf_sections_norm_top50.csv, tfidf_titles_norm.csv
+
+The script losds the dataframes created in the previous step and normalizes them by removing outliers and reducing dimensions.
+
+The thematic sections are sorted by the number of unique lemmas. The average number of unique lemmas is 355.71, the median is 280.50. The percentile test shows that approximately 21% of thematic sections have less than 100 unique lemmas. These thematic sections are too short and they are likely to distort clustering and other NLP analysis. They are removed from the normalized dataframes.
+
+An additional step is performed to reduce dimensions in the Tfidf matrix of thematic sections. In each section, 50 lemmas with the highest Tfidf score are selected and loaded to a list. After removing duplicates, the list is used to reduce the dimensions from the original 10875 lemmas to 3868.
+
+The normalized dataframes are exported as `D_lemmatized_norm.csv`, `tfidf_sections_norm_top50.csv` and `tfidf_titles_norm.csv`.
+
+3. Hierarchical clustering: NLP_sections_003.py > norm_top50_ward_euc_clusters.npy
+
+The script loads the normalized dataframes created in the previous step. It extracts the Tfidf matrix with a shape of 340 x 3868 where 340 is the number of thematic sections which are longer than 100 unique lemmas and 3868 is the number of lemmas featuring in the thematic sections.
+
+The script runs the `linkage_for_clustering` function defined in `pyDigest.py` which returns a dataframe with method-metric pairs for hierarchical clustering with their corresponding cophenetic correlation coefficient (CCC). The function is described in [pyDigest_documentation](https://github.com/mribary/pyDigest/blob/master/pyDigest_documentation.md#3-linkage_for_clusteringx-threshold05). The CCC-score suggests that the 'average' method combined with 'minkowski' metric produces hierarchical clustering where cluster distances are closest to the distances of individual units. With sparse data and extremely high dimensionality, method-metric pairs with high CCC-scores produce suboptimal dendrograms, that is, the tree-like plot of hierarchical clustering. Clusters are created at relatively high distances resulting in a high number of small clusters which quickly collapsed into one in the final step.
+
+For this reason, hierarchical clustering is performed based on Ward's method with Euclidean distance. This method-metric pair produces larger clusters at lower distances which is more appropriate for Tfidf clustering with sparse data and high dimensionality. The dendrogram displayed below includes the thematic sections referenced with their IDs on the y axis and the Euclidean distance between clusters on the x axis. The plot suggests 9 larger clusters.
+
+![Dendrogram of hierarchical clustering of tfidf_sections_norm_top50 based on Ward's method](https://github.com/mribary/pyDigest/blob/master/images/norm_top50_ward_euc_clusters.png)
+
+The Tfidf matrix and the linkage matrix based on Ward's method is exported in a numpy binary file `norm_top50_ward_euc_clusters.npy`.
+
+4. K-means/K-medians/K-medoids clustering: NLP_sections_004.py >
+
+
+
+5. Notes for future reference
 
     which returns the ids of ten thematic sections which are most similar to the one passed for the function based on cosine similarity calculated from Tfidf scores. The script imports `linear_kernel` to calculate cosine similarity in a more economical way. 
 
