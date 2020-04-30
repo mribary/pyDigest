@@ -1,0 +1,341 @@
+id,title,3.5,3.0,2.5,2.0,1.75,1.625,1.5,1.375,1.3125,1.25
+249,unde cognati,1,1,1,1,1,1,1,1,1,1
+257,de suis et legitimis heredibus,1,1,1,1,1,1,1,1,1,1
+248,unde legitimi,1,1,1,1,1,1,1,1,1,1
+258,ad senatus consultum tertullianum et orphitianum,1,1,1,1,1,1,1,1,1,1
+231,de legatis praestandis contra tabulas bonorum possessione petita,1,1,1,1,1,2,2,2,2,2
+230,de bonorum possessione contra tabulas,1,1,1,1,1,2,2,2,2,2
+238,si a parente quis manumissus sit,1,1,1,1,1,2,2,2,2,2
+237,de bonorum possessione secundum tabulas,1,1,1,1,1,2,2,2,2,2
+247,si tabulae testamenti nullae extabunt,1,1,1,1,1,2,2,2,2,2
+256,quis ordo in possessionibus servetur,1,1,1,1,1,2,2,2,2,3
+250,de successorio edicto,1,1,1,1,1,2,2,2,2,3
+227,de bonorum possessionibus,1,1,1,1,1,2,2,2,2,3
+236,de carboniano edicto,1,1,1,1,1,2,2,2,2,3
+271,de statuliberis,1,1,2,2,2,3,3,3,3,4
+276,de liberali causa,1,1,2,2,2,3,3,3,3,4
+277,quibus ad libertatem proclamare non licet,1,1,2,2,2,3,3,3,3,4
+268,de manumissis testamento,1,1,2,2,2,3,3,3,3,4
+269,de fideicommissariis libertatibus,1,1,2,2,2,3,3,3,3,4
+127,de servis exportandis,1,1,2,2,2,3,4,4,4,5
+272,qui sine manumissione ad libertatem perveniunt,1,1,2,2,2,3,4,4,4,5
+273,qui et a quibus manumissi liberi non fiunt et ad legem aeliam sentiam,1,1,2,2,2,3,4,4,4,5
+265,de manumissionibus,1,1,2,2,2,3,4,4,4,5
+266,de manumissis vindicta,1,1,2,2,2,3,4,4,4,5
+225,ut legatorum seu fideicommissorum servandorum causa caveatur,1,1,3,3,3,4,5,5,5,6
+221,ad legem falcidiam,1,1,3,3,3,4,5,5,5,6
+222,si cui plus,1,1,3,3,3,4,5,5,5,6
+226,ut in possessionem legatorum vel fideicommissorum servandorum causa esse liceat,1,1,3,3,3,4,5,5,5,6
+213,de liberatione legata,1,1,3,3,3,4,5,5,6,7
+199,de legatis et fideicommissis,1,1,3,3,3,4,5,5,6,7
+211,de alimentis vel cibariis legatis,1,1,3,3,3,4,5,5,6,7
+201,de annuis legatis et fideicommissis,1,1,3,3,3,4,5,5,6,7
+215,de rebus dubiis,1,1,3,3,3,4,5,5,6,7
+200,de legatis et fideicommissis,1,1,3,3,3,4,5,5,6,7
+220,de condicionibus et demonstrationibus et causis et modis eorum,1,1,3,3,3,4,5,5,6,8
+198,de legatis et fideicommissis,1,1,3,3,3,4,5,5,6,8
+224,quando dies legatorum vel fideicommissorum cedat,1,1,3,3,3,4,5,5,6,8
+214,de adimendis vel transferendis legatis vel fideicommissis,1,1,3,3,3,4,5,5,6,8
+205,de optione vel electione legata,1,1,3,3,3,4,5,5,6,8
+187,de heredibus instituendis,1,1,3,4,4,5,6,6,7,9
+188,de vulgari et pupillari substitutione,1,1,3,4,4,5,6,6,7,9
+223,ad senatus consultum trebellianum,1,1,3,4,4,5,6,6,7,9
+192,de adquirenda vel omittenda hereditate,1,1,3,4,4,5,6,6,7,9
+189,de condicionibus institutionum,1,1,3,4,4,5,6,6,7,9
+194,si quis omissa causa testamenti ab intestato vel alio modo possideat hereditatem,1,1,3,4,4,5,6,6,7,9
+55,si pars hereditatis petatur,1,1,3,4,4,5,6,6,7,9
+185,de iniusto rupto irrito facto testamento,1,1,3,4,5,6,7,7,8,10
+53,de inofficioso testamento,1,1,3,4,5,6,7,7,8,10
+184,de liberis et postumis heredibus instituendis vel exheredandis,1,1,3,4,5,6,7,7,8,10
+191,de testamento militis,1,1,3,4,5,6,7,7,9,11
+186,de his quae in testamento delentur inducuntur vel inscribuntur,1,1,3,4,5,6,7,7,9,11
+183,qui testamenta facere possunt et quemadmodum testamenta fiant,1,1,3,4,5,6,7,7,9,11
+197,de iure codicillorum,1,1,3,4,5,6,7,7,9,11
+193,testamenta quemadmodum aperiuntur inspiciantur et describantur,1,1,3,4,5,6,7,7,9,12
+172,de suspectis tutoribus et curatoribus,2,2,4,5,6,7,8,8,10,13
+166,de legitimis tutoribus,2,2,4,5,6,7,8,8,10,13
+173,de excusationibus,2,2,4,5,6,7,8,8,10,13
+177,de eo qui pro tutore prove curatore negotia gessit,2,2,4,5,6,7,8,8,11,14
+168,qui petant tutores vel curatores et ubi petantur,2,2,4,5,6,7,8,8,11,14
+164,de testamentaria tutela,2,2,4,5,6,7,8,8,11,14
+167,de tutoribus et curatoribus datis ab his qui ius dandi habent,2,2,4,5,6,7,8,8,11,14
+165,de confirmando tutore vel curatore,2,2,4,5,6,7,8,8,11,14
+163,de tutelis,2,2,4,5,6,7,8,8,11,14
+178,quod falso tutore auctore gestum esse dicatur,2,2,4,5,6,7,9,9,12,15
+170,de auctoritate et consensu tutorum et curatorum,2,2,4,5,6,7,9,9,12,15
+171,quando ex facto tutoris vel curatoris minores agere vel conveniri possunt,2,2,4,5,6,7,9,9,13,16
+176,de contraria tutelae et utili actione,2,2,4,5,6,7,9,9,13,16
+179,de fideiussoribus et nominatoribus et heredibus tutorum et curatorum,2,2,4,5,6,7,9,9,13,16
+347,rem pupilli vel adulescentis salvam fore,2,2,4,5,6,7,9,9,13,16
+169,de administratione et periculo tutorum et curatorum qui gesserint vel non et de agentibus vel conveniendis uno vel pluribus,2,2,4,5,6,7,9,9,13,16
+175,de tutelae et rationibus distrahendis et utili curationis causa actione,2,2,4,5,6,7,9,9,13,16
+181,de rebus eorum,2,2,4,5,6,7,9,9,13,17
+174,ubi pupillus educari vel morari debeat et de alimentis ei praestandis,2,2,4,5,6,7,9,9,13,17
+180,de magistratibus conveniendis,2,2,4,5,6,7,9,9,13,17
+74,si servitus vindicetur vel ad alium pertinere negetur,2,3,5,6,7,8,10,10,14,18
+71,de servitutibus praediorum urbanorum,2,3,5,6,7,8,10,10,14,18
+73,communia praediorum tam urbanorum quam rusticorum,2,3,5,6,7,8,10,10,14,18
+70,de servitutibus,2,3,5,6,7,8,10,11,15,19
+203,de servitute legata,2,3,5,6,7,8,10,11,15,19
+75,quemadmodum servitutes amittuntur,2,3,5,6,7,8,10,11,15,19
+72,de servitutibus praediorum rusticorum,2,3,5,6,7,8,10,11,15,19
+290,pro suo,2,3,5,7,8,9,11,12,16,20
+283,de usurpationibus et usucapionibus,2,3,5,7,8,9,11,12,16,20
+284,pro emptore,2,3,5,7,8,9,11,12,16,20
+334,de diversis temporalibus praescriptionibus et de accessionibus possessionum,2,3,5,7,8,9,11,12,16,21
+59,de publiciana in rem actione,2,3,5,7,8,9,11,12,16,21
+282,de adquirenda vel amittenda possessione,2,3,5,7,8,10,12,13,17,22
+315,uti possidetis,2,3,5,7,8,10,12,13,17,22
+301,quod legatorum,2,3,5,7,8,10,12,13,17,22
+316,de superficiebus,2,3,5,7,8,10,12,13,17,23
+324,de precario,2,3,5,7,8,10,12,13,17,24
+311,ne quid in flumine publico fiat,2,3,5,8,9,11,13,14,18,25
+310,de fluminibus,2,3,5,8,9,11,13,14,18,25
+261,de aqua et aquae pluviae arcendae,2,3,5,8,9,11,13,15,19,26
+319,de rivis,2,3,5,8,9,11,13,15,19,26
+318,de aqua cottidiana et aestiva,2,3,5,8,9,11,13,15,19,26
+328,de liberis exhibendis,2,3,5,8,10,12,14,16,20,27
+83,ad exhibendum,2,3,5,8,10,12,14,16,20,27
+303,de tabulis exhibendis,2,3,5,8,10,12,14,16,20,27
+327,de homine libero exhibendo,2,3,5,8,10,12,14,16,20,27
+422,de administratione rerum ad civitates pertinentium,2,3,5,8,11,13,15,17,21,28
+424,de operibus publicis,2,3,5,8,11,13,15,17,21,28
+426,de pollicitationibus,2,3,5,8,11,13,15,17,21,28
+259,de operis novi nuntiatione,2,3,5,8,11,13,15,17,22,29
+49,de alienatione iudicii mutandi causa facta,2,3,5,8,11,13,15,17,22,29
+91,de mortuo inferendo et sepulchro aedificando,2,3,5,8,11,14,16,18,23,30
+361,de sepulchro violato,2,3,5,8,11,14,16,18,23,30
+90,de religiosis et sumptibus funerum et ut funus ducere liceat,2,3,5,8,11,14,16,18,23,30
+314,de vi et de vi armata,2,3,5,8,11,14,17,19,24,31
+78,de his,2,3,5,8,11,14,17,19,24,31
+7,de divisione rerum et qualitate,2,3,5,8,11,14,17,20,25,32
+299,de interdictis sive extraordinariis actionibus,2,3,5,8,11,14,17,20,25,33
+306,ne quid in loco publico vel itinere fiat,2,3,5,8,11,14,17,21,26,34
+317,de itinere actuque privato,2,3,5,8,11,14,17,21,26,34
+322,quod vi aut clam,2,3,5,8,11,14,17,21,26,34
+321,de cloacis,2,3,5,8,11,14,17,21,27,35
+25,de in ius vocando,2,3,6,9,12,15,18,22,28,36
+245,de adsignandis libertis,2,3,6,9,12,15,18,22,28,36
+246,si quid in fraudem patroni factum sit,2,3,6,9,12,15,18,22,28,36
+240,de iure patronatus,2,3,6,9,12,15,18,22,28,36
+336,quarum rerum actio non datur,2,3,6,9,12,15,18,22,28,36
+242,de operis libertorum,2,3,6,9,12,15,18,22,28,36
+241,de obsequiis parentibus et patronis praestandis,2,3,6,9,12,15,18,22,28,36
+243,de bonis libertorum,2,3,6,9,12,15,18,22,28,36
+297,de curatore bonis dando,2,3,6,10,13,16,19,23,29,37
+182,de curatoribus furioso et aliis extra minores dandis,2,3,6,10,13,16,19,23,29,37
+298,quae in fraudem creditorum facta sunt ut restituantur,2,3,6,10,13,16,19,24,30,38
+295,de rebus auctoritate iudicis possidendis seu vendundis,2,3,6,10,13,16,19,24,30,38
+296,de separationibus,2,3,6,10,13,16,19,24,30,38
+294,quibus ex causis in possessionem eatur,2,3,6,10,13,16,19,24,30,38
+302,ne vis fiat ei,2,3,6,10,13,17,20,25,31,39
+161,si mulier ventris nomine in possessione calumniae causa esse dicetur,2,3,6,10,13,17,20,25,31,39
+235,de ventre in possessionem mittendo et curatore eius,2,3,6,10,13,17,20,25,31,39
+116,ad senatus consultum velleianum,2,3,6,10,13,17,21,26,32,40
+111,de senatus consulto macedoniano,2,3,6,10,13,17,21,26,32,40
+159,de inspiciendo ventre custodiendoque partu,2,3,6,10,13,17,21,26,33,41
+158,de agnoscendis et alendis liberis vel parentibus vel patronis vel libertis,2,3,6,10,13,17,21,26,33,41
+112,de peculio,2,3,6,10,14,18,22,27,34,42
+113,quando de peculio actio annalis est,2,3,6,10,14,18,22,27,34,42
+413,de castrensi peculio,2,3,6,10,14,18,22,27,34,42
+208,de peculio legato,2,3,6,10,14,18,22,27,34,42
+233,de dotis collatione,2,3,6,10,15,19,23,28,35,43
+232,de collatione bonorum,2,3,6,10,15,19,23,28,35,43
+6,de adoptionibus et emancipationibus et aliis modis quibus potestas solvitur,2,3,6,10,15,19,23,28,36,44
+234,de coniungendis cum emancipato liberis eius,2,3,6,10,15,19,23,28,36,44
+251,de gradibus et adfinibus et nominibus eorum,2,3,6,10,15,20,24,29,37,45
+381,de lege pompeia de parricidiis,2,3,6,10,15,20,24,29,37,46
+411,de captivis et de postliminio et redemptis ab hostibus,2,3,6,10,15,20,24,30,38,47
+5,de his qui sui vel alieni iuris sunt,2,3,6,10,15,20,24,30,38,47
+4,de statu hominum,2,3,6,10,15,20,24,30,38,47
+154,de divortiis et repudiis,2,3,6,10,15,20,24,31,39,48
+149,de ritu nuptiarum,2,3,6,10,15,20,24,31,39,48
+148,de sponsalibus,2,3,6,10,15,20,24,31,40,49
+8,de senatoribus,2,3,6,10,15,20,24,31,41,50
+209,de penu legata,2,3,6,11,16,21,25,32,42,51
+206,de tritico vino vel oleo legato,2,3,6,11,16,21,25,32,42,51
+210,de suppellectile legata,2,3,6,11,16,21,25,32,43,52
+207,de instructo vel instrumento legato,2,3,6,11,16,21,25,32,43,52
+212,de auro argento mundo ornamentis unguentis veste vel vestimentis et statuis legatis,2,3,6,11,16,21,25,32,43,52
+397,de appellationibus et relegationibus,2,3,6,11,17,22,26,33,44,53
+401,de appellationibus recipiendis vel non,2,3,6,11,17,22,26,33,44,53
+400,quando appellandum sit et intra quae tempora,2,3,6,11,17,22,26,33,44,53
+357,vi bonorum raptorum et de turba,2,3,6,11,18,23,27,34,45,54
+358,de incendio ruina naufragio rate nave expugnata,2,3,6,11,18,23,27,34,45,54
+378,ad legem iuliam de vi publica,2,3,6,11,18,23,27,34,45,54
+44,quod metus causa gestum erit,2,3,6,11,18,23,27,34,46,55
+379,ad legem iuliam de vi privata,2,3,6,11,18,23,27,34,46,55
+28,ne quis eum qui in ius vocabitur vi eximat,2,3,6,11,18,23,27,34,46,56
+93,de iureiurando sive voluntario sive necessario sive iudiciali,2,3,6,11,18,24,28,35,47,57
+94,de in litem iurando,2,3,6,11,18,24,28,35,47,57
+51,nautae caupones stabularii ut recepta restituant,2,3,6,11,18,25,29,36,48,58
+107,de lege rodia de iactu,2,3,6,11,18,25,29,36,48,58
+106,de exercitoria actione,2,3,6,11,18,25,29,36,48,58
+20,de officio eius,2,3,6,11,18,26,30,37,49,59
+22,de iurisdictione,2,3,6,11,18,26,30,37,49,59
+0,de iustitia et iure,2,3,6,11,18,27,31,38,50,60
+2,de legibus senatusque consultis et longa consuetudine,2,3,6,11,18,27,31,38,50,60
+147,de iuris et facti ignorantia,2,3,6,11,18,27,31,38,50,60
+1,de origine iuris et omnium magistratuum et successione prudentium,2,3,6,11,18,27,31,38,50,60
+47,de capite minutis,2,3,6,11,18,27,31,38,51,61
+429,de censibus,2,3,6,11,18,27,31,38,51,62
+80,finium regundorum,2,3,6,11,18,27,32,39,52,63
+89,si mensor falsum modum dixerit,2,3,6,11,18,27,32,39,52,64
+370,de termino moto,2,3,6,11,18,27,32,39,53,65
+356,arborum furtim caesarum,2,3,6,11,18,27,32,39,54,66
+23,quod quisque iuris in alterum statuerit,2,3,6,11,18,27,33,40,55,67
+37,de postulando,2,3,6,11,18,27,33,40,55,67
+118,depositi vel contra,2,3,6,11,18,27,33,41,56,68
+104,commodati vel contra,2,3,6,11,18,27,33,41,56,68
+359,de iniuriis et famosis libellis,2,3,6,11,18,27,33,41,57,69
+38,de his qui notantur infamia,2,3,6,11,18,27,33,41,57,69
+129,locati conducti,2,3,6,11,18,27,33,41,58,70
+260,de damno infecto et de suggrundis et proiectionibus,2,3,6,11,18,27,33,41,58,70
+262,de publicanis et vectigalibus et commissis,2,3,6,11,18,27,33,41,58,71
+34,de edendo,2,3,6,11,18,27,33,41,59,72
+88,de aleatoribus,2,3,6,11,18,27,33,41,60,73
+404,quae sententiae sine appellatione rescindantur,2,3,6,11,18,27,34,42,61,74
+291,de re iudicata et de effectu sententiarum et de interlocutionibus,2,3,6,11,18,27,34,42,61,74
+52,de iudiciis,2,3,6,11,18,27,34,42,61,74
+50,de receptis,2,3,6,11,18,27,34,42,62,75
+84,de interrogationibus in iure faciendis et interrogatoriis actionibus,2,3,6,11,18,27,34,43,63,76
+292,de confessis,2,3,6,11,18,27,34,43,63,76
+33,de feriis et dilationibus et diversis temporibus,2,3,6,11,18,27,34,44,64,77
+190,de iure deliberandi,2,3,6,11,18,27,34,44,64,78
+36,de transactionibus,2,3,6,11,18,27,34,44,64,79
+287,pro derelicto,2,3,6,11,18,27,34,45,65,80
+420,de iure immunitatis,2,3,6,12,19,28,35,46,66,81
+418,de muneribus et honoribus,2,3,6,12,19,28,35,46,66,81
+419,de vacatione et excusatione munerum,2,3,6,12,19,28,35,46,66,81
+40,quod cuiuscumque universitatis nomine vel contra eam agatur,2,3,6,12,19,28,35,47,67,82
+416,de decurionibus et filiis eorum,2,3,6,12,19,28,35,47,67,82
+415,ad municipalem et de incolis,2,3,6,12,19,28,35,47,67,82
+421,de legationibus,2,3,6,12,19,28,35,47,68,83
+11,de officio praefecti urbi,2,3,6,12,20,29,36,48,69,84
+14,de officio praefecti vigilum,2,3,6,12,20,29,36,48,69,84
+375,de custodia et exhibitione reorum,2,3,6,12,20,29,36,49,70,85
+412,de re militari,2,3,6,12,20,29,36,49,70,85
+15,de officio proconsulis et legati,2,3,6,12,20,29,36,50,71,86
+17,de officio praesidis,2,3,6,12,20,29,36,50,71,86
+391,de poenis,2,3,6,12,20,29,36,50,72,87
+427,de variis et extraordinariis cognitionibus et si iudex litem suam fecisse dicetur,2,3,6,12,20,29,36,50,72,87
+394,de interdictis et relegatis et deportatis,2,3,6,12,20,29,36,50,72,87
+360,de extraordinariis criminibus,2,3,6,12,20,29,36,50,72,87
+363,de abigeis,2,3,6,12,20,29,36,51,73,88
+278,si ingenuus esse dicetur,2,3,6,12,20,30,37,52,74,89
+279,ne de statu defunctorum post quinquennium quaeratur,2,3,6,12,20,30,37,52,74,89
+410,de iure fisci,2,3,6,12,20,30,38,53,75,90
+393,de bonis eorum,2,3,6,12,20,30,38,53,75,90
+392,de bonis damnatorum,2,3,6,12,20,30,38,53,75,90
+219,de his quae ut indignis auferuntur,2,3,6,12,20,30,38,53,75,90
+389,de requirendis vel absentibus damnandis,2,3,6,12,20,30,38,53,76,91
+388,ad senatus consultum turpillianum et de abolitionibus criminum,2,3,6,12,20,31,39,54,77,92
+377,ad legem iuliam de adulteriis coercendis,2,3,6,12,20,31,39,54,77,92
+374,de accusationibus et inscriptionibus,2,3,6,12,20,31,39,54,77,92
+373,de publicis iudiciis,2,3,6,12,20,31,39,54,77,92
+382,de lege cornelia de falsis et de senatus consulto liboniano,2,3,6,12,20,31,40,55,78,93
+195,de senatus consulto silaniano et claudiano,2,3,6,12,20,31,40,55,78,93
+380,ad legem corneliam de siccariis et veneficis,2,3,6,12,20,31,40,55,78,93
+390,de quaestionibus,2,3,6,12,20,31,40,55,79,94
+146,de testibus,2,3,6,12,20,31,40,55,79,94
+387,de lege fabia de plagiariis,2,3,6,12,20,31,40,56,80,95
+87,de fugitivis,2,3,6,12,20,31,40,56,80,95
+383,de lege iulia repetundarum,2,3,6,12,20,31,40,57,81,96
+385,ad legem iuliam peculatus et de sacrilegis et de residuis,2,3,6,12,20,31,40,57,81,96
+376,ad legem iuliam maiestatis,2,3,6,12,20,31,40,57,81,97
+371,de collegiis et corporibus,2,3,6,12,20,31,40,58,82,98
+69,usufructuarius quemadmodum caveat,2,4,7,13,21,32,41,59,83,99
+66,si usus fructus petetur vel ad alium pertinere negetur,2,4,7,13,21,32,41,59,83,99
+62,de usu fructu adcrescendo,2,4,7,13,21,32,41,59,83,99
+65,de usu fructu earum rerum,2,4,7,13,21,32,41,59,83,99
+64,quibus modis usus fructus vel usus amittitur,2,4,7,13,21,32,41,59,83,99
+202,de usu et usu fructu et reditu et habitatione et operis per legatum vel fideicommissum datis,2,4,7,13,21,32,41,59,83,99
+68,de usu et habitatione,2,4,7,13,21,32,41,59,83,99
+61,de usu fructu et quemadmodum quis utatur fruatur,2,4,7,13,21,32,41,59,83,99
+136,qui potiores in pignore vel hypotheca habeantur et de his qui in priorum creditorum locum succedunt,2,4,8,14,22,33,42,60,84,100
+138,quibus modis pignus vel hypotheca solvitur,2,4,8,14,22,33,42,60,84,100
+135,quae res pignori vel hypothecae datae olbigari non possunt,2,4,8,14,22,33,42,60,84,100
+134,in quibus causis pignus vel hypotheca tacite contrahitur,2,4,8,14,22,33,42,60,84,100
+133,de pignoribus et hypothecis et qualiter ea contrahantur et de pactis eorum,2,4,8,14,22,33,42,60,84,100
+105,de pigneraticia actione vel contra,2,4,8,14,22,33,42,60,84,100
+137,de distractione pignorum et hypothecarum,2,4,8,14,22,33,42,60,84,100
+150,de iure dotium,2,4,9,15,23,34,43,61,85,101
+155,soluto matrimonio dos quemadmodum petatur,2,4,9,15,23,34,43,61,85,101
+152,de fundo dotali,2,4,9,15,23,34,43,61,85,101
+204,de dote praelegata,2,4,9,15,23,34,43,61,85,101
+151,de pactis dotalibus,2,4,9,15,23,34,43,61,85,101
+156,de inpensis in res dotales factis,2,4,9,15,23,34,43,61,85,101
+139,de aedilicio edicto et redhibitione et quanti minoris,2,4,9,16,24,35,44,62,86,102
+121,de contrahenda emptione et de pactis inter emptorem et venditorem compositis et quae res venire non possunt,2,4,9,16,24,35,44,62,86,102
+124,de hereditate vel actione vendita,2,4,9,16,24,35,44,62,86,102
+140,de evictionibus et duplae stipulatione,2,4,9,16,24,35,44,62,86,102
+126,de periculo et commodo rei venditae,2,4,9,16,24,35,44,62,86,102
+122,de in diem addictione,2,4,9,16,24,35,44,62,86,102
+125,de rescindenda venditione et quando licet ab emptione discedere,2,4,9,16,24,35,44,62,86,102
+128,de actionibus empti venditi,2,4,9,16,24,35,44,62,86,102
+123,de lege commissoria,2,4,9,16,24,35,44,62,86,103
+79,de noxalibus actionibus,2,4,9,17,25,36,45,63,87,104
+30,si ex noxali causa agatur,2,4,9,17,25,36,45,63,87,104
+45,de dolo malo,2,4,9,17,25,36,45,63,88,105
+31,de eo per quem factum erit quominus quis in iudicio sistat,2,4,9,17,25,36,45,63,88,105
+157,de actione rerum amotarum,2,4,9,17,25,36,46,64,89,106
+353,si is,2,4,9,17,25,36,46,64,89,106
+351,de furtis,2,4,9,17,25,36,46,64,89,106
+86,de servo corrupto,2,4,9,17,25,36,46,64,89,106
+355,si familia furtum fecisse dicetur,2,4,9,17,25,36,46,64,89,106
+77,ad legem aquiliam,2,4,9,17,25,36,46,65,90,107
+350,de privatis delictis,2,4,9,17,25,36,46,65,90,107
+76,si quadrupes pauperiem fecisse dicatur,2,4,9,17,25,36,46,65,90,107
+349,ratam rem haberi et de ratihabitione,2,4,9,18,26,37,47,66,91,108
+346,de stipulationibus praetoriis,2,4,9,18,26,37,47,66,91,108
+348,iudicatum solvi,2,4,9,18,26,37,47,66,91,108
+39,de procuratoribus et defensoribus,2,4,9,18,26,37,47,66,91,108
+341,de stipulatione servorum,2,4,9,18,26,38,48,67,92,109
+343,de novationibus et delegationibus,2,4,9,18,26,38,48,67,92,109
+340,de duobus reis constituendis,2,4,9,18,26,38,48,67,92,109
+345,de acceptilatione,2,4,9,18,26,38,48,67,92,109
+339,de verborum obligationibus,2,4,9,18,26,38,48,67,92,109
+32,si quis cautionibus in iudicio sistendi causa factis non obtemperaverit,2,4,9,18,27,39,49,68,93,110
+35,de pactis,2,4,9,18,27,39,49,68,93,110
+332,de exceptionibus praescriptionibus et praeiudiciis,2,4,9,18,27,39,49,68,93,110
+335,de doli mali et metus exceptione,2,4,9,18,27,39,49,68,93,110
+333,de exceptione rei iudicatae,2,4,9,18,27,39,49,68,93,110
+48,ex quibus causis maiores viginti quinque annis in integrum restituuntur,2,4,9,18,27,40,50,69,94,111
+46,de minoribus viginti quinque annis,2,4,9,18,27,40,50,69,94,111
+43,de in integrum restitutionibus,2,4,9,18,27,40,50,69,94,111
+81,familiae erciscundae,2,4,9,18,27,40,51,70,95,112
+82,communi dividundo,2,4,9,18,27,40,51,70,95,112
+120,pro socio,2,4,9,18,27,40,51,70,95,112
+54,de hereditatis petitione,2,4,9,18,27,40,51,71,96,113
+58,de rei vindicatione,2,4,9,18,27,40,51,71,96,113
+431,de diversis regulis iuris antiqui,2,4,9,18,27,40,51,71,96,113
+281,de adquirendo rerum dominio,2,4,9,18,27,40,51,71,96,113
+338,de obligationibus et actionibus,2,4,9,18,27,40,51,71,96,113
+430,de verborum significatione,2,4,9,18,27,40,51,71,96,113
+142,de usuris et fructibus et causis et omnibus accessionibus et mora,2,4,9,18,27,40,51,71,96,113
+153,de donationibus inter virum et uxorem,2,4,9,18,28,41,52,72,97,114
+263,de donationibus,2,4,9,18,28,41,52,72,97,114
+264,de mortis causa donationibus et capionibus,2,4,9,18,28,41,52,72,97,114
+98,de condictione sine causa,2,4,9,18,29,42,53,73,98,115
+99,de condictione furtiva,2,4,9,18,29,42,53,73,98,115
+92,de rebus creditis si certum petetur et de condictione,2,4,9,18,29,42,53,73,99,116
+96,de condictione ob turpem vel iniustam causam,2,4,9,18,29,42,53,73,99,116
+95,de condictione causa data causa non secuta,2,4,9,18,29,42,53,73,99,116
+42,de calumniatoribus,2,4,9,18,29,42,53,73,99,116
+132,de praescriptis verbis et in factum actionibus,2,4,9,18,29,42,53,73,99,116
+109,de tributoria actione,2,4,9,18,29,43,54,74,100,117
+108,de institoria actione,2,4,9,18,29,43,54,74,100,117
+119,mandati vel contra,2,4,9,18,29,43,54,74,101,118
+41,de negotiis gestis,2,4,9,18,29,43,54,74,101,118
+110,quod cum eo,2,4,9,18,29,43,54,74,101,119
+114,de in rem verso,2,4,9,18,29,43,54,74,101,119
+115,quod iussu,2,4,9,18,29,43,54,74,101,119
+342,de fideiussoribus et mandatoribus,2,4,9,18,29,43,55,75,102,120
+29,qui satisdare cogantur vel iurato promittant vel suae promissioni committantur,2,4,9,18,29,43,55,75,102,120
+102,de eo quod certo loco dari oportet,2,4,9,18,29,43,55,75,103,121
+103,de pecunia constituta,2,4,9,18,29,43,55,75,103,121
+97,de condictione indebiti,2,4,9,18,29,43,55,75,103,121
+144,de probationibus et praesumptionibus,2,4,9,18,29,43,55,75,103,121
+344,de solutionibus et liberationibus,2,4,9,18,29,43,55,75,103,121
+117,de compensationibus,2,4,9,18,29,43,55,75,103,122
+143,de nautico faenore,2,4,9,18,29,43,55,75,104,123

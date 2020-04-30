@@ -48,7 +48,7 @@ For this reason, hierarchical clustering is performed based on Ward's method wit
 
 The Tfidf matrix and the linkage matrix based on Ward's method is exported in a numpy binary file `norm_top50_ward_euc_clusters.npy`.
 
-4. K-means/K-medians/K-medoids clustering: NLP_sections_004.py >
+4. K-means silhouette: NLP_sections_004.py > silhouette_scores_norm_top50.txt, norm_top50_silhouette_2to75.png
 
 
 
