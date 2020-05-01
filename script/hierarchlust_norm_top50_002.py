@@ -1,10 +1,7 @@
 # Import packages
 import pandas as pd 
-from sklearn import cluster
 import numpy as np
-import matplotlib.pyplot as plt
-from sklearn.metrics.pairwise import linear_kernel       # cosine_similarity as linear_kernel
-from scipy.cluster.hierarchy import dendrogram, linkage, fcluster
+from scipy.cluster.hierarchy import fcluster
 
 # Load normalized dataframe including 340 sections and lemmas
 path_norm_df = './dump/D_lemmatized_norm.csv'
@@ -43,4 +40,4 @@ clustering.insert(0, 'title', titles)
 clustering.index.name = 'id'
 
 # Export dataframe
-clustering.to_csv('./dump/hierarchlust_norm_top50.csv')
+# clustering.to_csv('./dump/hierarchlust_norm_top50.csv')

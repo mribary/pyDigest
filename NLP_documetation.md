@@ -2,7 +2,7 @@
 
 ### 1. Stoplist construction:
 
-1. D_stoplist.py > D_stoplist_001.txt
+`D_stoplist.py > D_stoplist_001.txt`
 
 The script loads dataframes including text units, thematic sections and section IDs of the _Digest_. In the preprocessing stage, the script creates a bag-of-words (`bow`) for each of the 432 thematic sections with word tokens extracted from all text units in a particular section. It removes all punctuation, leaves only one white space between words, turns the text to lower case only, and splits the string of words on white space. The list of word tokens is inserted in the `bow` column.
 
@@ -16,7 +16,9 @@ The constructed stoplist is imported as `D_stoplist_001.txt`.
 
 ### 2. NLP pre-processing:
 
-1. Tokenize/lemmatize/vectorize: NLP_sections_001.py > D_lemmatized.csv, tfidf_sections.csv, tfidf_titles.csv
+#### 2.1. Tokenize/lemmatize/vectorize
+
+`NLP_sections_001.py > D_lemmatized.csv, tfidf_sections.csv, tfidf_titles.csv`
 
 The script loads loads the necessary packages including pandas, regex, nmupy and cltk's `BackoffLatinLemmatizer`. It initilizes the lemmatizer with cltk's Latin model.
 
@@ -26,7 +28,9 @@ The script loads the dataframes including text units, thematic sections and sect
 
 The title and text of thematic sections are passed to `TfidfVectorizer` as two collections of "documents" (`corpus`) from the `title` and `doc` columns of the dataframe. The script returns two matrices: (1) one in the shape of 432 x 649 where 432 is the number of thematic sections ("documents") and 649 is the number of terms ("features") in the `corpus` of `title`, and (2) another in the shape of 432 x 10875 where 432 is the number of thematic sections ("documents") and 10875 is the number of terms ("features") in the `corpus` of `doc`. By extracting scores in an array and feature names in a list, the script builds two dataframes which include the Tfidf scores of the lemmas in the titles and texts of all 432 thematic sections. The dataframes with the Tfidf matrix are exported as `tfidf_sections.csv` and `tfidf_titles.csv`.
 
-2. Normalize: NLP_sections_002.py > D_lemmatized_norm.csv, tfidf_sections_norm_top50.csv, tfidf_titles_norm.csv
+#### 2.2. Normalize
+
+`NLP_sections_002.py > D_lemmatized_norm.csv, tfidf_sections_norm_top50.csv, tfidf_titles_norm.csv`
 
 The script losds the dataframes created in the previous step and normalizes them by removing outliers and reducing dimensions.
 
@@ -36,7 +40,11 @@ An additional step is performed to reduce dimensions in the Tfidf matrix of them
 
 The normalized dataframes are exported as `D_lemmatized_norm.csv`, `tfidf_sections_norm_top50.csv` and `tfidf_titles_norm.csv`.
 
-3. Hierarchical clustering: NLP_sections_003.py > norm_top50_ward_euc_clusters.npy
+### 3. Hierarchical clustering:
+
+#### 3.1 Linkage matrix and dendrogram
+
+`hierarchlust_norm_top50_001.py > norm_top50_ward_euc_clusters.npy, norm_top50_ward_euc_clusters.png`
 
 The script loads the normalized dataframes created in the previous step. It extracts the Tfidf matrix with a shape of 340 x 3868 where 340 is the number of thematic sections which are longer than 100 unique lemmas and 3868 is the number of lemmas featuring in the thematic sections.
 
@@ -48,9 +56,60 @@ For this reason, hierarchical clustering is performed based on Ward's method wit
 
 The Tfidf matrix and the linkage matrix based on Ward's method is exported in a numpy binary file `norm_top50_ward_euc_clusters.npy`.
 
-4. K-means silhouette: NLP_sections_004.py > silhouette_scores_norm_top50.txt, norm_top50_silhouette_2to75.png
+#### 3.2 Extract clusters
 
+`hierarchlust_norm_top50_002.py > hierarchlust_norm_top50.csv`
 
+The script loads the normalized dataframe which includes 340 thematic sections with at least 100 unique lemmas. It attaches titles to these 340 sections by loading and linkking information form another daraframe. The tfidf and linkage matrices of the 340 tematic sections are loaded from a numpy binary file.
+
+The linkage matrix is cut by the `fcluster` method of sklearn's `cluster.hieraarchy` module. The `threshold` value is the Eucidean `distance` between clusters which are determined by inspecting the dendrogram. The table below summarises the number of clusters created at the specific `threshold` values. The 9 clusters marked with different colours in the dendrogram above are present when Euclidean distance between clusters stands at 2.5.
+
+| Threshold (Euclidean distance) | Number of clusters at threshold |
+| :--- | :--- |
+| 3.5 | 2 |
+| 3.0 | 4 |
+| **2.5** | **9** | 
+| 2.0 | 18 |
+| 1.75| 29 |
+| 1.625 | 43 |
+| 1.50 | 55 |
+| 1.375 | 75 |
+| 1.3125 | 104 |
+| 1.25 | 123 |
+
+The scripts gets the cluster assignment of the 340 thematic sections at the above threshold values. It sorts the thematic sections according to their assignments at the highest to the lowest `threshold` value. The dataframe then assigns the title to each thematic sections. The tree-like hierarchical structure of clsutering is expressed by cluster assignments in the returned dataframe `hierarchlust_norm_top50.csv`.
+
+#### 3.3 Get keywords for sections and clusters
+
+`hierarchlust_norm_top50_003.py > hierarchlust_keywords_norm_top50.csv`
+
+description of script
+
+### 4. K-means
+
+#### 4.1 K-means silhouette
+
+`K-means_silhouette_norm_top50.py > silhouette_scores_norm_top50.txt, norm_top50_silhouette_2to75.png`
+
+The script loads the normalized dataframe (340 theamtic sections, top 50 lemmas only) and the Tfidf matrices of sections and titles. In order to determine the number of clusters (K), the script gets the silhouette scores for clustering between a range of 2 and 75. The silhouette score measures the inner density of clusters against the outer distance between them, so that a score close 1 means perfect and 0 means totally unreliable clustering. The score 1 can only be achieved when the number of clusters (K) is equal to the number of samples being clustered.
+
+Silhouette scores take a long time to compute, beacuse the K-means algorithm approximates its result in multiple iterations which are here set to 300. As the algorithm starts from a random state and iterations are stopped at 300, running the algorithm multiple times procduces different results. After the fifth running, the silhouette score suggests that the optimal number of clusters is 54 at a score of 0.0666. The graph below shows how the silhouette score changes as we cluster datapoints in the range between 2 and 75.
+
+![Silhouette graph](https://github.com/mribary/pyDigest/blob/master/images/norm_top50_silhouette_2to75.png)
+
+It must be noted that silhouette scores stay at an abmornally low level. A score which never increases above 0.1 suggest that clustering with K-means produces a very unreliable result irrespective of the number of clusters generated. K-means clustering with a mean-based algorithm at its heart is notoriously sensitive to outliers. It also performs badly with sparse high-dimensional data. This may be the reason why K-means clustering fails to produce any decent clustering.
+
+In order to address this problem, one could experiment we two things:
+
+(1) radically reduce the dimensionality by PCA, TruncatedSVD, t-SNE[<sup id="inline6">6</sup>](#fn6) or UMAP.
+
+(2) abandon K-means and its spherical clustering and use an alternative method such us fuzzy K-means, K-medienas, K-medoids or an optical clustering method such as DBSCAN or HDBSCAN.
+
+#### 4.2 K-means tested against hierarchical clustering
+
+`K-means_norm_top50_002.py > xxx`
+
+description
 
 5. Notes for future reference
 
@@ -77,6 +136,8 @@ The Tfidf matrix and the linkage matrix based on Ward's method is exported in a 
 [<sup id="fn4">4</sup>](#inline4) Patrick J. Burns, "[Constructing stoplists for histroical languages](https://journals.ub.uni-heidelberg.de/index.php/dco/article/view/52124/48812)," _Digital Classics Online_ 4:2 (2018): 4-20.
 
 [<sup id="fn5">5</sup>](#inline5) The default value is `zou` which stands for the composite measure proposed by Feng Zou and his colleagues. Their measure is calculated from mean probability, variance  probability and entropy which are some of the other possible measure to be passed for `basis`. See Feng Zou, Fu Lee Wang, Xiaotie Deng, Song Han, and Lu Sheng Wang, "[Automatic Construction of Chinese Stop Word List](https://pdfs.semanticscholar.org/c543/8e216071f6180c228cc557fb1d3c77edb3a3.pdf),” In _Proceedings of the 5th WSEAS International Conference on Applied Computer Science_, 1010–1015.
+
+[<sup id="fn6">6</sup>](#inline6) While the truncated stochastic neighbour embedding (t-SNE) method produces a visually appealing presentation of complex high-dimensional data. See the demonstration of t-SNE's power on the [distill website](https://distill.pub/2016/misread-tsne/). The main purpose of t-SNE is to create accessible presentation, but it should not be used for reducing dimensionality for the purpose of subsequent clustering. See Erich Schubert and Michael Gertz, "Intrinsic t-Stochastic Neighbor Embedding for Visualization and Outlier Detection," In _Similarity Search and Applications_. SISAP 2017. Lecture Notes in Computer Science. Vol. 10609. Edited by C. Beecks, F. Borutta, P. Kröger, T. Seidl. Berlin: Springer, 2017, 188-203.
 
 ### Notes
 
