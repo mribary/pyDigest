@@ -81,7 +81,7 @@ The scripts gets the cluster assignment of the 340 thematic sections at the abov
 
 #### 3.3 Get keywords for sections and clusters
 
-`hierarchlust_norm_top50_003.py > hierarchlust_keywords_norm_top50.csv`
+`hierarchlust_norm_top50_003.py > hierarchlust_terms_scores_norm_top50.csv, hierarchlust_terms_only_norm_top50.csv`
 
 description of script
 
