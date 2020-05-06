@@ -81,9 +81,17 @@ The scripts gets the cluster assignment of the 340 thematic sections at the abov
 
 #### 3.3 Get keywords for sections and clusters
 
-`hierarchlust_norm_top50_003.py > hierarchlust_terms_scores_norm_top50.csv, hierarchlust_terms_only_norm_top50.csv`
+`hierarchlust_norm_top50_003.py > hierarchlust_terms_norm_top50.csv`
 
-description of script
+The script loads the normalized dataframe with 340 thematic sections of at least 100 unique lemmas. It also loads the dataframe which includes clluster assignments of sections at selected cuts of the dendrogram produced in the previous step. Looping over the cuts at Euclidean distances from 3.5 to 1.25, the script arranges the sections into larger documents according to their cluster assignment and generates a Tfidf matrix. It takes the 10 lemmas with the highest Tfidf score in each cluster and writes it back to the dataframe in two columns: one including the terms only, and another including terms with their Tfidf scores.
+
+#### 3.4 Inspect the output of hierarchical clustering
+
+`Manual step > xxx`
+
+Clusters produced at cuts specified in the previous step are inspected by building a conceptual tree-map in the yEd graph editor. The concept of "ownership" is suspected to be present in clusters which are broadly associated with the following areas of law: (1) possession in inheritance, (2) public property, (3) usufruct, (4) security in a credit agreement, (5) money, and (6) theft. Clusters (1-4) are produced at Euclidean distance of 2.5 which has 9 clusters in total. Clusters (5-6) is present at Euclidean distance of 2.0. These two clusters are meged into one at 2.5.
+
+![hierarchlust_tree-map_colour](https://github.com/mribary/pyDigest/blob/master/images/hierarchlust_colour.png)
 
 ### 4. K-means
 

@@ -39,12 +39,11 @@ for x in cuts:
             top10_terms_only.append(top10_2)
 
     # Insert into a column
-    cf1[str(x) + '_top_10_terms_scores'] = top10_terms_scores
-    cf2[str(x) + '_top_10_terms_only'] = top10_terms_only
+    cf[str(x) + '_top10_terms_scores'] = top10_terms_scores
+    cf[str(x) + '_top10_terms_only'] = top10_terms_only
 
     # Keep track of computation
     print('|', end= '')
 print('complete')
 
-cf1.to_csv('/home/mribary/Dropbox/pyDigest/dump/hierarchlust_terms_scores_norm_top50.csv')
-cf2.to_csv('/home/mribary/Dropbox/pyDigest/dump/hierarchlust_terms_only_norm_top50.csv')
+cf.to_csv('/home/mribary/Dropbox/pyDigest/dump/hierarchlust_terms_norm_top50.csv')
