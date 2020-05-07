@@ -4,7 +4,7 @@ import re
 import numpy as np
 
 # Load dataframes from GitHub repo
-file_path_df = './dump/Ddf_v105.csv'
+file_path_df = './dump/Ddf_v106.csv'
 file_path_s = './dump/Ddf_sections_v001.csv'
 file_path_sID = './dump/Ddf_Section_IDs_v001.csv'
 df = pd.read_csv(file_path_df, index_col=0)     # text units (21055)
@@ -68,12 +68,12 @@ S = CorpusStoplist()                        # Initialize cltk's Latin stop modul
 D_stoplist_initial = S.build_stoplist(lem_only, basis='frequency', size=150, inc_values=True, sort_words=False)
 
 # List of words from initial stoplist to be exluded from stoplist
-stop_from_stoplist = ['accipio', 'actio', 'actium', 'ago', 'bonus', 'causa', 'condicio', 'creditor', 'debeo', 'dico', \
-    'dies', 'dominus', 'emo', 'facio', 'familia', 'fideicommitto', 'filius', 'fio', 'fundus', 'habeo', 'hereditas', \
-    'heres', 'iudicium', 'ius', 'legatus', 'lego', 'lex', 'liber', 'libertas', 'licet', 'locus', 'meus', 'mulier', 'multus', \
-    'nomen', 'oportet', 'pars', 'paruus', 'pater', 'pecunia', 'pertineo', 'peto', 'possessio', 'praesto', 'praetor', 'puto', \
-    'quaero', 'ratio', 'relinquo', 'res', 'respondeo', 'restituo', 'scribo', 'servus', 'solvo', 'stipulo', 'tempus', \
-    'teneo', 'testamentum', 'utor', 'verus', 'video', 'volo']
+stop_from_stoplist = ['accipio', 'actio', 'actium', 'ago', 'bonus', 'causa', 'condicio', 'creditor', \
+    'dies', 'dominus', 'emo', 'familia', 'fideicommitto', 'filius', 'fundus', 'hereditas', \
+    'heres', 'iudicium', 'ius', 'legatus', 'lex', 'liber', 'libertas', 'locus', 'meus', 'mulier', \
+    'multus', 'nomen', 'pars', 'paruus', 'pater', 'pecunia', 'pertineo', 'peto', 'possessio', 'praesto', \
+    'praetor', 'quaero', 'ratio', 'relinquo', 'res', 'respondeo', 'restituo', 'scribo', 'servus', \
+    'solvo', 'stipulo', 'tempus', 'teneo', 'testamentum', 'utor', 'verus']
 
 # Adjusted stoplist (frequency values dropped)
 D_stoplist = S.build_stoplist(lem_only, basis='frequency', size=120, inc_values=False, \

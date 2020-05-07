@@ -11,7 +11,7 @@ cf1 = cf
 cf2 = cf
 
 # Generate keywords for clusters at cuts
-cuts = ['3.5', '3.0', '2.5', '2.0', '1.75', '1.625', '1.5', '1.375', '1.3125', '1.25']
+cuts = ['3.5', '3.0', '2.5', '2.0', '1.75', '1.5', '1.375']
 for x in cuts:
     # test vectorizing for one cut
     corpus = []

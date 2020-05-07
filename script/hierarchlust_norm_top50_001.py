@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics.pairwise import linear_kernel       # cosine_similarity as linear_kernel#
 from scipy.cluster.hierarchy import dendrogram, linkage
-import pyDigest
+# import pyDigest
 
 # Load normalized dataframes
 df = pd.read_csv('./dump/D_lemmatized_norm.csv', index_col=0)
@@ -13,12 +13,12 @@ sf = pd.read_csv('./dump/tfidf_sections_norm_top50.csv', index_col=0)
 tf = pd.read_csv('./dump/tfidf_titles_norm.csv', index_col=0)
 
 # Extract matrix from dataframe
-X = np.array(sf.values)         # Tfidf matrix of shape 340 (sections) x 3868 (terms)
+X = np.array(sf.values)         # Tfidf matrix of shape 339 (sections) x 3868 (terms)
 section_IDs = list(sf.index)    # List for section_IDs
-# X.shape
+print(X.shape)
 
 # Run method-metric linkage combinations and print cophenetic correlation coefficient (CCC-score)
-mmdf = pyDigest.linkage_for_clustering(X, threshold=0.1)
+# mmdf = pyDigest.linkage_for_clustering(X, threshold=0.1)
 # mmdf.head(20)
 # Display the CCC-score for the ward/euclidean method-metric pair
 # print(mmdf[mmdf.method == 'ward'])

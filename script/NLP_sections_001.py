@@ -45,9 +45,9 @@ for i in range(len(s_df.Section_id.unique())):
     lemmas = lemmatizer.lemmatize(text_split)                       # Lemmatize
     l = []                                                          # Create empty list for lemmas
     for y in range(len(lemmas)):
-       l.append(lemmas[y][1])                           # Load the lemma to the list
-    l_string = ' '.join([str(word) for word in l \
-        if word not in D_stoplist])                     # Drop stopwords and create a string
+        if lemmas[y][1] not in D_stoplist:
+            l.append(lemmas[y][1])                      # Load the lemma to the list
+    l_string = ' '.join([str(word) for word in l])      # Drop stopwords and create a string
     docs.append(l_string)                               # Add the "document" to a list
 sID['doc'] = docs                                       # Insert stopword-free lemma list into a new column
 
@@ -65,8 +65,9 @@ for x in sID.Section_id:
     lemmas = lemmatizer.lemmatize(text_split)
     l =[]
     for y in range(len(lemmas)):
-        l.append(lemmas[y][1])                                   # Load the lemma to the list
-    l_string = ' '.join([str(word) for word in l if word not in D_stoplist])
+        if lemmas[y][1] not in D_stoplist:
+            l.append(lemmas[y][1])                           # Load the lemma to the list
+    l_string = ' '.join([str(word) for word in l])
     section_titles.append(l_string)
 sID['title'] = section_titles
 
@@ -81,9 +82,10 @@ sections.to_csv('./dump/D_lemmatized.csv')
 
 # Vectorize the titles of the 432 thematic sections
 corpus = section_titles                         # Define corpus as set of "documents" from section titles
-X = vectorizer.fit_transform(corpus)            # Vectorize: dtype: matrix, shape: (432, 649)
-scores = X.toarray().transpose()                # Create and transpose array: dtype: numpy array, shape: (649, 432)
-feature_names = vectorizer.get_feature_names()  # Extract the feature names for the Tfidf dictionary: dtype: list, len: 649
+X = vectorizer.fit_transform(corpus)            # Vectorize: dtype: matrix, shape: (432, 641)
+# print(X.shape)
+scores = X.toarray().transpose()                # Create and transpose array: dtype: numpy array, shape: (641, 432)
+feature_names = vectorizer.get_feature_names()  # Extract the feature names for the Tfidf dictionary: dtype: list, len: 641
 
 # Create dictionary with lemmas as keys and Tfidf scores in section titles as values
 feature_scores = dict(zip(feature_names, scores))
@@ -94,9 +96,10 @@ tfidf_titles.to_csv('./dump/tfidf_titles.csv')
 
 # Vectorize the text of the 432 thematic sections
 corpus = docs                                   # Define corpus as set of "documents" from section titles
-X = vectorizer.fit_transform(corpus)            # Vectorize: dtype: matrix, shape: (432, 10875)
-scores = X.toarray().transpose()                # Create and transpose array: dtype: numpy array, shape: (10875, 432)
-feature_names = vectorizer.get_feature_names()  # Extract the feature names for the Tfidf dictionary: dtype: list, len: 10875
+X = vectorizer.fit_transform(corpus)            # Vectorize: dtype: matrix, shape: (432, 10865)
+# print(X.shape)
+scores = X.toarray().transpose()                # Create and transpose array: dtype: numpy array, shape: (10865, 432)
+feature_names = vectorizer.get_feature_names()  # Extract the feature names for the Tfidf dictionary: dtype: list, len: 10865
 
 # Create dictionary with lemmas as keys and Tfidf scores in section titles as values
 feature_scores = dict(zip(feature_names, scores))

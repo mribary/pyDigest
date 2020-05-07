@@ -12,7 +12,7 @@ path_sections = './dump/Ddf_Section_IDs_v001.csv'
 sections = pd.read_csv(path_sections, index_col=0)      # sections with section IDs (432)
 sections.set_index('Section_id', inplace=True)          # Set Section_id as index
 ids = df.index.tolist()                                 # IDs of sections included in df, sf and tf
-s = sections.iloc[ids]                                  # Trim dataframe to 340 sections
+s = sections.iloc[ids]                                  # Trim dataframe to 339 sections
 s.Section_title = s.Section_title.apply(str.lower)      # Transform titles to all lower case
 
 # Load matrices from the numpy binary file
@@ -21,7 +21,7 @@ with open('./dump/norm_top50_ward_euc_clusters.npy', 'rb') as f:
     linkage_matrix = np.load(f)
 
 # Cut the dendrogram at specific threshold values and get cluster assignments
-threshold = [3.5, 3.0, 2.5, 2.0, 1.75, 1.625, 1.50, 1.375, 1.3125, 1.25]
+threshold = [3.5, 3.0, 2.5, 2.0, 1.75, 1.5, 1.375]
 assignments = []
 for x in threshold:
     a = fcluster(linkage_matrix,x,'distance')     
@@ -40,4 +40,4 @@ clustering.insert(0, 'title', titles)
 clustering.index.name = 'id'
 
 # Export dataframe
-# clustering.to_csv('./dump/hierarchlust_norm_top50.csv')
+clustering.to_csv('./dump/hierarchlust_norm_top50.csv')

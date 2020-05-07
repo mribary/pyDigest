@@ -56,5 +56,5 @@ plt.axvline(x=optimal, color='r', alpha=0.5, linestyle=':')
 plt.axhline(y=max(silhouette_score_values), color='r', alpha=0.5, linestyle=':')
 plt.show()
 # Save plot
-plt.savefig('./images/norm_top50_silhouette_2to75.png', dpi=200)
+plt.savefig('./images/norm_top50_silhouette_2to75.png', dpi=300)
 plt.close()
