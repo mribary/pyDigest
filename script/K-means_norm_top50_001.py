@@ -11,9 +11,9 @@ sf = pd.read_csv('./dump/tfidf_sections_norm_top50.csv', index_col=0)
 tf = pd.read_csv('./dump/tfidf_titles_norm.csv', index_col=0)
 
 # Extract matrix from dataframe
-X = np.array(sf.values)         # Tfidf matrix of shape 340 (sections) x 3868 (terms)
+X = np.array(sf.values)         # Tfidf matrix of shape xxx (sections) x xxx (terms)
 section_IDs = list(sf.index)    # List for section_IDs
-# X.shape
+print(X.shape)
 
 # Generate silhouette scores for the range between 2 and 75 clusters
 NumberOfClusters=range(2,75)
