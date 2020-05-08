@@ -84,11 +84,11 @@ The script loads the normalized dataframe with 339 thematic sections of at least
 
 #### 3.4 Inspect the output of hierarchical clustering
 
-`Manual step > hierarchlust.graphml, hierarchlust.png`
+`hierarchlust_norm_top50_004.py + manual > hierarchlust.graphml, hierarchlust.png`
 
 _*Rerun and rewrite* Clusters produced at cuts specified in the previous step are inspected by building a conceptual tree-map in the yEd graph editor. The concept of "ownership" is suspected to be present in clusters which are broadly associated with the following areas of law: (1) possession in inheritance, (2) public property, (3) usufruct, (4) security in a credit agreement, (5) money, and (6) theft. Clusters (1-4) are produced at Euclidean distance of 2.5 which has 9 clusters in total. Clusters (5-6) is present at Euclidean distance of 2.0. These two clusters are meged into one at 2.5._
 
-![hierarchlust_tree-map_colour](https://github.com/mribary/pyDigest/blob/master/images/hierarchlust_colour.png)
+![hierarchlust_tree-map_colour](https://github.com/mribary/pyDigest/blob/master/images/clust_graph.png)
 
 ### 4. K-means
 
