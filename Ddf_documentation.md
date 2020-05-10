@@ -6,7 +6,7 @@ The documentation describes the creation of the core dataframes of the `pyDigest
 
 The dcumentation follows the order of output files stored in the prject's `dump` folder. The title of individual steps include the method and the name of the output file in the format of `[Method] > [outputFile]`. The `[Method]` is either (1) manual or (2) executed in Pyhton files which are stored in the `script` folder. The `[Method]` and `[outputFile]` correspond with elements in `Ddf_flowchart`. These steps document the data manipulation pipeline from the raw text of the _Digest_ to its [relational database](link).
 
-![Ddf_flowchart](https://raw.githubusercontent.com/mribary/pyDigest/master/images/Ddf_flowchart.graphml)
+![Ddf_flowchart](https://raw.githubusercontent.com/mribary/pyDigest/master/images/Ddf_flowchart.png)
 
 1. Manual editing > ROMTEXT.txt
 
