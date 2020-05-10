@@ -6,7 +6,7 @@ The documentation describes the creation of the core dataframes of the `pyDigest
 
 The dcumentation follows the order of output files stored in the prject's `dump` folder. The title of individual steps include the method and the name of the output file in the format of `[Method] > [outputFile]`. The `[Method]` is either (1) manual or (2) executed in Pyhton files which are stored in the `script` folder. The `[Method]` and `[outputFile]` correspond with elements in `Ddf_flowchart`. These steps document the data manipulation pipeline from the raw text of the _Digest_ to its [relational database](link).
 
-![Ddf_flowchart](https://raw.githubusercontent.com/mribary/pyDigest/master/images/Ddf_flowchart.png)
+![Ddf_flowchart](https://raw.githubusercontent.com/mribary/pyDigest/master/images/Ddf_flowchart.graphml)
 
 1. Manual editing > ROMTEXT.txt
 
@@ -212,6 +212,10 @@ The manually corrected `Ddf_v104.csv` and `BKO_v004.csv` files are free from err
 
 Manual inspection has revealed that Greek script had been lost during manual editing in step 7 above. The Python file recovers the `TextUnit` column from `Ddf_v102.csv` and inserts them into `Ddf_v105.csv`. The output `csv` file is streamlined to keep the index, the four-level _Digest_ reference and the text only. These columns will be used to create the SQL database.
 
+12. Manual editing > BKO_v006.csv
+
+Based on `Work_ref`, a verbose `title` is added to the `BKO` dataframe which includes the title of the work in an unabbreviated format and drops the book numbers where the work in the `BKO` dataframe is split. Where the verbose title could not be verified by checking against Mommsen's print edition, a `?` mark is added to the title to indicate that the data may need to be updated at a later point.
+
 ### 3. Additional dataframes
 
 1. Sections dataframes
@@ -224,7 +228,7 @@ An additional dataframe including section_IDs with their corresponding section t
 
 2. ID dataframes
 
-Ddf_IDs_001.py > Ddf_IDs_001.csv, Ddf_BKO_IDs_001.csv, Ddf_Work_IDs_001.csv, Ddf_Book_IDs_001.csv
+`Ddf_IDs_001.py > Ddf_IDs_001.csv, Ddf_BKO_IDs_001.csv, Ddf_Work_IDs_001.csv, Ddf_Book_IDs_001.csv`
 
 The script initiates a dataframe `df` with the `BKO_key`, `Work` and `TextUnit_ref` columns from `Ddf_v104.csv`. It creates separate dataframes for unique `BKO_key` (294), `Work` (251), and `TextUnit_ref` values (1352) where values are sorted alphabetically and associated with a unique ID. These dataframes are exported as `Ddf_BKO_IDs_v001.csv`, `Ddf_Work_IDs_v001.csv` and `Ddf_Book_IDs_v001.csv`.
 
@@ -232,11 +236,11 @@ The script links the reference IDs above with the 21055 text units of the Digest
 
 3. Jurists dataframes
 
-> 3.1. Ddf_jurists.py > Jurists_v001.csv
+> 3.1. `Ddf_jurists.py > Jurists_v001.csv`
 
 The script initiates a dataframe `df` with the `Jurist_name` column from `BKO_v004.csv`. It strips whitespace, orders the list of unique values, associates items with unique IDs and outputs the `Jurists_v001.csv` file to be enriched with data manually.
 
-> 3.2. Manual editing: Jurists_v001.csv > Jurists_v002.csv, Ddf_v105.csv
+> 3.2. `Manual editing: Jurists_v001.csv > Jurists_v002.csv, Ddf_v105.csv`
 
 Jurists are associated with a date range of their lifetime according to information available in Adolf Berger's _Dictionary of Roman law_[<sup id="inline6">6</sup>](#fn6) consulted in conjunction with _Paulys Realencyclopädie der classischen Altertumswissenschaft_[<sup id="inline7">7</sup>](#fn7). The manually edited `Jurists_v002.csv` includes a `Note` which explains how the date range is estimated and a column with `Reference` information to _Berger_ and the _RE_. `Start_date` corresponds to the (estimated) birth of the jurist, `Mid_date` to his (estimated) most active period (_floruit_) at the age of 40, and `End_date` to his (estimated) death at the age of 60. Where exact dates are available for any of the three dates from _Berger_ and the _RE_, it is entered into the appropriate column instead of the estimate.
 
@@ -244,13 +248,19 @@ For those jurists who are dated only by rough estimates in the _RE_ or _Berger_,
 
 Minor typos and alternative versions of headings are corrected in Ddf which is updated manually in `Ddf_v105.csv`. The consistency of the `Ddf` and `BKO` dataframes are checked in `Ddf_BKO_check_4.py`.
 
-> 3.3. Ddf_IDs_002.py > Ddf_IDs_002.csv, Ddf_BKO_IDs_002.csv, Ddf_Work_IDs_002.csv, Ddf_Book_IDs_002.csv
+> 3.3. `Ddf_IDs_002.py > Ddf_IDs_002.csv, Ddf_BKO_IDs_002.csv, Ddf_Work_IDs_002.csv, Ddf_Book_IDs_002.csv`
 
 ID dataframes are updated according to manually edited files in the previous step.
 
-> 3.4. Ddf_IDs_003.py > BKO_v005.csv, Ddf_IDs_003.csv, Ddf_BKO_IDs_003.csv, Ddf_Work_IDs_003.csv, Ddf_Book_IDs_003.csv
+> 3.4. `Ddf_IDs_003.py > BKO_v005.csv, Ddf_IDs_003.csv, Ddf_BKO_IDs_003.csv, Ddf_Work_IDs_003.csv, Ddf_Book_IDs_003.csv`
 
 `Jurist_id` and `Mid_date` columns are inserted into the `BKO`, `BKO_IDs` and `Ddf_IDs` dataframes by merging. The Work_IDs and Book_IDs dataframes are updated by removing duplicate values in the Book_id and Work_id columns in the new Ddf_Ids dataframe. All text units in Ddf, all elements in BKO, and all elements in the ID dataframes are now associated with a date which is stipulated to be the most active period of the corresponding jurist.
+
+4. BKO dataframe alignment
+
+`Ddf_IDs_004.py > BKO_v007.csv`
+
+A new column `BKO_id` is added to the `BKO` dataframe which aligns `Work_ref` in the `BKO` daraframe with `BKO_label` in the `Ddf_BKO_IDs` dataframe. `None` is entered where `Work_ref` cannot be mathced with a `BKO_label`.
 
 ### Footnotes
 
