@@ -29,7 +29,7 @@ def create_table(conn, create_table_sql):
 
 
 def main():
-    database = r'/home/mribary/Dropbox/pyDigest/sql/digest.db'
+    database = r'/home/mribary/Dropbox/pyDigest/sql/digest_skeleton.db'
 
     sql_create_jurist_table = """ \
         create table if not exists jurist (

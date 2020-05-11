@@ -15,4 +15,4 @@ def create_connection(db_file):
 
 
 if __name__ == '__main__':
-    create_connection(r'/home/mribary/Dropbox/pyDigest/sql/digest.db')
+    create_connection(r'/home/mribary/Dropbox/pyDigest/sql/digest_skeleton.db')
