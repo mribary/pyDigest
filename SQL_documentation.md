@@ -30,7 +30,7 @@ The `digest.db` database can be used for generating advanced analytical insights
 
 #### 3. Future steps
 
-The current version of `digest.db` is intended to be polished with input from its users. While major flaws and inconsistencies in the data were captured during the pre-processing stage, it is expected that typographical errors and some inconsistencies remain. Please leave a comment or send an [email](m.ribary@surrey.ac.uk), if you spot an error. A reporting tool or a collaborative editing method will de added in due course.
+The current version of `digest.db` is intended to be polished with input from its users. While major flaws and inconsistencies in the data were captured during the pre-processing stage, it is expected that typographical errors and some inconsistencies remain. Please leave a comment or send an [email](mailto:m.ribary@surrey.ac.uk), if you spot an error. A reporting tool or a collaborative editing method will de added in due course.
 
 The database is also intended to be enriched with additional features in its tables and additional tables including new perspectives about the textual data. One possible expansion is a high-level taxonomy of legal concepts projected onto the textual units and thematic sections which will assist topical research of Roman law.
 
