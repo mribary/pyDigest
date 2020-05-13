@@ -1,0 +1,45 @@
+-- #1 PERIODISATION OF JURISTS ordered by their active date
+SELECT j.name, j.date,
+CASE
+	WHEN j.date < 0 THEN 'E'
+	WHEN j.date < 190 THEN 'C-'
+	WHEN j.date < 240 THEN 'C+'
+	ELSE 'P'
+END AS era
+FROM jurist as j
+ORDER BY j.date;
+
+-- #2 COUNT THE NUMBER OF TEXT UNITS for each jurists sorted by their eras
+SELECT j.name, j.date,
+	COUNT(t.jurist_id) as number_of_textunits,
+	CASE
+		WHEN j.date < 0 THEN 'E'
+		WHEN j.date < 190 THEN 'C-'
+		WHEN j.date < 240 THEN 'C+'
+		ELSE 'P'
+	END AS era
+FROM text as t
+LEFT JOIN jurist as j
+ON t.jurist_id=j.id
+GROUP BY t.jurist_id
+ORDER BY j.date;
+
+-- #3 COUNT THE NUMBER OF TEXT UNTIS IN AN ERA
+WITH eras AS
+	(SELECT j.name, j.date,
+		COUNT(t.jurist_id) as number_of_textunits,
+		CASE
+			WHEN j.date < 0 THEN 'E'
+			WHEN j.date < 190 THEN 'C-'
+			WHEN j.date < 240 THEN 'C+'
+			ELSE 'P'
+		END AS era
+	FROM text as t
+	LEFT JOIN jurist as j
+	ON t.jurist_id=j.id
+	GROUP BY t.jurist_id
+	ORDER BY j.date)
+SELECT date, era, SUM(number_of_textunits) as sums
+FROM eras
+GROUP BY era
+ORDER BY AVG(date);
