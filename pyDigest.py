@@ -151,3 +151,43 @@ def linkage_for_clustering(X, threshold=0.0):
     # Sort method-metric pairs according to CCC score
     l.sort_values(by=['CCC_score', 'method', 'metric'], ascending=False, inplace=True)
     return l[l.CCC_score > threshold]
+
+def latin_lemma_text(list_of_texts, stopwords=None):
+    '''
+    Create a list of continuous lemma texts for Latin with cltk (prerequisite).
+       
+    list_of_texts: raw text items stored in a list object
+    stopwords: list of stopwords to be removed, default is None where nothing is removed
+    
+    Latin lemmatizer is cltk's BackoffLatinLemmatizer. Install, import and load before using the function
+    '''
+
+    # Import packages and models from cltk and initialize tools
+    from cltk.corpus.utils.importer import CorpusImporter
+    from cltk.lemmatize.latin.backoff import BackoffLatinLemmatizer
+    corpus_importer = CorpusImporter('latin')                           # Initialize cltk's CorpusImporter
+    corpus_importer.import_corpus('latin_models_cltk')                  # Import the latin_models_cltk corpus
+    lemmatizer = BackoffLatinLemmatizer()                               # Initialize Latin lemmatizer
+        
+    import re
+    punctuation = r"[\"#$%&\'()*+,-/:;<=>@[\]^_`{|}~.?!«»]"             # Punctuation pattern
+    a = []
+    for i in range(len(list_of_texts)):
+        text = str(list_of_texts[i])
+        new_text = ''.join(["" if ord(i) < 32 or ord(i) > 126 else i for i in text])                                                               # Remove Greek (non-ASCII) characters
+        text_no_punct = re.sub(punctuation, '', new_text)               # Remove punctuation
+        text_one_white_space = re.sub(r"\s{2,}", ' ', text_no_punct)    # Leave only one white space b/w words
+        text_no_trailing_space = text_one_white_space.strip()           # Remove trailing white space
+        text_lower = text_no_trailing_space.lower()                     # Transform to all lower case
+        text_split = text_lower.split(' ')                              # Split to a list of tokens
+        lemmas = lemmatizer.lemmatize(text_split)                       # Lemmatize
+        textunit = ''                                                   # Empyt string for textunti
+        for y in range(len(lemmas)):
+            if stopwords is not None:
+                if lemmas[y][1] not in stopwords:
+                    textunit = textunit + str(lemmas[y][1] + ' ')
+            else:
+                textunit = textunit + str(lemmas[y][1] + ' ')
+        textunit = textunit.strip()
+        a.append(textunit)                                           # Add the "document" to a list
+    return a

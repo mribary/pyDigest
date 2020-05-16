@@ -40,7 +40,7 @@ The function returns the most similar documents to the one passed into it. The c
 
 `size`: the number of documents returned, default value is set to 10.'''
 
-The function is used, for example,  in `NLP_sections_002.py` incorporated into the more specific `similar_sections()` function to identify the most similar items among the _Digest_'s 432 thematic sections 
+**Example for use**: `NLP_sections_002.py` where the function is incorporated into the more specific `similar_sections()` function to identify the most similar items among the _Digest_'s 432 thematic sections 
 
 ### 2. `similar_sections(id, size=10)`
 
@@ -48,9 +48,9 @@ The function returns a dataframe with the most similar thematic sections to the 
 
 `id`: the thematic section's id
 
-`size`: the number of documents returned, default value is set to 10.
+`size`: the number of documents returned, default value is set to 10
 
-The function is used, for example, in `NLP_sections_002.py` to identify the most similar items among the _Digest_'s 432 thematic sections.
+**Example for use**: `NLP_sections_002.py`, to identify the most similar items among the _Digest_'s 432 thematic sections.
 
 ### 3. `linkage_for_clustering(X, threshold=0.5)`
 
@@ -59,6 +59,8 @@ The function takes a matrix X with observations stored in rows and features stor
 It needs to be noted that CCC is calculated for the whole dendrogram. Ideally, one should calculate CCC at the specific cut point where the dendrogram's output is used to identify the clusters. It is recommended to calculate CCC at the specific cut level yielding k clusters to confirm that the correct method-metric combination has been used for hierarchical clustering.
 
 The 'average' method generally produces the best CCC score especially with matrices with high dimensionality. Instead of relying exclusively on the CCC score, one also needs to consider what method-metric combination suits the particular dataset on which hierarchical clustering is performed by scipy's linkage function.
+
+**Example for use**: the function is used in private notebooks to inspect CCC-performance
 
 #### Methods for scipy's linkage function
 
@@ -87,3 +89,13 @@ Z[i] will tell us which clusters were merged in the i-th iteration.
 Z[0] with an output array([ 52.     ,  53.     ,   0.04151,   2.     ])
 
 In its first iteration the linkage algorithm decided to merge the two clusters (original samples here) with indices 52 and 53, as they only had a distance of 0.04151. This created a cluster with a total of 2 samples. We can see that each row of the resulting array has the format idx1, idx2, dist, sample_count.
+
+### 4. `latin_lemma_text(list_of_texts, stopwords=None)`
+
+The function takes a list of strings in Latin and returns a list of lemmas for those strings. The function cleans and pre-processes the raw text by removing punctuation, non-ASCII characters (e.g. Greek), trailing and superfluous white spaces between words, and by transforming the string to lower-case only. The function uses the `BackoffLatinLemmatizer` from `cltk` (prerequisite). The function's optional argument `stopwords` takes a list of stopwords which are removed during string processing. The argument defaults to `None` in which case all lemmas created from the word tokens are retained.
+
+`list_of_texts`: list of strings in Latin
+
+`stopwords`: list of words to be removed
+
+**Example for use**: `wordvec_001.py`, to create a txt file required for word vector calculations with `fasttext`
