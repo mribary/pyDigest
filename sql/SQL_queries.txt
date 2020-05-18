@@ -1,4 +1,4 @@
--- #1 PERIODISATION OF JURISTS ordered by their active date
+-- #1 PERIODISATION OF JURISTS ORDERED BY THEIR ACTIVE DATE
 SELECT j.name, j.date,
 CASE
 	WHEN j.date < 0 THEN 'E'
@@ -9,7 +9,8 @@ END AS era
 FROM jurist as j
 ORDER BY j.date;
 
--- #2 COUNT THE NUMBER OF TEXT UNITS for each jurists sorted by their eras
+
+-- #2 COUNT THE NUMBER OF TEXT UNITS FOR EACH JURISTS SORTED BY THEIR ERAS
 SELECT j.name, j.date,
 	COUNT(t.jurist_id) as number_of_textunits,
 	CASE
@@ -23,6 +24,7 @@ LEFT JOIN jurist as j
 ON t.jurist_id=j.id
 GROUP BY t.jurist_id
 ORDER BY j.date;
+
 
 -- #3 COUNT THE NUMBER OF TEXT UNTIS IN AN ERA
 WITH eras AS
@@ -43,3 +45,39 @@ SELECT date, era, SUM(number_of_textunits) as sums
 FROM eras
 GROUP BY era
 ORDER BY AVG(date);
+
+
+-- #4 WHERE DOES PAPINIAN (id=23) USES THE TERM "PROPRIETAS"?
+SELECT t.id, j.id, t.text
+FROM text AS t
+LEFT JOIN jurist AS j
+ON t.jurist_id = j.id
+WHERE (t.text like '%proprieta%') AND (j.id = 23);
+
+
+-- #5 HOW MANY TIMES DOES PAPINIAN (id=23) USES THE TERM "PROPRIETAS"?
+SELECT COUNT(t.id)
+FROM text AS t
+LEFT JOIN jurist AS j
+ON t.jurist_id = j.id
+WHERE (t.text like '%proprieta%') AND (j.id = 23);
+
+
+-- #6 HOW MANY TIMES DOES THE TERM "PROPRIETAS" APPEAR IN THE DIFFERENT PERIODS OF ROMAN LAW?
+WITH eras AS (
+	SELECT t.id as text_id, j.date, t.text,
+	CASE
+		WHEN j.date < 0 THEN 'E'
+		WHEN j.date < 190 THEN 'C-'
+		WHEN j.date < 240 THEN 'C+'
+		ELSE 'P'
+	END AS era
+	FROM text AS t
+	LEFT JOIN jurist AS j
+	ON t.jurist_id = j.id
+	)
+SELECT era, COUNT(text_id) AS prop_count
+FROM eras
+WHERE text LIKE '%proprieta%'
+GROUP BY era
+ORDER BY date;
